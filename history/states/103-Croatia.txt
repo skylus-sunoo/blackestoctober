@@ -31,9 +31,6 @@ state={
 		add_core_of = YUG
 		add_core_of = CRO
 
-		SRK = {
-			set_province_controller = 3974
-		}
 	}
 
 	provinces={
