@@ -31,7 +31,10 @@ state={
 			set_province_controller = 11741
 			set_province_controller = 982
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			set_province_controller = 13247
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		}

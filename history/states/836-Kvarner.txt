@@ -16,6 +16,7 @@ state={
 		add_core_of = CRO
 		CRO = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			set_province_controller = 591
 			set_province_controller = 11564
 			set_province_controller = 3601
@@ -24,10 +25,15 @@ state={
 		}
 
 =======
+=======
+>>>>>>> Stashed changes
 			set_province_controller = 11901
 			set_province_controller = 591
 			set_province_controller = 11564
 		}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	}
 

@@ -27,6 +27,14 @@ CHB = {
     color = rgb { 244 102 102 }
     color_ui = rgb { 244 102 102 }
 }
+TNT = {
+    color = rgb { 72 143 24 }
+    color_ui = rgb { 72 143 24 }
+}
+CHB = {
+    color = rgb { 244 102 102 }
+    color_ui = rgb { 244 102 102 }
+}
 WBS = {
 	color = rgb { 204 138 0  }
 	color_ui = rgb { 204 138 0  }

@@ -10,6 +10,9 @@
 		target = CRO
 		type = independence_wargoal
 	}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 	
 set_research_slots = 3

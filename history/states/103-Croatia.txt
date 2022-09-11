@@ -33,8 +33,11 @@ state={
 		SRK = {
 			set_province_controller = 3974
 
+<<<<<<< Updated upstream
 		}
 
+=======
+>>>>>>> Stashed changes
 		SRK = {
 			set_province_controller = 3974
 		}

@@ -4,6 +4,7 @@ set_research_slots = 2
 
 #oob = "CRO_1993"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	
 recruit_character = CRO_franjo_tudman
 
@@ -20,6 +21,11 @@ recruit_character = CRO_franjo_tudman
 		type = liberate_wargoal
 	}
 	
+=======
+
+recruit_character = CRO_franjo_tudman
+
+>>>>>>> Stashed changes
 =======
 
 recruit_character = CRO_franjo_tudman
@@ -106,7 +112,11 @@ set_convoys = 5
 }
 set_politics = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	ruling_party = democratic
+=======
+	ruling_party = fascism
+>>>>>>> Stashed changes
 =======
 	ruling_party = fascism
 >>>>>>> Stashed changes
@@ -120,7 +130,10 @@ set_popularities = {
 	communism = 10
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 
 create_country_leader = {
 	name = "Ante Pavelic"
@@ -164,4 +177,7 @@ add_country_leader_role = { #This replaces the commented script below - fixing a
 #		#
 #	}
 #}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

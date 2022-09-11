@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿capital = 839
+=======
+﻿capital = 109
+>>>>>>> Stashed changes
 =======
 ﻿capital = 109
 >>>>>>> Stashed changes
@@ -89,7 +93,11 @@ set_convoys = 5
 }
 set_politics = {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	ruling_party = democratic
+=======
+	ruling_party = fascism
+>>>>>>> Stashed changes
 =======
 	ruling_party = fascism
 >>>>>>> Stashed changes

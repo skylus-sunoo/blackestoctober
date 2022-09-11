@@ -13,6 +13,17 @@ recruit_character = SRP_radovan_karadzic
 	
 recruit_character = SRP_radovan_karadzic
 
+	declare_war_on = {
+		target = BOS
+		type = independence_wargoal
+	}
+	declare_war_on = {
+		target = CRO
+		type = independence_wargoal
+	}
+	
+recruit_character = SRP_radovan_karadzic
+
 set_research_slots = 3
 
 set_technology = {
