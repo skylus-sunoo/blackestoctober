@@ -1,4 +1,7 @@
 ﻿l_english:
+
+ ### MAJORS
+ 
  #FRANCE
  FRA_francois_mitterrand:0 "Francois Mitterrand"
  
@@ -16,3 +19,29 @@
  
  #UNITED STATES
  USA_bill_clinton:0 "Bill Clinton"
+ 
+ 
+ 
+ 
+ ### YUGOSLAVIA
+ 
+ #YUGOSLAVIA
+ YUG_slobodan_milosevic:0 "Slobodan Milosevic"
+ 
+ #SRPSKA
+ SRP_radovan_karadzic:0 "Radovan Karadzic"
+ 
+ #SERBIAN KRAJINA
+ SRK_goran_hadzic:0 "Goran Hadzic"
+ 
+ #CROATIA
+ CRO_franjo_tudman:0 "Franjo Tudman"
+ 
+ #BOSNIA
+ BOS_alija_izetbegovic:0 "Alija Izetbegovic"
+ 
+ #WEST BOSNIA
+ WBS_fikret_abdic:0 "Fikret Abdic"
+ 
+ #Herzeg Bosnia
+ CHB_mate_boban:0 "Mate Boban"
