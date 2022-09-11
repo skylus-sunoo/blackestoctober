@@ -1,0 +1,30 @@
+state={
+	id=841
+	name="STATE_841"
+	history={
+		owner = SRK
+		victory_points = {
+			3974 5
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+
+		}
+		add_core_of = SRK
+		add_core_of = YUG
+		add_core_of = CRO
+		CRO = {
+			set_province_controller = 11901
+		}
+
+	}
+	state_category = town
+	provinces={
+		984 3974 6611 11901 
+	}
+	manpower=98000
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

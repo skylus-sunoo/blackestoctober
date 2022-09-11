@@ -1,8 +1,8 @@
-﻿capital = 835
-	
-recruit_character = SRP_radovan_karadzic
+﻿capital = 838
 
 set_research_slots = 3
+
+recruit_character = TRA_igor_smirnov
 
 set_technology = {
 	tech_support = 1		

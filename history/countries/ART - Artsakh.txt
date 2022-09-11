@@ -1,4 +1,4 @@
-capital = 844
+﻿capital = 844
 
 set_research_slots = 3
 
@@ -83,7 +83,6 @@ if = {
 		basic_torpedo = 1
 	}
 }
-set_convoys = 0
 
 set_politics = {
 	ruling_party = democratic

@@ -4,6 +4,7 @@ state={
 	history={
 		owner = WBS
 		add_core_of = BOS
+		add_core_of = WBS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
