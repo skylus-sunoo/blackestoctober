@@ -835,7 +835,6 @@
  STATE_834:0 "Balta-Tiraspol"
  STATE_835:0 "Srpska"
  STATE_836:0 "Kvarner"
-<<<<<<< Updated upstream
  STATE_837:1 "Una Sana"
  STATE_838:0 "Transnistria"
  STATE_839:0 "West Herzegovina"
@@ -844,10 +843,3 @@
  STATE_842:0 "South Ossetia"
  STATE_843:0 "Nakhchivan"
  STATE_844:0 "Nagorno-Karabakh"
-=======
- STATE_837:0 "West Bosnia"
- STATE_838:0 "Transnistria"
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

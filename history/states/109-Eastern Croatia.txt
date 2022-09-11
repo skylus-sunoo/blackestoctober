@@ -20,22 +20,10 @@ state={
 		
 		SRK = {
 			set_province_controller = 9608
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 			set_province_controller = 13241
 			set_province_controller = 13242
 			set_province_controller = 13243
 			set_province_controller = 13244
-=======
-			set_province_controller = 6647
-			set_province_controller = 3596
-			set_province_controller = 3592
->>>>>>> Stashed changes
-=======
-			set_province_controller = 6647
-			set_province_controller = 3596
-			set_province_controller = 3592
->>>>>>> Stashed changes
 		}
 	}
 

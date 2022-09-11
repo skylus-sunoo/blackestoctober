@@ -13,32 +13,6 @@
 
 recruit_character = SRK_goran_hadzic
 
-	declare_war_on = {
-		target = BOS
-		type = independence_wargoal
-	}
-	declare_war_on = {
-		target = CRO
-		type = independence_wargoal
-	}
-	
-#oob = "SRK_1993"
-
-recruit_character = SRK_goran_hadzic
-
-	declare_war_on = {
-		target = BOS
-		type = independence_wargoal
-	}
-	declare_war_on = {
-		target = CRO
-		type = independence_wargoal
-	}
-	
-#oob = "SRK_1993"
-
-recruit_character = SRK_goran_hadzic
-
 set_research_slots = 3
 
 set_technology = {

@@ -1,12 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 ﻿capital = 839
-=======
-﻿capital = 109
->>>>>>> Stashed changes
-=======
-﻿capital = 109
->>>>>>> Stashed changes
 
 set_research_slots = 2
 
@@ -92,15 +84,7 @@ set_convoys = 5
 	}
 }
 set_politics = {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 	ruling_party = democratic
-=======
-	ruling_party = fascism
->>>>>>> Stashed changes
-=======
-	ruling_party = fascism
->>>>>>> Stashed changes
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1

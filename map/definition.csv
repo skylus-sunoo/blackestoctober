@@ -9892,15 +9892,7 @@
 9891;130;162;204;land;false;plains;1
 9892;130;165;64;land;false;plains;2
 9893;130;165;169;land;false;hills;7
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 9894;130;165;214;land;true;mountain;1
-=======
-9894;130;165;214;land;false;mountain;1
->>>>>>> Stashed changes
-=======
-9894;130;165;214;land;false;mountain;1
->>>>>>> Stashed changes
 9895;130;168;29;land;true;hills;6
 9896;130;168;134;land;true;hills;1
 9897;130;171;94;land;false;hills;6
@@ -13247,8 +13239,6 @@
 13238;160;120;200;land;false;plains;1
 13239;120;160;100;land;false;plains;1
 13240;100;180;50;land;false;plains;1
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 13241;211;79;27;land;false;plains;1
 13242;235;165;193;land;false;plains;1
 13243;77;182;244;land;false;plains;1
@@ -13264,7 +13254,3 @@
 13253;232;35;241;land;false;mountain;7
 13254;46;38;21;land;false;mountain;7
 13255;159;81;72;land;false;mountain;7
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes

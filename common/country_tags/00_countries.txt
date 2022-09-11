@@ -242,15 +242,9 @@ MEL = "countries/Mariel.txt"
 
 AGR = "countries/Algeria.txt"
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 ART = "countries/Artsakh.txt"
 PRK = "countries/ComKorea.txt"
 
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 TNT = "countries/Transnistria.txt"
 
 SRK = "countries/Serbian Krajina.txt"

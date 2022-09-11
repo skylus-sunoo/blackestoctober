@@ -1,19 +1,4 @@
 ﻿capital = 837
-<<<<<<< Updated upstream
-=======
-
-	declare_war_on = {
-		target = BOS
-		type = independence_wargoal
-	}
-	declare_war_on = {
-		target = CRO
-		type = independence_wargoal
-	}
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 	
 set_research_slots = 3
 
