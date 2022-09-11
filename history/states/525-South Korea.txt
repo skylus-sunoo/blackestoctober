@@ -5,7 +5,8 @@ state=
 	manpower = 14284105
 	
 	state_category = town
-	history= {
+	history=
+	{
 		owner = KOR
 		buildings = {
 			infrastructure = 2
@@ -21,8 +22,7 @@ state=
 		victory_points = {
 			7125 3 
 		}
-		
-		add_core_of = PRK
+
 		add_core_of = KOR
 
 	}

@@ -350,10 +350,10 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
-	theocratic = {
+	theocracy = {
 	
 		types = {
-			theocratic_subtype  = {
+			theocracy_subtype  = {
 			}
 		}
 
@@ -396,10 +396,10 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
-	anocratic = {
+	anocracy = {
 	
 		types = {
-			anocratic_subtype = {
+			anocracy_subtype = {
 			}
 		}
 

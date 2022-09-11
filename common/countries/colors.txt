@@ -1,17 +1,16 @@
 #reload countrycolors
 
-GER = {
-	color = HSV { 0.1 0.15 0.4 }
-	color_ui = rgb { 138 155 116 }
+# ASIA
+ART = {
+	color = rgb { 155  90  132}
+	color_ui = rgb { 155  90  132 }
 }
-TNT = {
-    color = rgb { 72 143 24 }
-    color_ui = rgb { 72 143 24 }
+PRK = {
+    color = rgb { 140 65 128 }
+    color_ui = rgb { 140 65 128 }
 }
-CHB = {
-    color = rgb { 244 102 102 }
-    color_ui = rgb { 244 102 102 }
-}
+
+# EUROPE
 TNT = {
     color = rgb { 72 143 24 }
     color_ui = rgb { 72 143 24 }
@@ -32,13 +31,18 @@ SRP = {
 	color = rgb { 84 62 127  }
 	color_ui = rgb { 84 62 127  }
 }
+
+# AFRICA
 AGR = {
 	color = rgb { 153 102 51 }
 	color_ui = rgb { 153 102 51 }
 }
-PRK = {
-    color = rgb { 140 65 128 }
-    color_ui = rgb { 140 65 128 }
+
+
+
+GER = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
 }
 ENG = {
 	color = rgb { 201 56 93 }
