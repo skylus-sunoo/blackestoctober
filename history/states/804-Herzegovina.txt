@@ -1,0 +1,33 @@
+
+state={
+	id=804
+	name="STATE_804"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = BOS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		add_core_of = HRZ
+		SRP = {
+			set_province_controller = 953
+			set_province_controller = 11845
+			set_province_controller = 13250
+		}
+
+	}
+
+	provinces={
+		953 11845 11872 13249 13250 13251 13250  13252
+	}
+	manpower=547200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
