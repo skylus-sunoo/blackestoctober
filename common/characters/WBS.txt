@@ -1,0 +1,16 @@
+characters={
+	WBS_fikret_abdic={
+		name=WBS_fikret_abdic
+		portraits={
+			civilian={
+				large=GFX_Portrait_WBS_Fikret_Abdic
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

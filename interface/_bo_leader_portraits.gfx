@@ -1,0 +1,102 @@
+spriteTypes = {
+
+	#####
+	##### MAJORS
+	#####
+	
+		### FRA
+		
+		spriteType = {
+			name = "GFX_Portrait_FRA_Francois_Mitterrand"
+			texturefile = "gfx/leaders/FRA/Portrait_FRA_Francois_Mitterrand.dds"
+		}
+		
+		### GER
+		
+		spriteType = {
+			name = "GFX_Portrait_GER_Helmut_Kohl"
+			texturefile = "gfx/leaders/GER/Portrait_GER_Helmut_Kohl.dds"
+		}
+		
+		### JAP
+		
+		spriteType = {
+			name = "GFX_Portrait_JAP_Kiichi_Miyazawa"
+			texturefile = "gfx/leaders/JAP/Portrait_JAP_Kiichi_Miyazawa.dds"
+		}
+		
+		### PRC
+		
+		spriteType = {
+			name = "GFX_Portrait_PRC_Jiang_Zemin"
+			texturefile = "gfx/leaders/PRC/Portrait_PRC_Jiang_Zemin.dds"
+		}
+		
+		### SOV
+		
+		spriteType = {
+			name = "GFX_Portrait_SOV_Boris_Yeltsin"
+			texturefile = "gfx/leaders/SOV/Portrait_SOV_Boris_Yeltsin.dds"
+		}
+		
+		### USA
+		
+		spriteType = {
+			name = "GFX_Portrait_USA_Bill_Clinton"
+			texturefile = "gfx/leaders/USA/Portrait_USA_Bill_Clinton.dds"
+		}
+		
+	#####
+	##### YUGOSLAVIA
+	#####
+	
+		### YUG
+		
+		spriteType = {
+			name = "GFX_Portrait_YUG_Slobodan_Milosevic"
+			texturefile = "gfx/leaders/YUG/Portrait_YUG_Slobodan_Milosevic.dds"
+		}
+	
+		### SRP
+		
+		spriteType = {
+			name = "GFX_Portrait_SRP_Radovan_Karadzic"
+			texturefile = "gfx/leaders/SRP/Portrait_SRP_Radovan_Karadzic.dds"
+		}
+	
+		### SRK
+		
+		spriteType = {
+			name = "GFX_Portrait_SRK_Goran_Hadzic"
+			texturefile = "gfx/leaders/SRK/Portrait_SRK_Goran_Hadzic.dds"
+		}
+	
+		### CRO
+		
+		spriteType = {
+			name = "GFX_Portrait_CRO_Franjo_Tudman"
+			texturefile = "gfx/leaders/CRO/Portrait_CRO_Franjo_Tudman.dds"
+		}
+	
+		### BOS
+		
+		spriteType = {
+			name = "GFX_Portrait_BOS_Alija_Izetbegovic"
+			texturefile = "gfx/leaders/BOS/Portrait_BOS_Alija_Izetbegovic.dds"
+		}
+	
+		### WBS
+		
+		spriteType = {
+			name = "GFX_Portrait_WBS_Fikret_Abdic"
+			texturefile = "gfx/leaders/WBS/Portrait_WBS_Fikret_Abdic.dds"
+		}
+	
+		### CHB
+		
+		spriteType = {
+			name = "GFX_Portrait_CHB_Mate_Boban"
+			texturefile = "gfx/leaders/CHB/Portrait_CHB_Mate_Boban.dds"
+		}
+	
+}
