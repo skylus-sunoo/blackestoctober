@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  STATE_1:0 "Corsica"
  STATE_2:0 "Latium"
  STATE_3:0 "Switzerland"
@@ -843,3 +843,4 @@ l_english:
  STATE_842:0 "South Ossetia"
  STATE_843:0 "Nakhchivan"
  STATE_844:0 "Nagorno-Karabakh"
+ STATE_845:0 "Slavonia"

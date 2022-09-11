@@ -9,3 +9,9 @@
  
  WAR_NAME_CRO_SRP:0 "Croatian War of Independence"
  WAR_NAME_CRO_SRK:0 "Croatian War of Independence"
+
+#Caucasus
+ WAR_NAME_AZR_ARM:0 "Nagorno-Karabakh War"
+ WAR_NAME_AZR_ART:0 "Nagorno-Karabakh War"
+ WAR_NAME_ART_AZR:0 "Nagorno-Karabakh War"
+ WAR_NAME_ARM_AZR:0 "Nagorno-Karabakh War"

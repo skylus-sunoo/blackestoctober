@@ -1,0 +1,26 @@
+state={
+	id=845
+	name="STATE_845"
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+		SRK = {
+			set_province_controller = 9608
+			set_province_controller = 13241
+		}
+
+	}
+	provinces={
+		3627 6647 9595 9608 13241 13256 13257 13258 
+	}
+	manpower=600000
+	state_category=large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
