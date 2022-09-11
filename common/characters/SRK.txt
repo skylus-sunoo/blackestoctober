@@ -1,0 +1,16 @@
+characters={
+	SRK_goran_hadzic={
+		name=SRK_goran_hadzic
+		portraits={
+			civilian={
+				large=GFX_Portrait_SRK_Goran_Hadzic
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}
