@@ -30,15 +30,11 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		SRK = {
-			set_province_controller = 3974
-
-		}
 
 	}
 
 	provinces={
-		3868 3924 6889 11816 
+		3868 3924 3974 6889 11816 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
