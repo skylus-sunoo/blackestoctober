@@ -1,0 +1,45 @@
+spriteTypes = {	
+
+
+	spriteType = {
+		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism_group.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ideology_progressivism_group"
+		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_anocracy_group"
+		texturefile = "gfx/interface/ideologies/anocracy_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_conservatism_group"
+		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_mod_socialism_group"
+		texturefile = "gfx/interface/ideologies/mod_socialism_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_rev_socialism_group"
+		texturefile = "gfx/interface/ideologies/rev_socialism_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_theocracy_group"
+		texturefile = "gfx/interface/ideologies/theocracy_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_radical_esotericism_group"
+		texturefile = "gfx/interface/ideologies/esotericism_group.dds"
+	}	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}	
+}

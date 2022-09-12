@@ -1,0 +1,15 @@
+characters = {
+	IRE_albert_reynolds = {
+		name = IRE_albert_reynolds
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_IRE_Albert_Reynolds
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

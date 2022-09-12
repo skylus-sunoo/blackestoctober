@@ -1,0 +1,42 @@
+characters={
+	BLR_stanislav_shushkevich={
+		name=BLR_stanislav_shushkevich
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Stanislav_Shushkevich
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	BLR_aleksandr_lukashenko={
+		name=BLR_aleksandr_lukashenko
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Aleksandr_Lukashenko
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	BLR_vyacheslav_kebich={
+		name=BLR_vyacheslav_kebich
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Vyacheslav_Kebich
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}
