@@ -1,0 +1,106 @@
+bo_debug_decisions = {
+
+	ignite_civilwar = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = yes
+		cost = 0
+
+		complete_effect = {
+			#every_state = {
+			#	limit = {
+			#		has_dynamic_modifier = {
+			#			yeltsin_leanings
+			#		}
+			#	}
+			#	set_state_owner = SOV
+			#}
+			SOV = {
+				declare_war_on = {
+				    target = SSV
+					type = civil_war
+				}
+				add_civil_war_target = SSV
+				set_cosmetic_tag = SOV_yeltsin_faction
+			}
+			SSV = {
+				create_country_leader = {
+					name = "Alexander Rutskoy"
+					desc = "POLITICS_MANUEL_AZANA_DESC"
+					picture = GFX_Portrait_SOV_Alexander_Rutskoy
+					expire = "1965.1.1"
+					ideology = mod_socialism_subtype
+					traits = {
+						figurehead_president
+					}
+				}
+				set_politics = {
+					ruling_party = mod_socialism
+				}
+				set_popularities = {
+					mod_socialism = 50
+					neutrality = 11
+					communism = 39
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	ssignite_civilwar = {
+
+		icon = generic_ignite_civil_war
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			#every_state = {
+			#	limit = {
+			#		has_dynamic_modifier = {
+			#			yeltsin_leanings
+			#		}
+			#	}
+			#	set_state_owner = SOV
+			#}
+			SOV = {
+				set_popularities = {
+	mod_socialism = 10
+	rev_socialism = 10
+	conservatism = 10
+	liberalism = 10
+	progressivism = 10
+	despotism = 10
+	theocracy = 10
+	anocracy = 10
+	radical_esotericism = 10
+	ultranationalism = 10
+}
+			}
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

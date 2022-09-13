@@ -118,7 +118,7 @@ spriteTypes = {
 		
 		spriteType = {
 			name = "GFX_Portrait_BLR_Stanislav_Shushkevich"
-			texturefile = "gfx/leaders/BLR/BLR_Stanislav_Shushkevich.dds"
+			texturefile = "gfx/leaders/BLR/Portrait_BLR_Stanislav_Shushkevich.dds"
 		}
 		spriteType = {
 			name = "GFX_Portrait_BLR_Aleksandr_Lukashenko"
@@ -145,5 +145,9 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_Portrait_CIN_Ddzhokhar_Dudayev"
 			texturefile = "gfx/leaders/CIN/Portrait_CIN_Dzhokhar_Dudayev.dds"
+		}
+		spriteType = {
+			name = "GFX_Portrait_ABK_vlad_ardzinba"
+			texturefile = "gfx/leaders/CIN/GFX_Portrait_ABK_Vlad_Ardzinba.tga"
 		}
 }

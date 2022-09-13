@@ -1,0 +1,6 @@
+bo_debug_decisions = {
+	icon = category_border_war
+	visible = {
+		is_debug = yes
+	}
+}

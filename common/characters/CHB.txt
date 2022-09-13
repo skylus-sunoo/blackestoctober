@@ -1,0 +1,16 @@
+characters={
+	CHB_mate_boban={
+		name=CHB_mate_boban
+		portraits={
+			civilian={
+				large=GFX_Portrait_CHB_Mate_Boban
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+}

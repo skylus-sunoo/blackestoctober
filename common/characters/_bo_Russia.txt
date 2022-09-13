@@ -1,0 +1,16 @@
+characters = {
+	SOV_boris_yeltsin = {
+		name = SOV_boris_yeltsin
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SOV_Boris_Yeltsin
+			}
+		}
+		country_leader = {
+			ideology = anocracy_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

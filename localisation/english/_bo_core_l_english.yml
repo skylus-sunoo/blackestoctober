@@ -1,0 +1,17 @@
+﻿l_english:
+
+ BO_FE_NO_COUNTRY_SELECTED:0 "No Country Selected"
+ BO_FE_HOST:0 "§R$COLOR$Host§!"
+ BO_FE_SELECTED_NATION:0 "Play as $NATION$"
+ BO_FE_SELECT_SCENARIO:0 "Select Scenario"
+ BO_FE_CHANGE_SCENARIO:0 "Change Scenario"
+ BO_FE_INTERESTING_COUNTRIES:0 "Interesting Countries"
+ BO_FE_SELECT_COUNTRY:0 "Select Country"
+ FE_COUNTRY_INFO_TITLE:0 "§WInformation§!"
+ FE_COUNTRY_SPIRIT:0 "National Spirit"
+ FE_COUNTRY_HISTORY_TITLE:0 "§WBrief History§!"
+ LEADER:0 "§WLeader§!"
+ GOVERNMENT:0 "§WGovernment§!"
+ RULING_PARTY:0 "§WRuling Party§!"
+ ELECTIONS:0 "§WElections§!"
+ IDEOLOGY:0 "§WIdeology§!"

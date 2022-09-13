@@ -1,0 +1,16 @@
+characters = {
+	KAZ_nursultan_nazarbayev = {
+		name = KAZ_nursultan_nazarbayev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_KAZ_Nursultan_Nazarbayev
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

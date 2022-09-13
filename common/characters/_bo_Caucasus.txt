@@ -1,0 +1,156 @@
+characters = {
+
+	ARM_levon_ter-petrosyan = {
+		name = ARM_levon_ter-petrosyan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ARM_Levon_Ter-Petrosyan
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	ABK_vladislav_ardzinba = {
+		name = ABK_vladislav_ardzinba
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ABK_Vladislav_Ardzinba
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	ART_karen_baburyan = {
+		name = ART_karen_baburyan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ART_Karen_Baburyan
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	ART_robert_kocharyan = {
+		name = ART_robert_kocharyan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ART_Robert_Kocharyan
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	AZR_heydar_aliyev = {
+		name = AZR_heydar_aliyev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_AZR_Abulfaz_Elchibey
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	AZR_abulfaz_elchibey = {
+		name = AZR_abulfaz_elchibey
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_AZR_Abulfaz_Elchibey
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	CIN_dzhokhar_dudayev = {
+		name = CIN_dzhokhar_dudayev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CIN_Dzhokhar_Dudayev
+			}
+		}
+		country_leader = {
+			ideology = conservatism   #I tried to make him a despotic leader since that would fit him best imo, howerever that didn't work 
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	GEO_eduard_shevardnadze = {
+		name = GEO_eduard_shevardnadze
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GEO_Eduard_Shevardnadze
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	GEO_military_council = {
+		name = GEO_military_council
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GEO_Military_Council
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	GEO_zviad_gamsakhurdia = {
+		name = GEO_zviad_gamsakhurdia
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GEO_Zviad_Gamsakhurdia
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	NOA_torez_kulumbegov = {
+		name = NOA_torez_kulumbegov
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_NOA_Torez_Kulumbegov
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}	
