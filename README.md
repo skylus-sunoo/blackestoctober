@@ -1,2 +1,0 @@
-# blackestoctober
-modding BO
