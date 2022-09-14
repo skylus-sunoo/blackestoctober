@@ -6,12 +6,6 @@ set_research_slots = 3
 
 recruit_character = AZR_abulfaz_elchibey
 
-set_politics = {
-	ruling_party = conservatism
-	last_election = "1991.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -87,13 +81,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 30
+	conservatism = 30
 	communism = 40
 	neutrality = 30
 }

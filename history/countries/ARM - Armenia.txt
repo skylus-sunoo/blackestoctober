@@ -7,6 +7,8 @@ oob = "AZR_1936"
 		type = liberate_wargoal
 	}
 	
+recruit_character = ARM_levon_ter-petrosyan
+
 set_research_slots = 3
 
 # Starting tech
@@ -86,43 +88,16 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
 set_popularities = {
-	fascism = 34
-	democratic = 30
-	communism = 36
+	progressivism = 15
+	ultranationalism = 10
+	conservatism = 70
+	despotism = 5
 }
-
-create_country_leader = {
-	name = "Drastamat Kanayan"
-	desc = ""
-	picture = GFX_portrait_Drastamat_Kanayan
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Hovhannes Kajaznuni"
-	desc = ""
-	picture = GFX_portrait_Hovhannes_Kajaznuni
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Grigor Harutyunyan"
-	desc = ""
-	picture = GFX_portrait_Grigor_Harutyunyan
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-

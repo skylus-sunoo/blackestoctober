@@ -2,8 +2,9 @@
 
 #oob = "ABK_1936"
 
+recruit_character = ABK_vladislav_ardzinba
+
 set_research_slots = 3
-recruit_character = ABK_vlad_ardzinba
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -75,7 +76,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = rev_socialism
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -84,7 +85,7 @@ set_politics = {
 set_popularities = {
 	progressivism = 15
 	ultranationalism = 10
-	rev_socialism = 70
+	conservatism = 70
 	despotism = 5
 }
 

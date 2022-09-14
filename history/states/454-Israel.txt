@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = ENG
+		owner = ISR
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -30,7 +30,7 @@ state={
 	}
 
 	provinces={
-		1015 1065 1201 4088 4206 7176 11970 1
+		1015 1065 1201 4206 7176 11970 1 13259 13260 13261
 	}
 
 	local_supplies=0.0 

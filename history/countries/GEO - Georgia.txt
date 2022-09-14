@@ -9,6 +9,10 @@
 		type = annex_everything
 	}
 	
+recruit_character = GEO_military_council
+recruit_character = GEO_eduard_shevardnadze
+recruit_character = GEO_zviad_gamsakhurdia
+
 set_research_slots = 3
 
 # Starting tech
@@ -85,33 +89,16 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = no # none after offset 1
+}
+
 set_popularities = {
-	democratic = 40
+	conservatism = 40
 	communism = 40
 	fascism = 10
 	neutrality = 10
 }
-
-create_country_leader = {
-	name = "Noe Zhordania"
-	desc = ""
-	picture = GFX_portrait_Noe_Zhordania
-	expire = "1953.3.1"
-	ideology = liberalism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kandid Charkviani"
-	desc = ""
-	picture = GFX_portrait_Kandid_Charkviani
-	expire = "1953.3.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-#couldnt find anything else, the commies simply forced everyone else into exile

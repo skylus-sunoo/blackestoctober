@@ -143,11 +143,57 @@ spriteTypes = {
 	#####	
 	
 		spriteType = {
-			name = "GFX_Portrait_CIN_Ddzhokhar_Dudayev"
-			texturefile = "gfx/leaders/CIN/Portrait_CIN_Dzhokhar_Dudayev.dds"
+			name = "GFX_Portrait_ABK_Vladislav_Ardzinba"
+			texturefile = "gfx/leaders/ABK/Portrait_ABK_Vladislav_Ardzinba.tga"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_ARM_Levon_Ter-Petrosyan"
+			texturefile = "gfx/leaders/ARM/Portrait_ARM_Levon_Ter-Petrosyan.tga"
 		}
 		spriteType = {
-			name = "GFX_Portrait_ABK_vlad_ardzinba"
-			texturefile = "gfx/leaders/CIN/GFX_Portrait_ABK_Vlad_Ardzinba.tga"
+			name = "GFX_Portrait_ABK_Vladislav_Ardzinba"
+			texturefile = "gfx/leaders/ARM/Portrait_ABK_Vladislav_Ardzinba.tga"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_ART_Karen_Baburyan"
+			texturefile = "gfx/leaders/ART/Portrait_ART_Karen_Baburyan.tga"
+		}
+		spriteType = {
+			name = "GFX_Portrait_ART_Robert_Kocharyan"
+			texturefile = "gfx/leaders/ART/Portrait_ART_Robert_Kocharyan.tga"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_AZR_Abulfaz_Elchibey"
+			texturefile = "gfx/leaders/AZR/Portrait_AZR_Abulfaz_Elchibey.tga"
+		}
+		spriteType = {
+			name = "GFX_Portrait_AZR_Abulfaz_Elchibey"
+			texturefile = "gfx/leaders/AZR/Portrait_AZR_Abulfaz_Elchibey.tga"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_CIN_Dzhokhar_Dudayev"
+			texturefile = "gfx/leaders/CIN/Portrait_CIN_Dzhokhar_Dudayev.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_GEO_Eduard_Shevardnadze"
+			texturefile = "gfx/leaders/GEO/Portrait_GEO_Eduard_Shevardnadze.tga"
+		}
+		spriteType = {
+			name = "GFX_Portrait_GEO_Military_Council"
+			texturefile = "gfx/leaders/GEO/Portrait_GEO_Military_Council.tga"
+		}
+		spriteType = {
+			name = "GFX_Portrait_GEO_Zviad_Gamsakhurdia"
+			texturefile = "gfx/leaders/GEO/Portrait_GEO_Zviad_Gamsakhurdia.tga"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_NOA_Torez_Kulumbegov"
+			texturefile = "gfx/leaders/NOA/Portrait_NOA_Torez_Kulumbegov.tga"
 		}
 }

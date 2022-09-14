@@ -4,6 +4,7 @@
 
 set_research_slots = 3
 
+recruit_character = NOA_torez_kulumbegov
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -73,21 +74,17 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = conservatism
+	last_election = "1935.6.9"
+	election_frequency = 12
+	elections_allowed = no # none after offset 1
 }
 
 set_popularities = {
-	democratic = 50
-	fascism = 20
-	communism = 20
+	conservatism = 40
+	communism = 40
+	fascism = 10
 	neutrality = 10
 }
-
-
-recruit_character = NOA_vasily_lemayev
-
-

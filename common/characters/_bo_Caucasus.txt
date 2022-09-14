@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -22,7 +22,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -36,7 +36,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -50,7 +50,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -64,7 +64,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -78,7 +78,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism   #I tried to make him a despotic leader since that would fit him best imo, howerever that didn't work 
+			ideology = conservatism_subtype   #I tried to make him a despotic leader since that would fit him best imo, howerever that didn't work 
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -106,7 +106,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -120,7 +120,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -134,7 +134,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}
@@ -148,7 +148,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism
+			ideology = conservatism_subtype
 			expire = "2000.1.1.1"
 			id = -1
 		}

@@ -1,0 +1,16 @@
+state={
+	id=853
+	name="STATE_853"
+	history = {
+		owner = ADR
+		add_core_of = ADR
+		victory_points = { 13284 15 }
+	}
+	provinces={
+		13284 
+	}
+	manpower=70000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

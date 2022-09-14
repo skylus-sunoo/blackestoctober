@@ -11,6 +11,26 @@ PRK = {
 }
 
 # EUROPE
+HLS = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 251 222 10 }		
+}
+ADR = {
+	color = rgb { 250 150 50 }
+	color_ui = rgb { 150 150 50 }
+}
+MOC = {
+	color = rgb { 210 0 100 }
+	color_ui = rgb { 255 0 0 }
+}
+SAN = {
+	color = rgb { 0 200 250 }
+	color_ui = rgb { 51 153 255 }
+}
+LIC = {
+	color = rgb { 0 0 255 }
+}
+
 SSV = {
 	color = rgb { 200 37 5 }
 	color_ui = rgb { 200 37 5 }

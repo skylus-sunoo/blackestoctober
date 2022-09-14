@@ -239,6 +239,11 @@ UDM = "countries/Udmurtia.txt"
 CHU = "countries/Chuvashia.txt"
 MEL = "countries/Mariel.txt"
 
+HLS = "countries/HolySee.txt"
+MOC = "countries/Monaco.txt"
+SAN = "countries/San Marino.txt"
+ADR = "countries/Andorra.txt"
+LIC = "countries/Lichenstein.txt"
 
 SSV = "countries/Supreme Soviet.txt"
 

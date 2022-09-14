@@ -1,0 +1,23 @@
+state={
+	id=847
+	name="STATE_847"
+	history={
+		owner = SPR
+		add_core_of = MOR
+		victory_points = {
+			9945 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+
+	}
+	provinces={
+		13285 13286 
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

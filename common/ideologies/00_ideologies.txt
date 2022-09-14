@@ -195,6 +195,7 @@ ideologies = {
 	
 		types = {
 			progressivism_subtype = {}
+			social_democracy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -339,6 +340,8 @@ ideologies = {
 		types = {
 			anocracy_subtype = {
 			}
+			bonapartism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -383,8 +386,8 @@ ideologies = {
 	ultranationalism = {
 	
 		types = {
-			ultranationalism_subtype = {
-			}
+			ultranationalism_subtype = {}
+			nazism = {}
 		}
 
 		dynamic_faction_names = {
@@ -598,8 +601,8 @@ ideologies = {
 	
 		types = {
 		
-			nazism = {
-			}
+			#nazism = {
+			#}
 
 			gen_nazism = {
 			}
