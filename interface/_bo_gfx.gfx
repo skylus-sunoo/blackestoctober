@@ -16,6 +16,14 @@ spriteTypes = {
 		name = "GFX_bo_lobby_bg"
 		texturefile = "gfx/interface/bo_lobby_bg.dds"
 	}
+	SpriteType = { 
+		name = "GFX_bo_ideology_enabler"
+		texturefile = "gfx/interface/bo_ideology_enabler.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bo_chart_bg"
+		texturefile = "gfx/interface/bo_chart_bg.dds"
+	}
 	
 }
 	

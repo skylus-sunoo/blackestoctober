@@ -151,10 +151,6 @@ spriteTypes = {
 			name = "GFX_Portrait_ARM_Levon_Ter-Petrosyan"
 			texturefile = "gfx/leaders/ARM/Portrait_ARM_Levon_Ter-Petrosyan.tga"
 		}
-		spriteType = {
-			name = "GFX_Portrait_ABK_Vladislav_Ardzinba"
-			texturefile = "gfx/leaders/ARM/Portrait_ABK_Vladislav_Ardzinba.tga"
-		}
 		
 		spriteType = {
 			name = "GFX_Portrait_ART_Karen_Baburyan"

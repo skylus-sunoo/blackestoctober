@@ -15,3 +15,4 @@
  RULING_PARTY:0 "§WRuling Party§!"
  ELECTIONS:0 "§WElections§!"
  IDEOLOGY:0 "§WIdeology§!"
+ BO_RULING_PARTY:0 "[THIS.GetRulingParty]"
