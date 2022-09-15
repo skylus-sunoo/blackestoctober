@@ -24,6 +24,14 @@ spriteTypes = {
 		name = "GFX_bo_chart_bg"
 		texturefile = "gfx/interface/bo_chart_bg.dds"
 	}
+	SpriteType = { 
+		name = "GFX_bo_pol_ideas"
+		texturefile = "gfx/interface/bo_pol_ideas.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bo_pol_ideas_overlay"
+		texturefile = "gfx/interface/bo_pol_ideas_overlay.dds"
+	}
 	
 }
 	

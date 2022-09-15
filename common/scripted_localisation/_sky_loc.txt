@@ -1,0 +1,10 @@
+defined_text = {
+	name = BO_FACTION
+
+	text = {
+		trigger = {
+			is_in_faction = no
+		}
+		localization_key = BO_NO_FACTION
+	}
+}

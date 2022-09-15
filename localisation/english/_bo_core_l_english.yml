@@ -15,4 +15,6 @@
  RULING_PARTY:0 "§WRuling Party§!"
  ELECTIONS:0 "§WElections§!"
  IDEOLOGY:0 "§WIdeology§!"
- BO_RULING_PARTY:0 "[THIS.GetRulingParty]"
+ BO_RULING_PARTY:0 "[THIS.GetRulingPartyLong]"
+ ruling_party_tt:0 "Our country is being led by the ruling party §Y[THIS.GetRulingPartyLong]§!"
+ BO_NO_FACTION:0 "§RNo Faction§!"
