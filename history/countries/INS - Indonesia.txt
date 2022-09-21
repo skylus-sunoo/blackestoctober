@@ -2,6 +2,8 @@
 
 oob = "INS_1936"
 
+recruit_character = INS_suharto
+
 set_research_slots = 2
 
 # Starting tech
@@ -45,20 +47,26 @@ if = {
 	}
 }
 
+
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 set_convoys = 25
 set_popularities = {
 	democratic = 10
 	fascism = 10
 	communism = 30
-	neutrality = 50
+	conservatism = 50
 }
 
-
-recruit_character = INS_a_t_van_starkenborgh_stachouwer
-recruit_character = INS_sukarno
-recruit_character = INS_amir_sjarifuddin_harahap
-recruit_character = INS_suharto
-recruit_character = INS_sutan_sjahrir
+#recruit_character = INS_a_t_van_starkenborgh_stachouwer
+#recruit_character = INS_sukarno
+#recruit_character = INS_amir_sjarifuddin_harahap
+#recruit_character = INS_suharto
+#recruit_character = INS_sutan_sjahrir
 
 
 if = {
@@ -68,7 +76,6 @@ if = {
 	recruit_character = INS_hein_ter_poorten
 }
 
-set_cosmetic_tag = INS_HOL # Netherlands East Indies
 
 1939.1.1 = {
 	add_political_power = 1198
@@ -77,15 +84,15 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 	oob = "INS_1939" #straight copy of INS 1936
 
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	##complete_national_focus = army_effort
+	##complete_national_focus = equipment_effort
+	##complete_national_focus = motorization_effort
+	##complete_national_focus = aviation_effort
+	##complete_national_focus = naval_effort
+	##complete_national_focus = flexible_navy
+	##complete_national_focus = industrial_effort
+	##complete_national_focus = construction_effort
+	##complete_national_focus = production_effort
 	
 	set_technology = {
 		interwar_artillery = 1

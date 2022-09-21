@@ -97,25 +97,25 @@ if = {
 			has_dlc = "La Resistance"
 		}
 
-		#complete_national_focus = POR_estado_novo
+		##complete_national_focus = POR_estado_novo
 		unlock_national_focus = POR_support_the_spanish_nationalists
-		#complete_national_focus = POR_portuguese_legion
-		#complete_national_focus = POR_observation_mission
+		##complete_national_focus = POR_portuguese_legion
+		##complete_national_focus = POR_observation_mission
 		unlock_national_focus = POR_send_assistance
-		#complete_national_focus = POR_army_reorganization
-		#complete_national_focus = POR_metropolitan_army
-		#complete_national_focus = POR_corpo_do_estado_maior
-		#complete_national_focus = POR_second_navy_reequipment
-		#complete_national_focus = POR_a_powerful_merchant_marine
-		#complete_national_focus = POR_merchant_marine_protection
-		#complete_national_focus = POR_arsenal_do_alfeite
-		#complete_national_focus = POR_continue_the_public_works
-		#complete_national_focus = POR_instituto_superior_tecnico
-		#complete_national_focus = POR_roads_bridges_and_dams
-		#complete_national_focus = POR_ogme
-		#complete_national_focus = POR_food_industries
-		#complete_national_focus = POR_textile_industry
-		#complete_national_focus = POR_colonial_assimilation_policy
+		##complete_national_focus = POR_army_reorganization
+		##complete_national_focus = POR_metropolitan_army
+		##complete_national_focus = POR_corpo_do_estado_maior
+		##complete_national_focus = POR_second_navy_reequipment
+		##complete_national_focus = POR_a_powerful_merchant_marine
+		##complete_national_focus = POR_merchant_marine_protection
+		##complete_national_focus = POR_arsenal_do_alfeite
+		##complete_national_focus = POR_continue_the_public_works
+		##complete_national_focus = POR_instituto_superior_tecnico
+		##complete_national_focus = POR_roads_bridges_and_dams
+		##complete_national_focus = POR_ogme
+		##complete_national_focus = POR_food_industries
+		##complete_national_focus = POR_textile_industry
+		##complete_national_focus = POR_colonial_assimilation_policy
 
 		SPA = {
 			add_opinion_modifier = {
@@ -127,15 +127,15 @@ if = {
 
 		else = {
 			#generic focuses
-			#complete_national_focus = army_effort
-			#complete_national_focus = equipment_effort
-			#complete_national_focus = motorization_effort
-			#complete_national_focus = aviation_effort
-			#complete_national_focus = naval_effort
-			#complete_national_focus = large_navy
-			#complete_national_focus = industrial_effort
-			#complete_national_focus = construction_effort
-			#complete_national_focus = production_effort
+			##complete_national_focus = army_effort
+			##complete_national_focus = equipment_effort
+			##complete_national_focus = motorization_effort
+			##complete_national_focus = aviation_effort
+			##complete_national_focus = naval_effort
+			##complete_national_focus = large_navy
+			##complete_national_focus = industrial_effort
+			##complete_national_focus = construction_effort
+			##complete_national_focus = production_effort
 		}
 	}
 		

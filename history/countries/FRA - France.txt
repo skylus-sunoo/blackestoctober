@@ -161,18 +161,18 @@ if = {
 		partial_economic_mobilisation
 	}
 
-	#complete_national_focus = FRA_begin_rearmament
-	#complete_national_focus = FRA_form_the_popular_front
-	#complete_national_focus = FRA_reform_the_labour_laws
-	#complete_national_focus = FRA_the_blum_viollette_proposal
-	#complete_national_focus = FRA_review_foreign_policy
-	#complete_national_focus = FRA_intervention_in_spain
-	#complete_national_focus = FRA_buy_time
-	#complete_national_focus = FRA_defensive_focus
-	#complete_national_focus = FRA_firepower_kills
-	#complete_national_focus = FRA_go_with_britain
-	#complete_national_focus = FRA_devalue_the_franc
-	#complete_national_focus = FRA_invest_in_the_metropole
+	##complete_national_focus = FRA_begin_rearmament
+	##complete_national_focus = FRA_form_the_popular_front
+	##complete_national_focus = FRA_reform_the_labour_laws
+	##complete_national_focus = FRA_the_blum_viollette_proposal
+	##complete_national_focus = FRA_review_foreign_policy
+	##complete_national_focus = FRA_intervention_in_spain
+	##complete_national_focus = FRA_buy_time
+	##complete_national_focus = FRA_defensive_focus
+	##complete_national_focus = FRA_firepower_kills
+	##complete_national_focus = FRA_go_with_britain
+	##complete_national_focus = FRA_devalue_the_franc
+	##complete_national_focus = FRA_invest_in_the_metropole
 
 	give_guarantee = POL
 	ENG = { add_to_faction = FRA }

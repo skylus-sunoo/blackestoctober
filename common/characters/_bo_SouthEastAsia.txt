@@ -1,0 +1,58 @@
+characters = {
+	INS_suharto = {
+		name = INS_suharto
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_INS_Suharto
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	MAL_mahathir_mohamad = {
+		name = MAL_mahathir_mohamad
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MAL_Mahathir_Mohamad
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	PHI_corazon_aquino = {
+		name = PHI_corazon_aquino
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_PHI_Corazon_Aquino
+			}
+		}
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	SIA_chuan_leekpai = {
+		name = SIA_chuan_leekpai
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SIA_Chuan_Leekpai
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

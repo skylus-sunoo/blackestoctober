@@ -1,0 +1,37 @@
+guiTypes = {
+
+	containerWindowType = {
+
+		name = "bo_politics_tab"
+		position = { x = -350 y = 8 }
+		orientation = UPPER_RIGHT
+		origo = upper_right
+		
+		instantTextboxType = {
+			name = "no_faction"
+			position = { x = 0 y = 263 }
+			font = "bo_vcr_16"
+			text = "BO_NO_FACTION"
+			maxWidth = 195
+			maxHeight = 20
+			multiline = no
+			format = left
+		}
+		#iconType ={
+		#	name ="Background_overlay"
+		#	spriteType = "GFX_bo_pol_ideas_overlay"
+		#	position = { x = -200 y = 490 }
+		#}
+		#instantTextboxType = {
+		#	name = "ruling_party"
+		#	position = { x = -55 y = 390 }
+		#	font = "bo_vcr_14"
+		#	text = "BO_RULING_PARTY"
+		#	pdx_tooltip = "ruling_party_tt"
+		#	maxWidth = 155
+		#	maxHeight = 32
+		#	format = center
+		#	vertical_alignment = center
+		#}
+	}
+}

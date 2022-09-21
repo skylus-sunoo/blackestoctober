@@ -184,11 +184,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
+	#set_autonomy = {
+	#	target = AST
+	#	autonomous_state = autonomy_dominion
+	#	freedom_level = 0.2
+	#}
 	set_autonomy = {
 		target = NZL
 		autonomous_state = autonomy_dominion
@@ -233,16 +233,16 @@ if = {
 	retire_character = ENG_stanley_baldwin
 	remove_ideas = george_v #Dead
 
-	#complete_national_focus = limited_rearmament_focus
-	#complete_national_focus = air_defense_focus
-	#complete_national_focus = radar_focus
-	#complete_national_focus = shadow_scheme_focus
-	#complete_national_focus = uk_empire_focus
-	#complete_national_focus = uk_service_focus
-	#complete_national_focus = uk_colonial_focus
-	#complete_national_focus = uk_mediterranean_focus
-	#complete_national_focus = uk_asia_focus
-	#complete_national_focus = uk_commonwealth_focus
+	##complete_national_focus = limited_rearmament_focus
+	##complete_national_focus = air_defense_focus
+	##complete_national_focus = radar_focus
+	##complete_national_focus = shadow_scheme_focus
+	##complete_national_focus = uk_empire_focus
+	##complete_national_focus = uk_service_focus
+	##complete_national_focus = uk_colonial_focus
+	##complete_national_focus = uk_mediterranean_focus
+	##complete_national_focus = uk_asia_focus
+	##complete_national_focus = uk_commonwealth_focus
 
 	give_guarantee = POL
 	if = {

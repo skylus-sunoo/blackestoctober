@@ -64,6 +64,11 @@
  
  #IRELAND
  IRE_albert_reynolds:0 "Albert Reynolds" 
+ 
+ 
+ ### SOUTHERN EUROPE
+ 
+ HLS_john_paul_ii:0 "John Paul II" 
 
  
  
@@ -80,3 +85,28 @@
  GEO_military_council:0 "Military Council"
  GEO_zviad_gamsakhurdia:0 "Zviad Gamsakhurdia"
  NOA_torez_kulumbegov:0 "Torez Kulumbegov"
+ 
+ 
+ ### CENTRAL ASIA
+ KAZ_nursultan_nazarbayev:0 "Nursultan Nazarbayev"
+ 
+ ### EAST ASIA
+ CHI_lee_teng-hui:0 "Lee Teng-Hui"
+ KOR_roh_tae_woo:0 "Roh Tae Woo"
+ PRK_kim_il_sung:0 "Kim Il Sung"
+ 
+ ### SOUTH ASIA
+ RAJ_shankar_dayal_sharma:0 "Shankar Dayal Sharma"
+ 
+ 
+ ### SOUTH EAST ASIA
+ INS_suharto:0 "Suharto"
+ MAL_mahathir_mohamad:0 "Mahathir Mohamad"
+ PHI_corazon_aquino:0 "Corazon Aquino"
+ SIA_chuan_leekpai:0 "Chuan Leekpai"
+ 
+ ### OCEANIA
+ AST_paul_keating:0 "Paul Keating"
+ NZL_jim_bolger:0 "Jim Bolger"
+ 
+ 

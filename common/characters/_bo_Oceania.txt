@@ -1,0 +1,32 @@
+characters = {
+	AST_paul_keating = {
+		name = AST_paul_keating
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_AST_Paul_Keating
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	
+	NZL_jim_bolger = {
+		name = NZL_jim_bolger
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_NZL_Jim_Bolger
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

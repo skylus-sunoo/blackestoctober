@@ -32,6 +32,10 @@ spriteTypes = {
 		name = "GFX_bo_pol_ideas_overlay"
 		texturefile = "gfx/interface/bo_pol_ideas_overlay.dds"
 	}
+	SpriteType = { 
+		name = "GFX_bo_topbar_background_extended"
+		texturefile = "gfx/interface/bo_topbar_background_extended.dds"
+	}
 	
 }
 	

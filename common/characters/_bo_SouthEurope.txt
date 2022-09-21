@@ -1,0 +1,16 @@
+characters = {
+	HLS_john_paul_ii = {
+		name = HLS_john_paul_ii
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_HLS_John_Paul_II
+			}
+		}
+		country_leader = {
+			ideology = theocracy_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

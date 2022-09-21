@@ -15,7 +15,6 @@ guiTypes = {
 		background = {
 			name = "Background"		
 			quadTextureSprite ="GFX_tiled_plain_bg"
-		show_position = { x=-6 y =78 }
 		}
 
 		iconType ={
@@ -157,7 +156,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 59 y = 47 }
+				position = { x = 59 y = 42 }
 				font = "bo_vcr_16"
 				text = "ideology"
 				maxWidth = 155
@@ -168,7 +167,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = 59 y = 69 }
+				position = { x = 59 y = 63 }
 				font = "bo_vcr_14"
 				text = "BO_RULING_PARTY"
 				maxWidth = 155
@@ -200,34 +199,36 @@ guiTypes = {
 						
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 170 y = 242 }
+			position = { x = 170 y = 255 }
 			size = { width = 255 height = 60 }
 			clipping = no
 
 			background = {
 				name = "Background"		
-				quadTextureSprite ="GFX_subject_overlay"
+				quadTextureSprite ="GFX_main_screens_bottom"
+				position = { x = -168 y = 3 }
 			}
 			
 			instantTextboxType = {
 				name = "current_autonomy_name"
-				position = { x = 110 y = 8 }
-				font = "hoi_18mbs"
+				position = { x = 110 y = 17 }
+				font = "bo_vcr_24"
 				text = "autonomy"
 				maxWidth = 193
 				maxHeight = 20		
 				format = center
+				vertical_alignment = center
 			}
 			
 			buttonType = {
 				name = "prev_autonomy_level"
-				position = { x = 75 y = 9 }
+				position = { x = 105 y = 9 }
 				quadTextureSprite = "GFX_autonomy_level_button"
 			}
 			
 			iconType = {
 				name = "prev_level_glow"
-				position = { x = 63 y = 2 }
+				position = { x = 93 y = 2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -235,27 +236,27 @@ guiTypes = {
 			
 			iconType = {
 				name = "prev_autonomy_level_icon"
-				position = { x = 75 y = 9 }
+				position = { x = 105 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 			
-			iconType = {
-				name = "autonomy_progress"
-				spriteType = "GFX_subject_progressbar_long"
-				position = { x = 116 y = 29 }
-				frame = 100
-			}
+			#iconType = {
+			#	name = "autonomy_progress"
+			#	spriteType = "GFX_subject_progressbar_long"
+			#	position = { x = 116 y = 29 }
+			#	frame = 100
+			#}
 			
 			buttonType = {
 				name = "next_autonomy_level"
-				position = { x = 299 y = 5 }
+				position = { x = 269 y = 5 }
 				quadTextureSprite = "GFX_occupation_policy_button_selected"
 			}
 			
 			iconType = {
 				name = "next_level_glow"
-				position = { x = 287 y = -2 }
+				position = { x = 257 y = -2 }
 				quadTextureSprite = "GFX_ongoing_focus_goal_polview"
 				alwaystransparent = yes				
 				scale = 0.5
@@ -263,24 +264,24 @@ guiTypes = {
 			
 			iconType = {
 				name = "next_autonomy_level_icon"
-				position = { x = 304 y = 9 }
+				position = { x = 274 y = 9 }
 				quadTextureSprite = "GFX_autonomy_unknown_icon"
 				alwaystransparent = yes
 			}
 
-			iconType = {
-				name = "continuous_glow"
-				position = { x = 4 y = -2 }
-				quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
-				alwaystransparent = yes				
-				scale = 0.5
-			}
+			#iconType = {
+			#	name = "continuous_glow"
+			#	position = { x = 4 y = -2 }
+			#	quadTextureSprite = "GFX_ongoing_generic_glow_yellow"
+			#	alwaystransparent = yes				
+			#	scale = 0.5
+			#}
 			
-			iconType = {
-				name = "current_autonomy_level_icon"
-				position = { x = 20 y = 10 }
-				quadTextureSprite = "GFX_autonomy_unknown_icon"
-			}
+			#iconType = {
+			#	name = "current_autonomy_level_icon"
+			#	position = { x = 20 y = 10 }
+			#	quadTextureSprite = "GFX_autonomy_unknown_icon"
+			#}
 		}
 		
 #		buttonType = {
@@ -412,18 +413,18 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = 99 y = 30 }
+				position = { x = 99 y = 36 }
 				size = { width = 364 height = 74 }
 				verticalScrollbar = "right_vertical_slider"
 				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent"
-				}
+				#background = {
+				#	name = "Background"
+				#	quadTextureSprite ="GFX_tiled_window_transparent"
+				#}
 				
 				gridboxtype = {
 					name = "spirit_grid"
-					position = { x = 1 y = 2 }
+					position = { x = 1 y = -10 }
 					size = { width = 354 height = 68 }
 					slotsize = { width = 59 height = 68 }
 					max_slots = { x = 6 y = 1 }

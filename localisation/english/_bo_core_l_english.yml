@@ -18,3 +18,4 @@
  BO_RULING_PARTY:0 "[THIS.GetRulingPartyLong]"
  ruling_party_tt:0 "Our country is being led by the ruling party §Y[THIS.GetRulingPartyLong]§!"
  BO_NO_FACTION:0 "§RNo Faction§!"
+ BO_CURRENT_VERSION:0 "version 0.0.01"

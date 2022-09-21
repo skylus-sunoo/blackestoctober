@@ -160,27 +160,27 @@ if = {
 		extensive_conscription
 	}
 
-	#complete_national_focus = ITA_ethiopian_war_logistics
-	#complete_national_focus = ITA_industrial_effort
-	#complete_national_focus = ITA_industrial_effort_2
-	#complete_national_focus = ITA_victoryinETH
+	##complete_national_focus = ITA_ethiopian_war_logistics
+	##complete_national_focus = ITA_industrial_effort
+	##complete_national_focus = ITA_industrial_effort_2
+	##complete_national_focus = ITA_victoryinETH
 	unlock_national_focus = ITA_slovenia_dalmatia_claims
 	unlock_national_focus = ITA_albania_war_goal
-	#complete_national_focus = ITA_light_ship_effort
-	#complete_national_focus = ITA_escort_effort
-	#complete_national_focus = ITA_submarine_effort
-	#complete_national_focus = ITA_bulgaria_friend
-	#complete_national_focus = ITA_pact_of_steel
+	##complete_national_focus = ITA_light_ship_effort
+	##complete_national_focus = ITA_escort_effort
+	##complete_national_focus = ITA_submarine_effort
+	##complete_national_focus = ITA_bulgaria_friend
+	##complete_national_focus = ITA_pact_of_steel
 
-	#complete_national_focus = ITA_army_primacy
-	#complete_national_focus = ITA_mare_nostrum
+	##complete_national_focus = ITA_army_primacy
+	##complete_national_focus = ITA_mare_nostrum
 	unlock_national_focus = ITA_modernized_artillery
-	#complete_national_focus = ITA_air_innovation
-	#complete_national_focus = ITA_modernized_army
-	#complete_national_focus = ITA_fortification_effort
-	#complete_national_focus = ITA_extra_tech_slot
-	#complete_national_focus = ITA_special_forces
-	#complete_national_focus = ITA_capital_ships
+	##complete_national_focus = ITA_air_innovation
+	##complete_national_focus = ITA_modernized_army
+	##complete_national_focus = ITA_fortification_effort
+	##complete_national_focus = ITA_extra_tech_slot
+	##complete_national_focus = ITA_special_forces
+	##complete_national_focus = ITA_capital_ships
 
 	#Simulate Claims on Yugoslavia focus effects
 	add_state_claim = 102

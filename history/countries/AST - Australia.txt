@@ -3,6 +3,9 @@
 oob = "AST_1936"
 set_stability = 0.8
 set_war_support = 0.3
+
+recruit_character = AST_paul_keating
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -136,28 +139,28 @@ if = {
 	
 	if = {
 		limit = { has_dlc = "Together for Victory" }
-		#complete_national_focus = AST_additional_militia_training
-		#complete_national_focus = AST_royal_australian_artillery
-		#complete_national_focus = AST_daimler_dingo
-		#complete_national_focus = AST_expand_the_raaf
-		#complete_national_focus = AST_cockatoo_island_shipyards
-		#complete_national_focus = AST_expand_northern_presence
-		#complete_national_focus = AST_standard_gauge_railway
-		#complete_national_focus = AST_industries_assistance_corporation
-		#complete_national_focus = AST_western_australian_government_railways
-		#complete_national_focus = AST_south_australian_housing_trust
+		##complete_national_focus = AST_additional_militia_training
+		##complete_national_focus = AST_royal_australian_artillery
+		##complete_national_focus = AST_daimler_dingo
+		##complete_national_focus = AST_expand_the_raaf
+		##complete_national_focus = AST_cockatoo_island_shipyards
+		##complete_national_focus = AST_expand_northern_presence
+		##complete_national_focus = AST_standard_gauge_railway
+		##complete_national_focus = AST_industries_assistance_corporation
+		##complete_national_focus = AST_western_australian_government_railways
+		##complete_national_focus = AST_south_australian_housing_trust
 		
 		else = {
 			#generic focuses
-			#complete_national_focus = army_effort
-			#complete_national_focus = equipment_effort
-			#complete_national_focus = motorization_effort
-			#complete_national_focus = aviation_effort
-			#complete_national_focus = naval_effort
-			#complete_national_focus = large_navy
-			#complete_national_focus = industrial_effort
-			#complete_national_focus = construction_effort
-			#complete_national_focus = production_effort
+			##complete_national_focus = army_effort
+			##complete_national_focus = equipment_effort
+			##complete_national_focus = motorization_effort
+			##complete_national_focus = aviation_effort
+			##complete_national_focus = naval_effort
+			##complete_national_focus = large_navy
+			##complete_national_focus = industrial_effort
+			##complete_national_focus = construction_effort
+			##complete_national_focus = production_effort
 		}
 	}
 
@@ -256,34 +259,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1934.9.15"
+	ruling_party = conservatism
+	last_election = "1991.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
+	conservatism = 98
 	communism = 2
 }
 
 set_convoys = 100
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.10.23"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-
-	set_popularities = {
-		democratic = 99
-		communism = 1
-	}
-
-	set_convoys = 100
-}
 
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }

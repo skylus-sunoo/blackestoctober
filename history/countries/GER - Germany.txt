@@ -227,13 +227,13 @@ create_import = {
 	set_global_flag = end_of_czechoslovakia
 	set_global_flag = olympics_1936
 	set_variable = { var = GER_mefo_bill_counter value = 90 }
-	#complete_national_focus = GER_autobahn
-	#complete_national_focus = GER_west_wall
-	#complete_national_focus = GER_army_innovation
-	#complete_national_focus = GER_hermann_goring_werke
-	#complete_national_focus = GER_kdf_wagen
-	#complete_national_focus = GER_coal_liquidization
-	#complete_national_focus = GER_extra_tech_slot
+	##complete_national_focus = GER_autobahn
+	##complete_national_focus = GER_west_wall
+	##complete_national_focus = GER_army_innovation
+	##complete_national_focus = GER_hermann_goring_werke
+	##complete_national_focus = GER_kdf_wagen
+	##complete_national_focus = GER_coal_liquidization
+	##complete_national_focus = GER_extra_tech_slot
 
 	#BUILDINGS
 	

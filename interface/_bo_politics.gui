@@ -1,8 +1,7 @@
 guiTypes = {
-
 	containerWindowType = {
 
-		name = "sky_utilities_open"
+		name = "bo_politics"
 		position = { x = -350 y = 8 }
 		orientation = UPPER_RIGHT
 		origo = upper_right

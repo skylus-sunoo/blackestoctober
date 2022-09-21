@@ -56,22 +56,22 @@ save_global_event_target_as = WTT_communist_china
 		limit = {
 			has_dlc = "Waking the Tiger"
 		}
-		#complete_national_focus = PRC_strengthen_the_central_secretariat
-		#complete_national_focus = PRC_land_redistribution
-		#complete_national_focus = PRC_enforce_the_three_rules
-		#complete_national_focus = PRC_agrarian_socialism
-		#complete_national_focus = PRC_the_yanan_base_area
-		#complete_national_focus = PRC_focus_on_china
-		#complete_national_focus = PRC_infiltration
-		#complete_national_focus = PRC_revolutionary_military_commission
-		#complete_national_focus = PRC_literacy_programs
-		#complete_national_focus = CHI_mission_to_the_soviet_union
-		#complete_national_focus = PRC_ban_the_opium_trade
-		#complete_national_focus = PRC_military_intelligence_department
-		#complete_national_focus = PRC_prepare_for_war_with_japan
-		#complete_national_focus = PRC_anti_japanese_expedition
-		#complete_national_focus = PRC_provoke_japan
-		#complete_national_focus = PRC_mobile_warfare
+		##complete_national_focus = PRC_strengthen_the_central_secretariat
+		##complete_national_focus = PRC_land_redistribution
+		##complete_national_focus = PRC_enforce_the_three_rules
+		##complete_national_focus = PRC_agrarian_socialism
+		##complete_national_focus = PRC_the_yanan_base_area
+		##complete_national_focus = PRC_focus_on_china
+		##complete_national_focus = PRC_infiltration
+		##complete_national_focus = PRC_revolutionary_military_commission
+		##complete_national_focus = PRC_literacy_programs
+		##complete_national_focus = CHI_mission_to_the_soviet_union
+		##complete_national_focus = PRC_ban_the_opium_trade
+		##complete_national_focus = PRC_military_intelligence_department
+		##complete_national_focus = PRC_prepare_for_war_with_japan
+		##complete_national_focus = PRC_anti_japanese_expedition
+		##complete_national_focus = PRC_provoke_japan
+		##complete_national_focus = PRC_mobile_warfare
 
 		set_research_slots = 3
 
@@ -88,15 +88,15 @@ save_global_event_target_as = WTT_communist_china
 		}
 		else = {
 			#generic focuses
-			#complete_national_focus = army_effort
-			#complete_national_focus = equipment_effort
-			#complete_national_focus = motorization_effort
-			#complete_national_focus = aviation_effort
-			#complete_national_focus = naval_effort
-			#complete_national_focus = flexible_navy
-			#complete_national_focus = industrial_effort
-			#complete_national_focus = construction_effort
-			#complete_national_focus = production_effort
+			##complete_national_focus = army_effort
+			##complete_national_focus = equipment_effort
+			##complete_national_focus = motorization_effort
+			##complete_national_focus = aviation_effort
+			##complete_national_focus = naval_effort
+			##complete_national_focus = flexible_navy
+			##complete_national_focus = industrial_effort
+			##complete_national_focus = construction_effort
+			##complete_national_focus = production_effort
 		}
 	}
 	

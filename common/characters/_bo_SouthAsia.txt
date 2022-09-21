@@ -1,0 +1,16 @@
+characters = {
+	RAJ_shankar_dayal_sharma = {
+		name = RAJ_shankar_dayal_sharma
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_RAJ_Shankar_Dayal_Sharma
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

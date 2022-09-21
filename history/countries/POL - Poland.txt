@@ -103,32 +103,32 @@ if = {
 			has_dlc = "Poland: United and Ready"
 		}
 
-		#complete_national_focus = POL_central_region_strategy
-		#complete_national_focus = POL_expansion_of_new_towns
-		#complete_national_focus = POL_start_central_industrial_region
-		#complete_national_focus = POL_fill_the_railways_gaps
-		#complete_national_focus = POL_plan_west
-		#complete_national_focus = POL_new_military_academy
+		##complete_national_focus = POL_central_region_strategy
+		##complete_national_focus = POL_expansion_of_new_towns
+		##complete_national_focus = POL_start_central_industrial_region
+		##complete_national_focus = POL_fill_the_railways_gaps
+		##complete_national_focus = POL_plan_west
+		##complete_national_focus = POL_new_military_academy
 		unlock_national_focus = POL_the_four_year_plan
-		#complete_national_focus = POL_national_defence_fund
-		#complete_national_focus = POL_warsaw_main_railway_station
-		#complete_national_focus = POL_invest_in_the_old_polish_region
-		#complete_national_focus = POL_additional_research_slot1
-		#complete_national_focus = POL_army_modernisation
-		#complete_national_focus = POL_modernize_congressional_factories
+		##complete_national_focus = POL_national_defence_fund
+		##complete_national_focus = POL_warsaw_main_railway_station
+		##complete_national_focus = POL_invest_in_the_old_polish_region
+		##complete_national_focus = POL_additional_research_slot1
+		##complete_national_focus = POL_army_modernisation
+		##complete_national_focus = POL_modernize_congressional_factories
 		unlock_national_focus = POL_prepare_for_the_next_war
 		unlock_national_focus = POL_standardisation_of_equipment
 		unlock_national_focus = POL_modernising_the_cavalry
 
-		#complete_national_focus = POL_hel_fortified_area
-		#complete_national_focus = POL_silesia_fortified_area
+		##complete_national_focus = POL_hel_fortified_area
+		##complete_national_focus = POL_silesia_fortified_area
 
-		#complete_national_focus = POL_air_base_expansion 
-		#complete_national_focus = POL_develop_polish_ship_building 
+		##complete_national_focus = POL_air_base_expansion 
+		##complete_national_focus = POL_develop_polish_ship_building 
 
-		#complete_national_focus = POL_complete_april_constitution
-		#complete_national_focus = POL_polish_militarism
-		#complete_national_focus = POL_consolidate_sanation_government
+		##complete_national_focus = POL_complete_april_constitution
+		##complete_national_focus = POL_polish_militarism
+		##complete_national_focus = POL_consolidate_sanation_government
 
 		remove_ideas = POL_looming_peasants_strike
 	}
@@ -137,15 +137,15 @@ if = {
 	add_command_power = 100
 	
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	##complete_national_focus = army_effort
+	##complete_national_focus = equipment_effort
+	##complete_national_focus = motorization_effort
+	##complete_national_focus = aviation_effort
+	##complete_national_focus = naval_effort
+	##complete_national_focus = flexible_navy
+	##complete_national_focus = industrial_effort
+	##complete_national_focus = construction_effort
+	##complete_national_focus = production_effort
 
 
 	add_ideas = {

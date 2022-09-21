@@ -1,0 +1,44 @@
+characters = {
+	CHI_lee_teng-hui = {
+		name = CHI_lee_teng-hui
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CHI_Lee_Teng-Hui
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	KOR_roh_tae_woo = {
+		name = KOR_roh_tae_woo
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_KOR_Roh_Tae_Woo
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	PRK_kim_il_sung = {
+		name = PRK_kim_il_sung
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_PRK_Kim_Il_Sung
+			}
+		}
+		country_leader = {
+			ideology = rev_socialism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

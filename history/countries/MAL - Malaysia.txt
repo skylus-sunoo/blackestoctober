@@ -4,11 +4,13 @@ oob = "MAL_1936"
 
 set_research_slots = 3
 
-recruit_character = MAL_shenton_thomas
-recruit_character = MAL_onn_jaafar
-recruit_character = MAL_lai_teck
-recruit_character = MAL_ibrahim_hj_yaacob
-recruit_character = MAL_winston_tyron
+recruit_character = MAL_mahathir_mohamad
+
+#recruit_character = MAL_shenton_thomas
+#recruit_character = MAL_onn_jaafar
+#recruit_character = MAL_lai_teck
+#recruit_character = MAL_ibrahim_hj_yaacob
+#recruit_character = MAL_winston_tyron
 
 
 # Starting tech
@@ -99,10 +101,18 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_convoys = 25
 set_popularities = {
-	democratic = 33
-	communism = 33
-	neutrality = 34
+	democratic = 10
+	fascism = 10
+	communism = 30
+	conservatism = 50
 }
 
 
@@ -113,15 +123,15 @@ set_cosmetic_tag = MAL_UK # British Malaya
 	add_command_power = 100
 	
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	##complete_national_focus = army_effort
+	##complete_national_focus = equipment_effort
+	##complete_national_focus = motorization_effort
+	##complete_national_focus = aviation_effort
+	##complete_national_focus = naval_effort
+	##complete_national_focus = flexible_navy
+	##complete_national_focus = industrial_effort
+	##complete_national_focus = construction_effort
+	##complete_national_focus = production_effort
 	
 	set_technology = {
 	

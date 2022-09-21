@@ -1,6 +1,9 @@
 ﻿capital = 289
 
 oob = "SIA_1936"
+
+recruit_character = SIA_chuan_leekpai
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SIA_1936_naval_mtg"
@@ -9,28 +12,28 @@ if = {
 	}
 }
 
-recruit_character = SIA_phraya_phahon
-recruit_character = SIA_nangklao_chichalerm
-recruit_character = SIA_chao_phonphayuhasena
-recruit_character = SIA_nangklao_suriyawongse
-recruit_character = SIA_tianliang_huntrakool
-recruit_character = SIA_phra_silpasakrakorn
-recruit_character = SIA_luang_sinthusongkhramchai
-recruit_character = SIA_thawon_thamrongnawasawat
-recruit_character = SIA_phraya_preechacholayudha
-recruit_character = SIA_pridi_phanomyong
-recruit_character = SIA_sindhu_kamalanavin
-recruit_character = SIA_phraya_chitnasongkhla
-recruit_character = SIA_phraya_thayarnpikart
-recruit_character = SIA_phra_vechayanrangsarit
-recruit_character = SIA_manphya_khanphialong
-recruit_character = SIA_luang_phibunsongkhram
-recruit_character = SIA_phraya_wichcitcholathai
-recruit_character = SIA_sawat_phutianands
-recruit_character = SIA_phraya_chalermarkiart
-recruit_character = SIA_kuang_abhayavongsa
-recruit_character = SIA_thawee_punyaketu
-recruit_character = SIA_phot_bhahalyodin
+#recruit_character = SIA_phraya_phahon
+#recruit_character = SIA_nangklao_chichalerm
+#recruit_character = SIA_chao_phonphayuhasena
+#recruit_character = SIA_nangklao_suriyawongse
+#recruit_character = SIA_tianliang_huntrakool
+#recruit_character = SIA_phra_silpasakrakorn
+#recruit_character = SIA_luang_sinthusongkhramchai
+#recruit_character = SIA_thawon_thamrongnawasawat
+#recruit_character = SIA_phraya_preechacholayudha
+#recruit_character = SIA_pridi_phanomyong
+#recruit_character = SIA_sindhu_kamalanavin
+#recruit_character = SIA_phraya_chitnasongkhla
+#recruit_character = SIA_phraya_thayarnpikart
+#recruit_character = SIA_phra_vechayanrangsarit
+#recruit_character = SIA_manphya_khanphialong
+#recruit_character = SIA_luang_phibunsongkhram
+#recruit_character = SIA_phraya_wichcitcholathai
+#recruit_character = SIA_sawat_phutianands
+#recruit_character = SIA_phraya_chalermarkiart
+#recruit_character = SIA_kuang_abhayavongsa
+#recruit_character = SIA_thawee_punyaketu
+#recruit_character = SIA_phot_bhahalyodin
 
 
 # Starting tech
@@ -68,15 +71,15 @@ set_convoys = 15
 	add_command_power = 100
 	
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	##complete_national_focus = army_effort
+	##complete_national_focus = equipment_effort
+	##complete_national_focus = motorization_effort
+	##complete_national_focus = aviation_effort
+	##complete_national_focus = naval_effort
+	##complete_national_focus = flexible_navy
+	##complete_national_focus = industrial_effort
+	##complete_national_focus = construction_effort
+	##complete_national_focus = production_effort
 	
 	oob = "SIA_1939"
 	if = {
@@ -139,30 +142,17 @@ set_convoys = 15
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
+set_convoys = 25
 set_popularities = {
-	fascism = 20
-	neutrality = 80
-}
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		fascism = 100
-	}
-
-	recruit_character = SIA_plaek_phibunsongkhram
-	promote_character = SIA_plaek_phibunsongkhram
-	retire_character = SIA_nangklao_suriyawongse
+	democratic = 10
+	fascism = 10
+	communism = 30
+	conservatism = 50
 }
 
 ### VARIANTS ###

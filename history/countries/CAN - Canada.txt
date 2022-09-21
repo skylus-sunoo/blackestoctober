@@ -145,27 +145,27 @@ if = {
 	
 	if = {
 		limit = { has_dlc = "Together for Victory" }
-		#complete_national_focus = CAN_army_modernization
-		#complete_national_focus = CAN_canadian_infantry_corps
-		#complete_national_focus = CAN_cmp_truck
-		#complete_national_focus = CAN_rcaf_station_borden
-		#complete_national_focus = CAN_halifax_shipyards
-		#complete_national_focus = CAN_destroyer_effort
-		#complete_national_focus = CAN_rowell_sirois_commission
-		#complete_national_focus = CAN_crown_corporations
-		#complete_national_focus = CAN_national_housing_act
+		##complete_national_focus = CAN_army_modernization
+		##complete_national_focus = CAN_canadian_infantry_corps
+		##complete_national_focus = CAN_cmp_truck
+		##complete_national_focus = CAN_rcaf_station_borden
+		##complete_national_focus = CAN_halifax_shipyards
+		##complete_national_focus = CAN_destroyer_effort
+		##complete_national_focus = CAN_rowell_sirois_commission
+		##complete_national_focus = CAN_crown_corporations
+		##complete_national_focus = CAN_national_housing_act
 		
 		else = {
 			#generic focuses
-			#complete_national_focus = army_effort
-			#complete_national_focus = equipment_effort
-			#complete_national_focus = motorization_effort
-			#complete_national_focus = aviation_effort
-			#complete_national_focus = naval_effort
-			#complete_national_focus = large_navy
-			#complete_national_focus = industrial_effort
-			#complete_national_focus = construction_effort
-			#complete_national_focus = production_effort
+			##complete_national_focus = army_effort
+			##complete_national_focus = equipment_effort
+			##complete_national_focus = motorization_effort
+			##complete_national_focus = aviation_effort
+			##complete_national_focus = naval_effort
+			##complete_national_focus = large_navy
+			##complete_national_focus = industrial_effort
+			##complete_national_focus = construction_effort
+			##complete_national_focus = production_effort
 		}
 	}
 

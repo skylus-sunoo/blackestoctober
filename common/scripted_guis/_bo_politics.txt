@@ -1,0 +1,22 @@
+scripted_gui = {
+	
+	bo_politics_container = {
+		context_type = player_context
+		
+		parent_window_token = politics_tab
+		window_name = "bo_politics"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+		}
+		triggers = {
+			no_faction_visible = {
+				is_in_faction = no
+				is_puppet = no
+			}
+		}
+	}
+}

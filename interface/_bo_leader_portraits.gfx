@@ -139,6 +139,15 @@ spriteTypes = {
 		}
 		
 	#####
+	##### SOUTHERN EUROPE
+	#####	
+	
+		spriteType = {
+			name = "GFX_Portrait_HLS_John_Paul_II"
+			texturefile = "gfx/leaders/HLS/Portrait_HLS_John_Paul_II.dds"
+		}
+		
+	#####
 	##### CAUCASUS
 	#####	
 	
@@ -191,5 +200,80 @@ spriteTypes = {
 		spriteType = {
 			name = "GFX_Portrait_NOA_Torez_Kulumbegov"
 			texturefile = "gfx/leaders/NOA/Portrait_NOA_Torez_Kulumbegov.tga"
+		}
+		
+	#####
+	##### CENTRAL ASIA
+	#####	
+		spriteType = {
+			name = "GFX_Portrait_KAZ_Nursultan_Nazarbayev"
+			texturefile = "gfx/leaders/KAZ/Portrait_KAZ_Nursultan_Nazarbayev.dds"
+		}
+		
+	#####
+	##### EAST ASIA
+	#####	
+	
+		spriteType = {
+			name = "GFX_Portrait_CHI_Lee_Teng-Hui"
+			texturefile = "gfx/leaders/CHI/Portrait_CHI_Lee_Teng-Hui.dds"
+		}
+	
+		spriteType = {
+			name = "GFX_Portrait_KOR_Roh_Tae_Woo"
+			texturefile = "gfx/leaders/KOR/Portrait_KOR_Roh_Tae_Woo.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_PRK_Kim_Il_Sung"
+			texturefile = "gfx/leaders/PRK/Portrait_PRK_Kim_Il_Sung.dds"
+		}
+		
+	#####
+	##### SOUTH ASIA
+	#####	
+	
+		spriteType = {
+			name = "GFX_Portrait_RAJ_Shankar_Dayal_Sharma"
+			texturefile = "gfx/leaders/RAJ/Portrait_RAJ_Shankar_Dayal_Sharma.dds"
+		}
+		
+		
+	#####
+	##### SOUTH EAST ASIA
+	#####	
+	
+		spriteType = {
+			name = "GFX_Portrait_INS_Suharto"
+			texturefile = "gfx/leaders/INS/Portrait_INS_Suharto.dds"
+		}
+	
+		spriteType = {
+			name = "GFX_Portrait_MAL_Mahathir_Mohamad"
+			texturefile = "gfx/leaders/MAL/Portrait_MAL_Mahathir_Mohamad.dds"
+		}
+	
+		spriteType = {
+			name = "GFX_Portrait_PHI_Corazon_Aquino"
+			texturefile = "gfx/leaders/PHI/Portrait_PHI_Corazon_Aquino.dds"
+		}
+	
+		spriteType = {
+			name = "GFX_Portrait_SIA_Chuan_Leekpai"
+			texturefile = "gfx/leaders/SIA/Portrait_SIA_Chuan_Leekpai.dds"
+		}
+		
+	#####
+	##### OCEANIA
+	#####	
+	
+		spriteType = {
+			name = "GFX_Portrait_AST_Paul_Keating"
+			texturefile = "gfx/leaders/AST/Portrait_AST_Paul_Keating.dds"
+		}
+		
+		spriteType = {
+			name = "GFX_Portrait_NZL_Jim_Bolger"
+			texturefile = "gfx/leaders/NZL/Portrait_NZL_Jim_Bolger.dds"
 		}
 }
