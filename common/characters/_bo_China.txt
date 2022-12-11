@@ -1,0 +1,18 @@
+characters = {
+
+	PRC_jiang_zemin={
+		name=PRC_jiang_zemin
+		portraits={
+			civilian={
+				large="GFX_Portrait_PRC_Jiang_Zemin"
+			}
+		}
+		country_leader={
+			ideology = rev_socialism_subtype
+			traits = { }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,0 +1,16 @@
+state={
+	id=928
+	name="STATE_928"
+	history = {
+		owner = MOC
+		add_core_of = MOC
+		victory_points = { 13283 15 }
+	}
+	provinces={
+		13283
+	}
+	manpower=30000
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

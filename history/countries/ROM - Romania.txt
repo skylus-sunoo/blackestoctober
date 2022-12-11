@@ -1,5 +1,29 @@
 ﻿capital = 46
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = ROM_ion_iliescu
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 if = {
 	limit = {
 		NOT = {
@@ -19,6 +43,22 @@ if = {
 		set_naval_oob = "ROM_1936_naval_mtg"
 	else = {
 		set_naval_oob = "ROM_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "ROM_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			aa_lmg = 1
+			engines_1 = 1
+		}
+	else = {
+		set_air_oob = "ROM_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+
+		}
 	}
 }
 
@@ -63,7 +103,6 @@ set_technology = {
 	infantry_weapons1 = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
 	basic_train = 1
 }
 
@@ -112,7 +151,7 @@ if = {
 		has_dlc = "Death or Dishonor"
 	}
 	add_ideas = {
-		ROM_king_carol_ii_hedonist
+		#ROM_king_carol_ii_hedonist
 	}
 	give_guarantee = CZE
 	give_guarantee = GRE
@@ -130,7 +169,7 @@ if = {
 	give_guarantee = TUR
 	give_guarantee = YUG
 }
-add_ideas = neutrality_idea
+#add_ideas = neutrality_idea
 
 #Kick off kings crazy life
 if = {
@@ -178,90 +217,8 @@ set_convoys = 10
 
 	add_political_power = 1198
 	add_command_power = 100
-	if = {
-		limit = {
-			has_dlc = "Death or Dishonor"
-		}
-		##complete_national_focus = ROM_preserve_greater_romania
-		##complete_national_focus = ROM_army_maneuvers
-		##complete_national_focus = ROM_expand_the_air_force
-		##complete_national_focus = ROM_civil_works
-		##complete_national_focus = ROM_agrarian_reform
-		##complete_national_focus = ROM_local_development
-		##complete_national_focus = ROM_army_war_college
-		##complete_national_focus = ROM_danubian_transport_network
-		##complete_national_focus = ROM_malaxa
-		##complete_national_focus = ROM_flexible_foreign_policy
-		##complete_national_focus = ROM_air_superiority
-		##complete_national_focus = ROM_expand_the_galati_shipyards
-		##complete_national_focus = ROM_trade_treaty_with_germany
-		##complete_national_focus = ROM_iar_80
-		##complete_national_focus = ROM_appoint_allied_friendly_government
-		##complete_national_focus = ROM_cas
-		##complete_national_focus = ROM_royal_guards_divisions
-		##complete_national_focus = ROM_the_zb_53
-		##complete_national_focus = ROM_vanatori_de_munte
-		##complete_national_focus = ROM_hunedoara_steel_works
-		##complete_national_focus = ROM_appoint_german_friendly_government
-		##complete_national_focus = ROM_invite_german_advisors
-		##complete_national_focus = ROM_iron_guard
-
-		#King stuff
-		unlock_national_focus = ROM_institute_royal_dictatorship
-		unlock_national_focus = ROM_revise_the_constitution
-		create_country_leader = {
-			name = "Carol II"
-			desc = "POLITICS_CAROL_II_DESC"
-			picture = GFX_Portrait_romania_Carol_II			
-			expire = "1965.1.1"
-			ideology = despotism
-			traits = {
-				hedonist
-				camarilla_leader
-			}
-			id = 550
-		}
-		#ROM = {
-		#	#Pick from list of the sane events first
-		#	random_list = {
-		#		100 = { country_event = { id = DOD_romania.80 days = 2 random_days = 20 } }
-		#	}
-		#}
-
-		else = {		
-			#generic focuses
-			##complete_national_focus = army_effort
-			##complete_national_focus = equipment_effort
-			##complete_national_focus = motorization_effort
-			##complete_national_focus = aviation_effort
-			##complete_national_focus = naval_effort
-			##complete_national_focus = large_navy
-			##complete_national_focus = industrial_effort
-			##complete_national_focus = construction_effort
-			##complete_national_focus = production_effort
-		}
-	}
-	
-	if = {
-		limit = { NOT = { has_dlc = "No Step Back" } }
-		set_oob = "ROM_1939"
-	}
-	if = {
-		limit = { has_dlc = "No Step Back" } 
-		set_oob = "ROM_1939_nsb"
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "ROM_1939_naval_mtg"
-		else = {
-			set_naval_oob = "ROM_1939_naval_legacy"
-		}
-	}
 
 	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		tech_recon = 1
@@ -307,41 +264,152 @@ set_convoys = 10
 		}
 	}
 	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_technology = {
+				engines_2 = 1
+				basic_small_airframe = 1
+				improved_small_airframe = 1
+			}
+		else = {
+			set_technology = {
+				fighter1 = 1
+				early_bomber = 1
+				tactical_bomber1 = 1
+			}
+		}
+	}
+
+	if = {
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
+		#complete_national_focus = ROM_preserve_greater_romania
+		#complete_national_focus = ROM_army_maneuvers
+		#complete_national_focus = ROM_expand_the_air_force
+		#complete_national_focus = ROM_civil_works
+		#complete_national_focus = ROM_agrarian_reform
+		#complete_national_focus = ROM_local_development
+		#complete_national_focus = ROM_army_war_college
+		#complete_national_focus = ROM_danubian_transport_network
+		#complete_national_focus = ROM_malaxa
+		#complete_national_focus = ROM_flexible_foreign_policy
+		#complete_national_focus = ROM_air_superiority
+		#complete_national_focus = ROM_expand_the_galati_shipyards
+		#complete_national_focus = ROM_trade_treaty_with_germany
+		#complete_national_focus = ROM_iar_80
+		#complete_national_focus = ROM_appoint_allied_friendly_government
+		#complete_national_focus = ROM_cas
+		#complete_national_focus = ROM_royal_guards_divisions
+		#complete_national_focus = ROM_the_zb_53
+		#complete_national_focus = ROM_vanatori_de_munte
+		#complete_national_focus = ROM_hunedoara_steel_works
+		#complete_national_focus = ROM_appoint_german_friendly_government
+		#complete_national_focus = ROM_invite_german_advisors
+		#complete_national_focus = ROM_iron_guard
+
+		#King stuff
+		unlock_national_focus = ROM_institute_royal_dictatorship
+		unlock_national_focus = ROM_revise_the_constitution
+		create_country_leader = {
+			name = "Carol II"
+			desc = "POLITICS_CAROL_II_DESC"
+			picture = GFX_Portrait_romania_Carol_II			
+			expire = "1965.1.1"
+			ideology = despotism_subtype
+			traits = {
+				hedonist
+				camarilla_leader
+			}
+			id = 550
+		}
+		#ROM = {
+		#	#Pick from list of the sane events first
+		#	random_list = {
+		#		100 = { country_event = { id = DOD_romania.80 days = 2 random_days = 20 } }
+		#	}
+		#}
+
+		else = {		
+			#generic focuses
+			#complete_national_focus = army_effort
+			#complete_national_focus = equipment_effort
+			#complete_national_focus = motorization_effort
+			#complete_national_focus = aviation_effort
+			#complete_national_focus = naval_effort
+			#complete_national_focus = large_navy
+			#complete_national_focus = industrial_effort
+			#complete_national_focus = construction_effort
+			#complete_national_focus = production_effort
+		}
+	}
+	
+	if = {
+		limit = { NOT = { has_dlc = "No Step Back" } }
+		set_oob = "ROM_1939"
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" } 
+		set_oob = "ROM_1939_nsb"
+	}
+	if = {
 		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
+			set_naval_oob = "ROM_1939_naval_mtg"
+		else = {
+			set_naval_oob = "ROM_1939_naval_legacy"
+		}
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "ROM_1939_air_bba"
+		else = {
+			set_air_oob = "ROM_1939_air_legacy"
 		}
 	}
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
-	fascism = 18
-	communism = 2
-	neutrality = 20
+	conservatism = 60
+	ultranationalism = 18
+	rev_socialism = 2
+	despotism = 20
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1939.7.15"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 20
-		fascism = 35
-		communism = 2
-		neutrality = 43
+		conservatism = 20
+		ultranationalism = 35
+		rev_socialism = 2
+		despotism = 43
 	}
 }
 ### VARIANTS ###
 # 1936 Start #
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "IAR 14" 
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

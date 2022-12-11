@@ -1,0 +1,289 @@
+maintain_nato = {
+	allowed = {
+		is_in_faction_with = USA
+	}
+	enable = {
+		has_country_flag = NATO_member
+		country_exists = SOV
+	}
+	abort = {
+		NOT = { country_exists = SOV }
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 2000
+	}
+	ai_strategy = {
+		type = befriend
+		id = "USA"
+		value = 2000
+	}
+}
+
+maintain_csto = {
+	allowed = {
+		is_in_faction_with = SOV
+	}
+	enable = {
+		has_country_flag = CSTO_member
+		country_exists = USA
+	}
+	abort = {
+		NOT = { country_exists = USA }
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 2000
+	}
+	ai_strategy = {
+		type = befriend
+		id = "SOV"
+		value = 2000
+	}
+}
+
+maintain_gulf = {
+	allowed = {
+		is_in_faction_with = SAU
+	}
+	enable = {
+		has_country_flag = GULF_member
+		country_exists = PER
+	}
+	abort = {
+		NOT = { country_exists = PER }
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = "SAU"
+		value = 2000
+	}
+	ai_strategy = {
+		type = befriend
+		id = "SAU"
+		value = 2000
+	}
+}
+
+reclaim_taiwan = {
+	allowed = {
+		original_tag = PRC
+	}
+	enable = {
+		country_exists = CHI
+		date > 1993.1.4
+	}
+	abort = {
+		NOT = { country_exists = CHI }
+	}
+
+	ai_strategy = {
+		type = declare_war
+		id = CHI
+		value = -200
+	}
+}
+
+protect_taiwan = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		country_exists = PRC
+	}
+	abort = {
+		NOT = { country_exists = PRC }
+	}
+
+	ai_strategy = {
+		type = protect
+		id = CHI
+		value = 2000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "CHI"
+		value = 2000
+	}
+	ai_strategy = {
+		type = support
+		id = "CHI"
+		value = 2000
+	}
+}
+
+protect_taiwan_war = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		country_exists = PRC
+		PRC = {
+			has_war_with = CHI
+		}
+	}
+	abort = {
+		NOT = { country_exists = PRC }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 2000
+	}
+}
+
+protect_taiwan_jap = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		PRC = {
+			has_war_with = CHI
+		}
+		CHI = {
+			is_in_faction_with = USA
+		}
+	}
+	abort = {
+		NOT = { country_exists = PRC }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 2000
+	}
+}
+
+protect_taiwan_jap_usa = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		PRC = {
+			has_war_with = CHI
+		}
+		CHI = {
+			is_in_faction_with = USA
+		}
+	}
+	abort = {
+		NOT = { country_exists = PRC }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = 2000
+	}
+}
+
+protect_taiwan_war_chi = {
+	allowed = {
+		original_tag = CHI
+	}
+	enable = {
+		country_exists = PRC
+		PRC = {
+			has_war_with = CHI
+		}
+	}
+	abort = {
+		NOT = { country_exists = PRC }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 2000
+	}
+}
+
+
+maintain_status_quo_prk = {
+	allowed = {
+		original_tag = PRK
+	}
+	enable = {
+		country_exists = KOR
+		NOT = { PRC = {
+			has_war_with = CHI
+		} }
+	}
+	abort = {
+		NOT = { country_exists = KOR }
+	}
+	
+	ai_strategy = {
+		type = declare_war
+		id = KOR
+		value = -2000
+	}
+}
+
+unify_korea_prk = {
+	allowed = {
+		original_tag = PRK
+	}
+	enable = {
+		country_exists = KOR
+		PRC = {
+			has_war_with = CHI
+		}
+	}
+	abort = {
+		NOT = { country_exists = KOR }
+	}
+	
+	ai_strategy = {
+		type = declare_war
+		id = KOR
+		value = 2000
+	}
+}
+
+korean_war_escalation_usa = {
+	allowed = {
+		original_tag = KOR
+	}
+	enable = {
+		PRK = {
+			has_war_with = KOR
+		}
+	}
+	abort = {
+		NOT = { country_exists = PRK }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 2000
+	}
+}
+
+korean_war_escalation_prc = {
+	allowed = {
+		original_tag = PRC
+	}
+	enable = {
+		PRK = {
+			has_war_with = KOR
+		}
+	}
+	abort = {
+		NOT = { country_exists = KOR }
+	}
+	
+	ai_strategy = {
+		type = alliance
+		id = "PRK"
+		value = 2000
+	}
+}

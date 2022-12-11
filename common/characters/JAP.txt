@@ -1,18 +1,4 @@
 characters={
-	JAP_kiichi_miyazawa={
-		name=JAP_kiichi_miyazawa
-		portraits={
-			civilian={
-				large=GFX_Portrait_JAP_Kiichi_Miyazawa
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			traits={ warrior_code emperor_showa imperial_sanction }
-			expire="1989.1.1.1"
-			id=700
-		}
-	}
 	
 	JAP_emperor_hirohito={
 		name=JAP_emperor_hirohito
@@ -51,7 +37,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology = liberalism_subtype
 			expire="1989.1.1.1"
 			id=-1
 		}

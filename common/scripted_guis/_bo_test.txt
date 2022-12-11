@@ -1,0 +1,19 @@
+scripted_gui = {
+	
+	bo_test_container = {
+		context_type = player_context
+
+		window_name = "bo_test_window"
+
+		visible = {
+			always = no
+		}
+
+		effects = {
+			
+		}
+		triggers = {
+			
+		}
+	}
+}

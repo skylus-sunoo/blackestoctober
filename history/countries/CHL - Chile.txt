@@ -1,5 +1,29 @@
 ﻿capital = 279
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = CHL_patricio_aylwin
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "CHL_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -8,15 +32,24 @@ if = {
 		set_naval_oob = "CHL_1936_naval_legacy"
 	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CHL_1936_air_bba"
+	else = {
+		set_air_oob = "CHL_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			early_bomber = 1
+		}
+	}
+}
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	early_bomber = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -39,7 +72,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
 		coastal_defense_ships = 1
@@ -82,15 +114,15 @@ set_convoys = 20
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "CHL_1939"
 	if = {
@@ -100,10 +132,19 @@ set_convoys = 20
 			set_naval_oob = "CHL_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "CHL_1939_air_bba"
+		else = {
+			set_air_oob = "CHL_1939_air_legacy"
+			set_technology = {
+				tactical_bomber1 = 1
+				CAS1 = 1
+			}
+		}
+	}
 
 	set_technology = {
-		tactical_bomber1 = 1
-		CAS1 = 1
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
@@ -142,26 +183,26 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	conservatism = 98
+	rev_socialism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1938.10.25"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		conservatism = 100
 	}
 
 	recruit_character = CHL_pedro_aguirre_cerda

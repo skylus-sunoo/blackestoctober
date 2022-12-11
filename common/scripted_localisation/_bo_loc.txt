@@ -1,0 +1,235 @@
+defined_text = {
+	name = UKR_STATE
+	
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 0 compare = equals }
+		}
+		localization_key = ukr_selected_state_0
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 834 compare = equals }
+		}
+		localization_key = ukr_selected_state_834
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 80 compare = equals }
+		}
+		localization_key = ukr_selected_state_80
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 74 compare = equals }
+		}
+		localization_key = ukr_selected_state_74
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 203 compare = equals }
+		}
+		localization_key = ukr_selected_state_203
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 193 compare = equals }
+		}
+		localization_key = ukr_selected_state_193
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 137 compare = equals }
+		}
+		localization_key = ukr_selected_state_137
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 226 compare = equals }
+		}
+		localization_key = ukr_selected_state_226
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 221 compare = equals }
+		}
+		localization_key = ukr_selected_state_221
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 196 compare = equals }
+		}
+		localization_key = ukr_selected_state_196
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 199 compare = equals }
+		}
+		localization_key = ukr_selected_state_199
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 202 compare = equals }
+		}
+		localization_key = ukr_selected_state_202
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 91 compare = equals }
+		}
+		localization_key = ukr_selected_state_91
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 197 compare = equals }
+		}
+		localization_key = ukr_selected_state_197
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 192 compare = equals }
+		}
+		localization_key = ukr_selected_state_192
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 259 compare = equals }
+		}
+		localization_key = ukr_selected_state_259
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 766 compare = equals }
+		}
+		localization_key = ukr_selected_state_766
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 227 compare = equals }
+		}
+		localization_key = ukr_selected_state_227
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 89 compare = equals }
+		}
+		localization_key = ukr_selected_state_89
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 225 compare = equals }
+		}
+		localization_key = ukr_selected_state_225
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 198 compare = equals }
+		}
+		localization_key = ukr_selected_state_198
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 228 compare = equals }
+		}
+		localization_key = ukr_selected_state_228
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 93 compare = equals }
+		}
+		localization_key = ukr_selected_state_93
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 200 compare = equals }
+		}
+		localization_key = ukr_selected_state_200
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 20 compare = equals }
+		}
+		localization_key = ukr_selected_state_20
+	}
+	
+	
+	
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 2261 compare = equals }
+		}
+		localization_key = ukr_selected_state_226_imd_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 2271 compare = equals }
+		}
+		localization_key = ukr_selected_state_227_imd_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 2281 compare = equals }
+		}
+		localization_key = ukr_selected_state_228_imd_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 2001 compare = equals }
+		}
+		localization_key = ukr_selected_state_200_imd_controlled
+	}
+	
+	
+	
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 8001 compare = equals }
+		}
+		localization_key = ukr_selected_state_80_uia_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 1991 compare = equals }
+		}
+		localization_key = ukr_selected_state_199_uia_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 8901 compare = equals }
+		}
+		localization_key = ukr_selected_state_89_uia_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 9101 compare = equals }
+		}
+		localization_key = ukr_selected_state_91_uia_controlled
+	}
+	text = {
+		trigger = {
+			check_variable = { var = ukr_selected_state value = 9301 compare = equals }
+		}
+		localization_key = ukr_selected_state_93_uia_controlled
+	}
+}
+
+defined_text = {
+	name = UKR_INCREASE_CONTROL_TT
+	
+	text = {
+		trigger = {
+			var:ukr_selected_state = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+		localization_key = UKR_FACTION_IMD
+	}
+	text = {
+		trigger = {
+			var:ukr_selected_state = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+		localization_key = UKR_FACTION_UIA
+	}
+	text = {
+		localization_key = UKR_FACTION_0
+	}
+	
+}

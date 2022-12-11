@@ -1,0 +1,18 @@
+characters = {
+
+	FRA_francois_mitterrand={
+		name=FRA_francois_mitterrand
+		portraits={
+			civilian={
+				large="GFX_Portrait_FRA_Francois_Mitterrand"
+			}
+		}
+		country_leader={
+			ideology = liberalism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

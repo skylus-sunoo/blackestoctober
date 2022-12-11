@@ -9,11 +9,17 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
-			air_base = 1
+			infrastructure = 1
+
 		}
 		victory_points = {
 			1010 3
+		}
+		1939.1.1 = {
+			buildings = {
+				infrastructure = 2
+				air_base = 1
+			}
 		}
 	}
 	manpower=1500000

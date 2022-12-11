@@ -1,15 +1,30 @@
 characters = {
-	CIN_dzhokhar_dudayev = {
-		name = CIN_dzhokhar_dudayev
+	CIN_hasan_israilov = {
+		name = "Hasan Israilov" 
 		portraits = {
 			civilian = {
-				large = GFX_Portrait_CIN_Dzhokar_Dudayev
+				large = GFX_portrait_Hasan_Israilov
 			}
 		}
 		country_leader = {
-			ideology = conservatism   #I tried to make him a despotic leader since that would fit him best imo, howerever that didn't work 
-			expire = "2000.1.1.1"
+			ideology = fascism_ideology
+			expire = "1950.1.1.1"
 			id = -1
 		}
 	}
-}	
+	
+	CIN_yusup_tambiev = {
+		name = "Yusup Tambiev" 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_Yusup_Tambiev
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

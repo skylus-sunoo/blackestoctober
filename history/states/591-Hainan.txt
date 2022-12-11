@@ -5,7 +5,7 @@ state={
 	state_category = town
 
 	history={
-		owner = PRC
+		owner = GXC
 		add_core_of = CHI
 		add_core_of = PRC
 		
@@ -19,7 +19,9 @@ state={
 			1070 = {
 				naval_base = 2
 			}
-
+		}
+		1992.10.25 = {
+			owner = PRC
 		}
 	}
 

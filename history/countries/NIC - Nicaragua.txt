@@ -1,13 +1,45 @@
 ﻿capital = 317
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = NIC_violeta_chamorro
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "NIC_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
-	early_fighter = 1
-	early_bomber = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+	}
 }
 
 recruit_character = NIC_juan_bautista_sacasa
@@ -38,15 +70,15 @@ set_convoys = 10
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "NIC_1939"
 	set_technology = {
@@ -81,21 +113,21 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 15
-	fascism = 5
-	communism = 10
-	neutrality = 70
+	conservatism = 15
+	ultranationalism = 5
+	rev_socialism = 10
+	despotism = 70
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1936.12.8"
 		election_frequency = 48
 		elections_allowed = no

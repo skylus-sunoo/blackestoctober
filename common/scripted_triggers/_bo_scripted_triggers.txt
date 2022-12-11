@@ -1,0 +1,8 @@
+ukr_complete_control = {
+	NOT = { 
+		OR = {
+			has_dynamic_modifier = { modifier = UKR_interfront_leanings }
+			has_dynamic_modifier = { modifier = UKR_insurgent_leanings }
+		}
+	}
+}

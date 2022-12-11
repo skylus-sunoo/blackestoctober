@@ -1,22 +1,41 @@
 ﻿capital = 527
 
+set_convoys = 5
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = PRK_kim_il_sung
 
-# Starting tech
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = rev_socialism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		rev_socialism = 100
+	}
+	
+}
+
+### DIPLOMACY
+
+	create_wargoal = {
+		type = annex_everything
+		target = KOR
+	}
+
+### TECHNOLOGY
+
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
 
-set_convoys = 5
-
-set_politics = {
-	ruling_party = rev_socialism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	rev_socialism = 100
-}
+#############################

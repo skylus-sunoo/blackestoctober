@@ -1,0 +1,24 @@
+state={
+	id=934
+	name="STATE_934"
+	manpower =300000
+	state_category = town
+	provinces={
+		11872 13314 13315 13316
+	}
+	history={
+		owner = BOS
+		victory_points = {
+			13314 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

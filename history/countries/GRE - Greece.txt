@@ -1,11 +1,47 @@
 ﻿capital = 47
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = GRE_andreas_papandreou
+recruit_character = GRE_konstantinos_mitsotakis
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "GRE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "GRE_1936_naval_mtg"
 	else = {
 		set_naval_oob = "GRE_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "GRE_1936_air_bba"
+	else = {
+		set_air_oob = "GRE_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+		}
 	}
 }
 
@@ -30,8 +66,6 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	trench_warfare = 1
-	early_fighter = 1
-	early_bomber = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 }
@@ -58,7 +92,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
@@ -94,12 +127,12 @@ if = {
 			export_focus
 			limited_conscription
 			civilian_economy
-			GRE_george_ii
-			GRE_debt_to_the_ifc
-			GRE_foreign_monopolies
-			GRE_schachtplan
-			GRE_political_instability
-			GRE_agrarian_society
+			#GRE_george_ii
+			#GRE_debt_to_the_ifc
+			#GRE_foreign_monopolies
+			#GRE_schachtplan
+			#GRE_political_instability
+			#GRE_agrarian_society
 		}
 
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 10 }
@@ -138,17 +171,17 @@ set_convoys = 10
 
 	if = {
 		limit = { has_dlc = "Battle for the Bosporus" }
-		##complete_national_focus = GRE_the_kings_government
-		##complete_national_focus = GRE_metaxism_focus
-		##complete_national_focus = GRE_four_year_plan
-		##complete_national_focus = GRE_open_up_the_country
-		##complete_national_focus = GRE_the_hellenic_spirit
-		##complete_national_focus = GRE_the_national_youth_organisation
-		##complete_national_focus = GRE_crack_down_on_the_republicans
-		##complete_national_focus = GRE_use_the_military
-		##complete_national_focus = GRE_reevaluating_the_drachma
-		##complete_national_focus = GRE_utilize_our_strengths
-		##complete_national_focus = GRE_hellenic_armed_forces
+		#complete_national_focus = GRE_the_kings_government
+		#complete_national_focus = GRE_metaxism_focus
+		#complete_national_focus = GRE_four_year_plan
+		#complete_national_focus = GRE_open_up_the_country
+		#complete_national_focus = GRE_the_hellenic_spirit
+		#complete_national_focus = GRE_the_national_youth_organisation
+		#complete_national_focus = GRE_crack_down_on_the_republicans
+		#complete_national_focus = GRE_use_the_military
+		#complete_national_focus = GRE_reevaluating_the_drachma
+		#complete_national_focus = GRE_utilize_our_strengths
+		#complete_national_focus = GRE_hellenic_armed_forces
 		remove_ideas = {
 			civilian_economy
 			GRE_political_instability
@@ -161,24 +194,24 @@ set_convoys = 10
 			partial_economic_mobilisation
 			limited_conscription
 			export_focus
-			GRE_george_ii
-			GRE_farmer_culture
-			GRE_state_of_the_nation_metaxism
-			GRE_foreign_monopolies
-			GRE_debt_to_the_ifc_2
-			GRE_schachtplan
-			GRE_eon
-			GRE_metaxism_2
+			#GRE_george_ii
+			#GRE_farmer_culture
+			#GRE_state_of_the_nation_metaxism
+			#GRE_foreign_monopolies
+			#GRE_debt_to_the_ifc_2
+			#GRE_schachtplan
+			#GRE_eon
+			#GRE_metaxism_2
 		}
-		add_timed_idea = {
-			idea = GRE_four_year_plan_spirit
-			days = 730
-		}
+		#add_timed_idea = {
+		#	idea = GRE_four_year_plan_spirit
+		#	days = 730
+		#}
 		set_popularities = {
-			democratic = 10
-			fascism = 22
-			communism = 26
-			neutrality = 42
+			conservatism = 10
+			ultranationalism = 22
+			rev_socialism = 26
+			despotism = 42
 		}
 		
 		create_country_leader = {
@@ -186,13 +219,13 @@ set_convoys = 10
 			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
 			picture = GFX_portrait_gre_themistoklis_sofoulis
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = liberalism_subtype
 			traits = {
 				professional_crisis_solver
 			}
 		}
 	
-		set_party_name = { ideology = neutrality long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
+		set_party_name = { ideology = despotism long_name = GRE_metaxas_party_long name = GRE_metaxas_party }
 	
 		set_variable = { var = GRE_debt_to_the_ifc_britain_var value = 5 }
 		set_variable = { var = GRE_debt_to_the_ifc_france_var value = 5 }
@@ -210,15 +243,15 @@ set_convoys = 10
 #generic focuses
 	if = { 
 		limit = { NOT = { has_dlc = "Battle for the Bosporus" } } 	
-		##complete_national_focus = army_effort
-		##complete_national_focus = equipment_effort
-		##complete_national_focus = motorization_effort
-		##complete_national_focus = aviation_effort
-		##complete_national_focus = naval_effort
-		##complete_national_focus = large_navy
-		##complete_national_focus = industrial_effort
-		##complete_national_focus = construction_effort
-		##complete_national_focus = production_effort
+		#complete_national_focus = army_effort
+		#complete_national_focus = equipment_effort
+		#complete_national_focus = motorization_effort
+		#complete_national_focus = aviation_effort
+		#complete_national_focus = naval_effort
+		#complete_national_focus = large_navy
+		#complete_national_focus = industrial_effort
+		#complete_national_focus = construction_effort
+		#complete_national_focus = production_effort
 
 		add_ideas = {
 			partial_economic_mobilisation
@@ -235,15 +268,24 @@ set_convoys = 10
 			set_naval_oob = "GRE_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "GRE_1939_air_bba"
+		else = {
+			set_air_oob = "GRE_1939_air_legacy"
+			set_technology = {
+				early_fighter = 1
+				early_bomber = 1
+				CAS1 = 1
+				naval_bomber1 = 1
+			}
+		}
+	}
 	
 	set_technology = {
 		tech_support = 1		
 		tech_engineers2 = 1
 		tech_recon = 1
-		early_fighter = 1
-		early_bomber = 1
-		CAS1 = 1
-		naval_bomber1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons1 = 1
@@ -296,16 +338,16 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 43
-	fascism = 2
-	communism = 17
-	neutrality = 38
+	conservatism = 43
+	ultranationalism = 2
+	rev_socialism = 17
+	despotism = 38
 }
 
 set_stability = 0.72

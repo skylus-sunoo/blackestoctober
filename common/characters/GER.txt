@@ -1,17 +1,4 @@
 characters={
-	GER_helmut_kohl={
-		name=GER_helmut_kohl
-		portraits={
-			civilian={
-				large=GFX_Portrait_GER_Helmut_Kohl
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			expire="2000.1.1.1"
-			id=-1
-		}
-	}
 	
 	GER_adolf_hitler={
 		name=GER_adolf_hitler
@@ -36,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology = conservatism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

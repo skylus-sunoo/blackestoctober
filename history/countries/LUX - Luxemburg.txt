@@ -1,5 +1,29 @@
 ﻿capital = 8
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = LUX_jacques_santer
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "LUX_1936"
 
 # Starting tech
@@ -9,8 +33,15 @@ set_technology = {
 	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
-	early_fighter = 1
 	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 set_war_support = 0.1
 set_stability = 0.8
@@ -43,21 +74,20 @@ recruit_character = LUX_martin_karp
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = construction_effort_2
-	##complete_national_focus = production_effort_2
-	##complete_national_focus = infrastructure_effort
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = construction_effort_2
+	#complete_national_focus = production_effort_2
+	#complete_national_focus = infrastructure_effort
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "LUX_1939"
 	set_technology = {
 		tech_recon = 1
-		fighter1 = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
 		
@@ -84,27 +114,35 @@ recruit_character = LUX_martin_karp
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+		}
+	}
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 92
-	fascism = 3
-	communism = 5
+	conservatism = 92
+	ultranationalism = 3
+	rev_socialism = 5
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1937.6.6"
 		election_frequency = 36
 		elections_allowed = yes
 	}
-	promote_character = LUX_pierre_dupong
+	#promote_character = LUX_pierre_dupong
 	retire_character = LUX_joseph_bech
 }

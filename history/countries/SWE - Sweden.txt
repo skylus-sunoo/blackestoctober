@@ -1,5 +1,29 @@
 ﻿capital = 141	
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = SWE_carl_bildt
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "SWE_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -8,12 +32,31 @@ if = {
 		set_naval_oob = "SWE_1936_naval_legacy"
 	}
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SWE_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			aa_lmg = 1
+			engines_1 = 1
+		}
+	else = {
+		set_air_oob = "SWE_1936_air_legacy"
+		set_technology = {
+			CAS1 = 1
+			early_fighter = 1
+			naval_bomber1 = 1
+			cv_naval_bomber1 = 1
+			early_bomber = 1
+		}
+	}
+}
 
 set_research_slots = 3
 
 add_ideas = {
-	en_svensk_tiger
-	neutrality_idea
+	#en_svensk_tiger
+	#neutrality_idea
 }
 set_stability = 0.9
 set_war_support = 0.1
@@ -26,11 +69,6 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	CAS1 = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	cv_naval_bomber1 = 1
-	early_bomber = 1
 	basic_train = 1
 }
 
@@ -74,7 +112,6 @@ if = {
 		basic_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
@@ -89,15 +126,15 @@ if = {
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "SWE_1939"
 	if = {
@@ -107,10 +144,19 @@ if = {
 			set_naval_oob = "SWE_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "SWE_1939_air_bba"
+		else = {
+			set_air_oob = "SWE_1939_air_legacy"
+			set_technology = {
+				early_bomber = 1
+				tactical_bomber1 = 1
+			}
+		}
+	}
 
 	set_technology = {
-		early_bomber = 1
-		tactical_bomber1 = 1
 		gw_artillery = 1
 		interwar_artillery = 1
 		infantry_weapons2 = 1
@@ -179,30 +225,30 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
+	conservatism = 75
+	despotism = 14
+	rev_socialism = 8
+	ultranationalism = 3
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 85
-		neutrality = 10
-		communism = 4
-		fascism = 1
+		conservatism = 85
+		despotism = 10
+		rev_socialism = 4
+		ultranationalism = 1
 	}
 }
 
@@ -253,7 +299,21 @@ if = {
 		}
 	}
 }
-
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "Svenska Jaktfalken" 
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+	}
+}
 if = {
 	limit = {
 		has_dlc = "No Step Back"
@@ -394,7 +454,7 @@ if = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_engine_slot = light_ship_engine_3
 			fixed_ship_torpedo_slot = ship_torpedo_1
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_depth_charge_1
@@ -430,7 +490,7 @@ if = {
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_engine_slot = cruiser_ship_engine_2
 			fixed_ship_armor_slot = ship_armor_cruiser_2
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			mid_1_custom_slot = empty
@@ -478,7 +538,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Gotland Class"
-		type = ship_hull_cruiser_2
+		type = ship_hull_cruiser_1
 		name_group = SWE_CL_HISTORICAL
 		parent_version = 0
 		modules = {
@@ -488,10 +548,9 @@ if = {
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = empty
-			front_1_custom_slot = empty
 			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = empty
 		}
 	}
 }

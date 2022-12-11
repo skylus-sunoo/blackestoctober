@@ -1,4 +1,5 @@
 characters = {
+
 	SOV_boris_yeltsin = {
 		name = SOV_boris_yeltsin
 		portraits = {
@@ -7,10 +8,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = anocracy_subtype
+			ideology = paternalism_subtype
 			traits = { }
 			expire = "2000.1.1.1"
 			id = -1
 		}
 	}
+	
 }

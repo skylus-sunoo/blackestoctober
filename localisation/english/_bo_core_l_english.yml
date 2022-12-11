@@ -19,3 +19,12 @@
  ruling_party_tt:0 "Our country is being led by the ruling party §Y[THIS.GetRulingPartyLong]§!"
  BO_NO_FACTION:0 "§RNo Faction§!"
  BO_CURRENT_VERSION:0 "version 0.0.01"
+ 
+ RULE_GROUP_BO:0 "Blackest October Game Rules"
+ RULE_BO_PERFORMANCE_DESC:0 "Enabling this could help your game performance."
+ RULE_REMOVE_AFRICAN_STATES:0 "Remove African States"
+ RULE_REMOVE_AFRICAN_STATES_YES_DESC:0 "Groups together the African states into one continent encompassing country. \nThis could help your game performance."
+ RULE_REMOVE_SOUTH_AMERICAN_STATES:0 "Remove South American States"
+ RULE_REMOVE_SOUTH_AMERICAN_STATES_YES_DESC:0 "Groups together the South American states into one continent encompassing country. \nThis could help your game performance."
+ RULE_REMOVE_CARRIBEAN_STATES:0 "Remove Carribean States"
+ RULE_REMOVE_CARRIBEAN_STATES_YES_DESC:0 "Groups together the South American states into one continent encompassing country. \nThis could help your game performance."

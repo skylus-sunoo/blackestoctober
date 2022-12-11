@@ -1,5 +1,30 @@
 ﻿capital = 282
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = JAP_kiichi_miyazawa
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 85
+		liberalism = 15
+	}
+	
+}
+
+#############################
+
 
 
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
@@ -8,49 +33,30 @@ set_war_support = 0.8
 set_research_slots = 4
 set_fuel_ratio = 1.0
 add_ideas = {
-	state_shintoism
+	#state_shintoism
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
-}
-
-647 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-684 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-633 = {
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
+	#JAP_zaibatsus
+	#JAP_duplicate_research_efforts
+	#JAP_militarism
 }
 
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	add_ideas = {
-		JAP_interservice_rivalry_balanced		
+		#JAP_interservice_rivalry_balanced		
 	}
 }
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = MTG_naval_treaty_adherent
+	#add_ideas = MTG_naval_treaty_adherent
 }
+
+
 
 set_technology = {
 	infantry_weapons = 1
@@ -61,13 +67,6 @@ set_technology = {
 	motorised_infantry = 1
 	marines  = 1
 	gw_artillery = 1
-	cv_early_fighter = 1
-	cv_CAS1 = 1
-	cv_naval_bomber1 = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
 	basic_train = 1
 	trench_warfare = 1
 	base_strike = 1
@@ -120,10 +119,10 @@ if = {
 		basic_ship_hull_carrier = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
+		basic_dp_light_battery = 1
 	}
 	set_naval_oob = "JAP_1936_naval"
 }
@@ -146,7 +145,32 @@ if = {
 	}
 	set_naval_oob = "JAP_1936_naval_legacy"
 }
-
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "JAP_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_small_airframe = 1
+		}
+	else = {
+		set_air_oob = "JAP_1936_air_legacy"
+		set_technology = {
+			cv_early_fighter = 1
+			cv_CAS1 = 1
+			cv_naval_bomber1 = 1
+			early_fighter = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -194,7 +218,7 @@ create_import = {
 	#complete_national_focus = JAP_new_naval_estimates
 	#complete_national_focus = JAP_army_expansion
 	#complete_national_focus = JAP_liaison_conference
-	#complete_national_focus = JAP_greater_east_asian_co_prosperity_sphere
+	##complete_national_focus = JAP_greater_east_asian_co_prosperity_sphere
 	unlock_national_focus = JAP_intervene_in_china
 	#complete_national_focus = JAP_fighter_modernization
 	#complete_national_focus = JAP_carrier_warfare_experiments
@@ -207,13 +231,26 @@ create_import = {
 	#complete_national_focus = JAP_bicycle_battalions
 	#complete_national_focus = JAP_small_arms_modernization
 
+	#declare_war_on = {
+	#	target = CHI
+	#	type = puppet_wargoal_focus
+	#}
+	#declare_war_on = {
+	#	target = GXC
+	#	type = puppet_focus
+	#}
+	#declare_war_on = {
+	#	target = YUN
+	#	type = puppet_focus
+	#}
+	#declare_war_on = {
+	#	target = PRC
+	#	type = annex_everything
+	#}
 	set_technology = {
 
 		#PLACEHOLDERS for vehicles
 		
-		cv_fighter1 = 1
-		fighter1 = 1
-		tactical_bomber1 = 1
 	
 		#doctrines
 		#air
@@ -290,6 +327,22 @@ create_import = {
 			set_oob = "JAP_1939"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "JAP_1939_air_bba"
+			set_technology = {
+				basic_medium_airframe = 1
+				range_improvements = 1
+			}
+		else = {
+			set_air_oob = "JAP_1939_air_legacy"
+			set_technology = {
+				cv_fighter1 = 1
+				fighter1 = 1
+				tactical_bomber1 = 1
+			}
+		}
+	}
 }
 
 set_convoys = 400
@@ -339,16 +392,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = ultranationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 100
+	ultranationalism = 100
 }
-
-recruit_character = JAP_kiichi_miyazawa
 
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
@@ -609,6 +660,90 @@ if = {
 		}	
 }
 if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	create_equipment_variant = {
+		name = "Ki-10"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Ki-2"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = small_bomb_bay
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_JAP_CAS1_medium"
+	}
+	create_equipment_variant = {
+		name = "Ki-1"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Ki-3"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "GFX_JAP_CAS1_medium"
+	}
+	create_equipment_variant = {
+		name = "Aichi D1A2"
+		type = cv_small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = dive_brakes_small
+		}
+		icon = "GFX_JAP_CAS1_medium"
+	}
+	create_equipment_variant = {
+		name = "A4N"
+		type = cv_small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "B2M"
+		type = cv_small_plane_naval_bomber_airframe_0
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		obsolete = yes
+		icon = "GFX_JAP_cv_naval_bomber1_medium"
+	}
+	create_equipment_variant = {
+		name = "B4Y"
+		type = cv_small_plane_naval_bomber_airframe_1
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_JAP_cv_naval_bomber1_medium"
+	}
+}
+if = {
 	limit = { has_dlc = "Man the Guns"}
 	### VARIANTS ###
 	# 1936 Start #
@@ -623,7 +758,7 @@ if = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = empty
 				mid_1_custom_slot = ship_deck_space
 			}
@@ -639,8 +774,8 @@ if = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				mid_1_custom_slot = ship_deck_space
 			}
 			obsolete = yes
@@ -655,8 +790,8 @@ if = {
 				fixed_ship_deck_slot_2 = ship_deck_space
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_engine_slot = carrier_ship_engine_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				front_1_custom_slot = ship_deck_space
 			}
 		}
@@ -700,7 +835,7 @@ if = {
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = carrier_ship_engine_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				front_1_custom_slot = empty
 			}
 			obsolete = yes
@@ -716,7 +851,7 @@ if = {
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = ship_secondaries_1
 				fixed_ship_armor_slot = ship_armor_bb_1
 				front_1_custom_slot = empty
@@ -758,7 +893,7 @@ if = {
 				fixed_ship_secondaries_slot = ship_secondaries_1
 				fixed_ship_armor_slot = ship_armor_bb_1
 				front_1_custom_slot = empty
-				mid_1_custom_slot = empty
+				mid_1_custom_slot = dp_ship_secondaries_1
 				mid_2_custom_slot = ship_airplane_launcher_1
 				rear_1_custom_slot = ship_heavy_battery_1
 			}
@@ -778,7 +913,7 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				front_1_custom_slot = ship_medium_battery_2
 				mid_1_custom_slot = ship_torpedo_1
 				mid_2_custom_slot = ship_torpedo_1
@@ -796,9 +931,9 @@ if = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				mid_1_custom_slot = empty
 				mid_2_custom_slot = ship_torpedo_2
 				rear_1_custom_slot = empty
@@ -854,7 +989,7 @@ if = {
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = ship_secondaries_1
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
 				front_1_custom_slot = ship_medium_battery_2
 				mid_1_custom_slot = ship_torpedo_2
 				mid_2_custom_slot = ship_airplane_launcher_1
@@ -867,14 +1002,14 @@ if = {
 			name_group = JAP_CL_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_battery_slot = ship_medium_battery_2
+				fixed_ship_battery_slot = ship_light_medium_battery_2
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_2
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				front_1_custom_slot = ship_medium_battery_2
+				fixed_ship_secondaries_slot = dp_ship_secondaries_1
+				front_1_custom_slot = ship_light_medium_battery_2
 				mid_1_custom_slot = ship_torpedo_2
 				mid_2_custom_slot = ship_torpedo_2
 				rear_1_custom_slot = ship_airplane_launcher_1
@@ -890,7 +1025,7 @@ if = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
 				mid_1_custom_slot = ship_torpedo_1
 				mid_2_custom_slot = empty
@@ -908,7 +1043,7 @@ if = {
 				fixed_ship_anti_air_slot = ship_anti_air_1
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
 				mid_1_custom_slot = ship_torpedo_1
 				mid_2_custom_slot = ship_airplane_launcher_1
@@ -926,7 +1061,7 @@ if = {
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
 				mid_1_custom_slot = ship_torpedo_1
 				mid_2_custom_slot = empty
@@ -1009,7 +1144,7 @@ if = {
 			name_group = JAP_DD_HISTORICAL
 			parent_version = 0
 			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_battery_slot = dp_light_battery_1
 				fixed_ship_anti_air_slot = empty
 				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
@@ -1073,6 +1208,71 @@ if = {
 	1939.1.1 = {
 		if = {
 			limit = {
+				has_dlc = "By Blood Alone"
+			}
+			create_equipment_variant = {
+				name = "Ki-27"
+				type = small_plane_airframe_1
+				modules = {
+					fixed_main_weapon_slot = light_mg_2x
+					engine_type_slot = engine_2_1x
+					special_type_slot_1 = empty
+				}
+			}
+			create_equipment_variant = {
+				name = "A5M"
+				type = cv_small_plane_airframe_1
+				modules = {
+					fixed_main_weapon_slot = light_mg_2x
+					engine_type_slot = engine_2_1x
+					special_type_slot_1 = empty
+				}
+				icon = "GFX_JAP_cv_fighter1_medium"
+			}
+			create_equipment_variant = {
+				name = "B5N"
+				type = cv_small_plane_naval_bomber_airframe_1
+				modules = {
+					fixed_main_weapon_slot = torpedo_mounting
+					fixed_auxiliary_weapon_slot_1 = bomb_locks
+					engine_type_slot = engine_2_1x
+					special_type_slot_1 = fuel_tanks_small
+				}
+				icon = "GFX_JAP_cv_naval_bomber1_medium"
+			}
+			create_equipment_variant = {
+				name = "Ki-30/32"
+				type = small_plane_cas_airframe_1
+				modules = {
+					fixed_main_weapon_slot = small_bomb_bay
+					engine_type_slot = engine_2_1x
+					special_type_slot_1 = empty
+				}
+			}
+			create_equipment_variant = {
+				name = "Ki-21"
+				type = medium_plane_airframe_1
+				modules = {
+					fixed_main_weapon_slot = medium_bomb_bay
+					engine_type_slot = engine_2_2x
+					special_type_slot_1 = lmg_defense_turret
+				}
+			}
+			create_equipment_variant = {
+				name = "G3M2"
+				type = medium_plane_airframe_1
+				modules = {
+					fixed_main_weapon_slot = medium_bomb_bay
+					fixed_auxiliary_weapon_slot_1 = torpedo_mounting
+					engine_type_slot = engine_1_3x
+					special_type_slot_1 = lmg_defense_turret_2x
+					special_type_slot_2 = fuel_tanks_medium
+				}
+				icon = "GFX_JAP_early_bomber_medium"
+			}
+		}
+		if = {
+			limit = {
 				not = { has_dlc = "Man the Guns" }
 			}
 			### Carrier Variants
@@ -1115,7 +1315,7 @@ if = {
 					fixed_ship_anti_air_slot = ship_anti_air_2
 					fixed_ship_radar_slot = empty
 					fixed_ship_engine_slot = carrier_ship_engine_2
-					fixed_ship_secondaries_slot = empty
+					fixed_ship_secondaries_slot = dp_ship_secondaries_1
 					front_1_custom_slot = ship_deck_space
 					mid_1_custom_slot = ship_deck_space
 				}
@@ -1137,7 +1337,7 @@ if = {
 					front_2_custom_slot = empty
 					mid_1_custom_slot = empty
 					mid_2_custom_slot = ship_secondaries_2
-					mid_3_custom_slot = ship_secondaries_2
+					mid_3_custom_slot = dp_ship_secondaries_2
 					rear_1_custom_slot = ship_super_heavy_battery_1
 					rear_2_custom_slot = ship_airplane_launcher_1
 				}
@@ -1148,8 +1348,8 @@ if = {
 				name_group = JAP_DD_HISTORICAL
 				parent_version = 0
 				modules = {
-					fixed_ship_battery_slot = ship_light_battery_2
-					fixed_ship_anti_air_slot = ship_anti_air_1
+					fixed_ship_battery_slot = dp_light_battery_2
+					fixed_ship_anti_air_slot = ship_anti_air_2
 					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 					fixed_ship_radar_slot = empty
 					fixed_ship_engine_slot = light_ship_engine_2
@@ -1169,6 +1369,7 @@ if = {
 					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 					fixed_ship_radar_slot = empty
 					fixed_ship_engine_slot = cruiser_ship_engine_1
+					fixed_ship_secondaries_slot = ship_secondaries_1
 					mid_1_custom_slot = ship_torpedo_1
 					mid_2_custom_slot = empty
 					rear_1_custom_slot = ship_airplane_launcher_1
@@ -1181,7 +1382,7 @@ if = {
 				name_group = JAP_DD_HISTORICAL
 				parent_version = 0
 				modules = {
-					fixed_ship_battery_slot = ship_light_battery_2
+					fixed_ship_battery_slot = dp_light_battery_2
 					fixed_ship_anti_air_slot = ship_anti_air_1
 					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 					fixed_ship_radar_slot = empty

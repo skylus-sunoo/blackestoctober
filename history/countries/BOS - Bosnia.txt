@@ -1,38 +1,73 @@
 ﻿capital = 104
 
-set_research_slots = 3
+####
+#### BLACKEST OCTOBER
+####
 
-#oob = "BOS_1993"
+### POLITICS
 
 recruit_character = BOS_alija_izetbegovic
 
-	declare_war_on = {
-		target = SRK
-		type = annex_everything
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	declare_war_on = {
-		target = SRP
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = WBS
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = CHB
-		type = annex_everything
+	set_popularities = {
+		conservatism = 100
 	}
 	
+}
+
+add_named_threat = { threat = 15 name = WAR_NAME_BOS_CRO }
+
+### DIPLOMACY
+
+declare_war_on = {
+	target = SRK
+	type = annex_everything
+}
+declare_war_on = {
+	target = SRP
+	type = annex_everything
+}
+declare_war_on = {
+	target = WBS
+	type = annex_everything
+}
+declare_war_on = {
+	target = CHB
+	type = annex_everything
+}
+declare_war_on = {
+	target = CRO
+	type = annex_everything
+}
+
+#############################
+
+set_research_slots = 3
+
 # Starting tech
 # clone of Yugoslavia
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	basic_train = 1
+}
+if = {
+	limit = {
+		NOT = {has_dlc = "By Blood Alone"}
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 
 if = {
@@ -82,14 +117,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 33
+	despotism = 33
+	rev_socialism = 34
 }

@@ -1,0 +1,183 @@
+characters = {
+
+	ARG_carlos_menem={
+		name=ARG_carlos_menem
+		portraits={
+			civilian={
+				large=GFX_Portrait_ARG_Carlos_Menem
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	BRA_fernando_henrique_cardoso={
+		name=BRA_fernando_henrique_cardoso
+		portraits={
+			civilian={
+				large=GFX_Portrait_BRA_Fernando_Henrique_Cardoso
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	BOL_jaime_paz_zamora={
+		name=BOL_jaime_paz_zamora
+		portraits={
+			civilian={
+				large=GFX_Portrait_BOL_Jaime_Paz_Zamora
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	CHL_patricio_aylwin={
+		name=CHL_patricio_aylwin
+		portraits={
+			civilian={
+				large=GFX_Portrait_CHL_Patricio_Aylwin
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	COL_cesar_gaviria={
+		name=COL_cesar_gaviria
+		portraits={
+			civilian={
+				large=GFX_Portrait_COL_César_Gaviria
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	ECU_sixto_duran_ballen={
+		name=ECU_sixto_duran_ballen
+		portraits={
+			civilian={
+				large=GFX_Portrait_ECU_Sixto_Durán_Ballén
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	GYA_cheddi_jagan={
+		name=GYA_cheddi_jagan
+		portraits={
+			civilian={
+				large=GFX_Portrait_GYA_Cheddi_Jagan
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	PAR_andres_rodriguez={
+		name=PAR_andres_rodriguez
+		portraits={
+			civilian={
+				large=GFX_Portrait_PAR_Andrés_Rodríguez
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	PRU_alberto_fujimori={
+		name=PRU_alberto_fujimori
+		portraits={
+			civilian={
+				large=GFX_Portrait_PRU_Alberto_Fujimori
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	SUR_jules_wijdenbosch={
+		name=SUR_jules_wijdenbosch
+		portraits={
+			civilian={
+				large=GFX_Portrait_SUR_Jules_Wijdenbosch
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	URG_luis_alberto_lacalle={
+		name=URG_luis_alberto_lacalle
+		portraits={
+			civilian={
+				large=GFX_Portrait_URG_Luis_Alberto_Lacalle
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	VEN_carlos_andres_perez={
+		name=VEN_carlos_andres_perez
+		portraits={
+			civilian={
+				large=GFX_Portrait_VEN_Carlos_Andrés_Pérez
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -1,6 +1,22 @@
 ﻿capital = 275
 
 oob = "SAF_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SAF_1936_air_bba"
+	else = {
+		set_air_oob = "SAF_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+
+		}
+	}
+}
 
 set_stability = 0.6
 set_war_support = 0.1
@@ -12,12 +28,6 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
 	trench_warfare = 1
 	fleet_in_being = 1
 	fuel_silos = 1
@@ -63,8 +73,8 @@ if = {
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
-	add_ideas = SAF_ossewabrandwag
-	add_ideas = SAF_history_of_segregation
+	#add_ideas = SAF_ossewabrandwag
+	#add_ideas = SAF_history_of_segregation
 
 	add_to_tech_sharing_group = commonwealth_research
 	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
@@ -75,30 +85,36 @@ if = {
 	add_political_power = 1198
 	add_command_power = 100
 	oob = "SAF_1939"
-	
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "SAF_1939_air_bba"
+		else = {
+			set_air_oob = "SAF_1939_air_legacy"
+		}
+	}
 	if = {
 		limit = { has_dlc = "Together for Victory" }
-		##complete_national_focus = SAF_special_service_battalion
-		##complete_national_focus = SAF_improve_the_three_oh_three
-		##complete_national_focus = SAF_q_services_corps
-		##complete_national_focus = SAF_commit_to_the_five_year_plan
-		##complete_national_focus = SAF_seaward_defence_force
-		##complete_national_focus = SAF_protect_the_trade
-		##complete_national_focus = SAF_south_african_railways
-		##complete_national_focus = SAF_expand_the_mining_industry
-		##complete_national_focus = SAF_heavy_engineering	
+		#complete_national_focus = SAF_special_service_battalion
+		#complete_national_focus = SAF_improve_the_three_oh_three
+		#complete_national_focus = SAF_q_services_corps
+		#complete_national_focus = SAF_commit_to_the_five_year_plan
+		#complete_national_focus = SAF_seaward_defence_force
+		#complete_national_focus = SAF_protect_the_trade
+		#complete_national_focus = SAF_south_african_railways
+		#complete_national_focus = SAF_expand_the_mining_industry
+		#complete_national_focus = SAF_heavy_engineering	
 		
 		else = {
 			#generic focuses
-			##complete_national_focus = army_effort
-			##complete_national_focus = equipment_effort
-			##complete_national_focus = motorization_effort
-			##complete_national_focus = aviation_effort
-			##complete_national_focus = naval_effort
-			##complete_national_focus = large_navy
-			##complete_national_focus = industrial_effort
-			##complete_national_focus = construction_effort
-			##complete_national_focus = production_effort
+			#complete_national_focus = army_effort
+			#complete_national_focus = equipment_effort
+			#complete_national_focus = motorization_effort
+			#complete_national_focus = aviation_effort
+			#complete_national_focus = naval_effort
+			#complete_national_focus = large_navy
+			#complete_national_focus = industrial_effort
+			#complete_national_focus = construction_effort
+			#complete_national_focus = production_effort
 		}
 	}
 
@@ -110,11 +126,6 @@ if = {
 
 	
 	set_technology = {
-		fighter1 = 1
-		tactical_bomber1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
 		interwar_artillery = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
@@ -145,19 +156,38 @@ if = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+			tactical_bomber1 = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "No Step Back" }
+		}
+		set_technology = {
+			improved_light_tank = 1
+			basic_medium_tank = 1
+			basic_heavy_tank = 1
+		}
+	}
 }
 
 set_convoys = 25
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	fascism = 20
-	communism = 5
+	conservatism = 75
+	ultranationalism = 20
+	rev_socialism = 5
 }
 
 recruit_character = SAF_j_b_m_hertzog
@@ -185,13 +215,13 @@ recruit_character = SAF_abram_fischer
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 100
+		conservatism = 100
 	}
 
 	#retire_character = SAF_j_b_m_hertzog

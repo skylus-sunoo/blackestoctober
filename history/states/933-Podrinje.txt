@@ -1,0 +1,28 @@
+state={
+	id=933
+	name="STATE_933"
+	manpower =300000
+	state_category = town
+	provinces={
+		606 982 11741 13312 
+	}
+	history={
+		owner = BOS
+		victory_points = {
+			13312 3
+		}
+		controller = SRP
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = YUG
+		add_core_of = BOS
+		BOS = {
+			set_province_controller = 606
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

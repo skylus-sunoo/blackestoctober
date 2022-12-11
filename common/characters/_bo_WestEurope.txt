@@ -1,0 +1,103 @@
+characters = {
+
+	BEL_jean_luc_dehaene={
+		name=BEL_jean_luc_dehaene
+		portraits={
+			civilian={
+				large="GFX_Portrait_BEL_Jean-Luc_Dehaene"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	ENG_john_major={
+		name=ENG_john_major
+		portraits={
+			civilian={
+				large="GFX_Portrait_ENG_John_Major"
+			}
+		}
+		country_leader={
+			ideology = liberalism_subtype
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	HOL_ruud_lubbers={
+		name=HOL_ruud_lubbers
+		portraits={
+			civilian={
+				large="GFX_Portrait_HOL_Ruud_Lubbers"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ stout_defender }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+	IRE_albert_reynolds = {
+		name = IRE_albert_reynolds
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_IRE_Albert_Reynolds
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	LUX_jacques_santer = {
+		name = LUX_jacques_santer
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_LUX_Jacques_Santer
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	POR_mario_soares = {
+		name = POR_mario_soares
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_POR_Mário_Soares
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SPR_felipe_gonzalez = {
+		name = SPR_felipe_gonzalez
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SPR_Felipe_González
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

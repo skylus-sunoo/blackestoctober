@@ -1,11 +1,6 @@
-capital = 844
+capital = 918
 
 set_research_slots = 3
-
-	declare_war_on = {
-		target = AZR
-		type = independence_wargoal
-	}
 	
 recruit_character = ART_karen_baburyan
 recruit_character = ART_robert_kocharyan
@@ -96,7 +91,7 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 34
+	ultranationalism = 34
 	conservatism = 30
-	communism = 36
+	rev_socialism = 36
 }

@@ -1,0 +1,26 @@
+state={
+	id=911
+	name="STATE_911"
+	history={
+		owner = WBS
+		victory_points = {
+			6614 3
+		}
+		add_core_of = BOS
+		add_core_of = WBS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+
+		}
+
+	}
+	provinces={
+		6614 9586 
+	}
+	manpower=10200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

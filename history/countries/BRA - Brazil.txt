@@ -1,8 +1,42 @@
 ﻿capital = 500
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = BRA_fernando_henrique_cardoso
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 
 oob = "BRA_1936"
-
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BRA_1936_air_bba"
+	else = {
+		set_air_oob = "BRA_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -10,8 +44,6 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	CAS1 = 1
 	basic_train = 1	
 }
 if = {
@@ -55,7 +87,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_torpedo = 1
 		mtg_transport = 1
 	}
@@ -95,17 +126,24 @@ recruit_character = BRA_arlindo_veiga_dos_santos
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "BRA_1939"
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "BRA_1939_air_bba"
+		else = {
+			set_air_oob = "BRA_1939_air_legacy"
+		}
+	}
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons1 = 1
@@ -160,14 +198,14 @@ recruit_character = BRA_arlindo_veiga_dos_santos
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 
@@ -175,13 +213,13 @@ set_convoys = 40
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1934.7.17"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		neutrality = 100
+		despotism = 100
 	}
 }
 

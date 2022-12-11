@@ -1,11 +1,47 @@
 ﻿capital = 110
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = NOR_gro_brundtland
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "NOR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "NOR_1936_naval_mtg"
 	else = {
 		set_naval_oob = "NOR_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "NOR_1936_air_bba"
+	else = {
+		set_air_oob = "NOR_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+
+		}
 	}
 }
 
@@ -49,8 +85,6 @@ set_technology = {
 	interwar_antiair = 1
 	tech_support = 1		
 	tech_engineers = 1
-	early_fighter = 1
-	early_bomber = 1
 	tech_recon = 1
 	basic_train = 1
 }
@@ -72,7 +106,6 @@ if = {
 		early_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 	}
@@ -84,15 +117,15 @@ if = {
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "NOR_1939"
 	if = {
@@ -100,6 +133,13 @@ if = {
 			set_naval_oob = "NOR_1939_naval_mtg"
 		else = {
 			set_naval_oob = "NOR_1939_naval_legacy"
+		}
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "NOR_1939_air_bba"
+		else = {
+			set_air_oob = "NOR_1939_air_legacy"
 		}
 	}
 
@@ -153,29 +193,29 @@ set_convoys = 200		# biggest merchant marine in the world
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
-	fascism = 2
-	communism = 2
+	conservatism = 96
+	ultranationalism = 2
+	rev_socialism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1936.10.19"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 84
-		fascism = 2
-		communism = 2
-		neutrality = 12
+		conservatism = 84
+		ultranationalism = 2
+		rev_socialism = 2
+		despotism = 12
 	}
 }
 

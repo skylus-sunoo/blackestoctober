@@ -1,0 +1,181 @@
+characters = {
+
+	BLR_stanislav_shushkevich={
+		name=BLR_stanislav_shushkevich
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Stanislav_Shushkevich
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	BLR_aleksandr_lukashenko={
+		name=BLR_aleksandr_lukashenko
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Aleksandr_Lukashenko
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	BLR_vyacheslav_kebich={
+		name=BLR_vyacheslav_kebich
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLR_Vyacheslav_Kebich
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	MOL_mircea_snegur={
+		name=MOL_mircea_snegur
+		portraits={
+			civilian={
+				large=GFX_Portrait_MOL_Mircea_Snegur
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	POL_lech_walesa={
+		name=POL_lech_walesa
+		portraits={
+			civilian={
+				large=GFX_Portrait_POL_Lech_Walesa
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	UKR_leonid_kravchuk={
+		name=UKR_leonid_kravchuk
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Leonid_Kravchuk
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	UKR_leonid_kuchma={
+		name=UKR_leonid_kuchma
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Leonid_Kuchma
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_dimitry_kornilov={
+		name=UKR_dimitry_kornilov
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Dimitry_Kornilov
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_Kostyantyn_Morozov={
+		name=UKR_Kostyantyn_Morozov
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Kostyantyn_Morozov
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_Oleksandr_Kuzmuk={
+		name=UKR_Oleksandr_Kuzmuk
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Oleksandr_Kuzmuk
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_Mykola_Plaviuk={
+		name=UKR_Mykola_Plaviuk
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Mykola_Plaviuk
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_Valeriy_Horbatov={
+		name=UKR_Valeriy_Horbatov
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Valeriy_Horbatov
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	UKR_Mykhailo_Krailo={
+		name=UKR_Mykhailo_Krailo
+		portraits={
+			civilian={
+				large=GFX_Portrait_UKR_Mykhailo_Krailo
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+}

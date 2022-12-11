@@ -1,0 +1,16 @@
+state={
+	id=924
+	name="STATE_924"
+	history = {
+		owner = HLS
+		add_core_of = HLS
+		victory_points = { 13282 25 }
+	}
+	provinces={
+		13282 
+	}
+	manpower=300
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

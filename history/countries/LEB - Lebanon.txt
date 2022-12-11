@@ -1,9 +1,40 @@
 ﻿capital = 553
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = LEB_elias_hrawi
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
 }
 
 set_convoys = 5
@@ -14,15 +45,15 @@ set_convoys = 5
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 		tech_support = 1
@@ -58,23 +89,23 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 10
-	neutrality = 30
+	conservatism = 50
+	ultranationalism = 10
+	rev_socialism = 10
+	despotism = 30
 }
 
 create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
 	picture = GFX_portrait_Hashim_al_Atassi
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}
@@ -94,7 +125,7 @@ create_country_leader = {
 	name = "Melick Yarad"
 	desc = ""
 	picture = GFX_portrait_Melick_Yarad
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

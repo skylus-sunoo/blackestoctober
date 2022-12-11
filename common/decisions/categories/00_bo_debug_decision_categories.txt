@@ -1,6 +1,9 @@
 bo_debug_decisions = {
-	icon = category_border_war
+	icon = GFX_bo_debug
 	visible = {
 		is_debug = yes
+	}
+	priority = {
+		base = 1000
 	}
 }

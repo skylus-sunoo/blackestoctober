@@ -1,0 +1,32 @@
+﻿###########################
+# RCW News Events
+###########################
+
+add_namespace = rcw_news
+
+# The Imperial Kremlin
+news_event = {
+	id = rcw_news.1
+	title = rcw_news.1.t
+	desc = rcw_news.1.d
+	picture = GFX_news_event_imperial_russian_soldier
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rcw_news.1.a
+		trigger = { TAG = FSN }
+	}
+	option = {
+		name = rcw_news.1.b
+		trigger = { TAG = FSN has_country_flag = supported_the_reds }
+	}
+	option = {
+		name = rcw_news.1.c
+		trigger = { 
+			NOT = { TAG = FSN }
+		}
+	}
+}

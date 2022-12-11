@@ -1,4 +1,28 @@
-﻿capital = 664
+﻿capital = 70
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = SLO_michal_kovac
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
 
 
 
@@ -15,9 +39,6 @@ set_technology = {
 	tech_recon = 1
 	tech_mountaineers = 1
 	tech_engineers = 1
-	early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
 }
 
 if = {
@@ -39,6 +60,18 @@ if = {
 		basic_light_tank_chassis = 1
 	}
 	set_oob = "SLO_1939_nsb"
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SLO_1939_air_bba"
+	else = {
+		set_air_oob = "SLO_1939_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
 }
 
 recruit_character = SLO_jozef_tiso
@@ -69,15 +102,15 @@ recruit_character = SLO_anton_pulanick
 	add_command_power = 100
 
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 		#doctrines
@@ -123,13 +156,13 @@ recruit_character = SLO_anton_pulanick
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = ultranationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 90
-	communism = 5
+	conservatism = 5
+	ultranationalism = 90
+	rev_socialism = 5
 }

@@ -7,17 +7,33 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = conservatism_subtype
+			ideology = liberalism_subtype
 			traits = { }
 			expire = "2000.1.1.1"
 			id = -1
 		}
 	}
+	
 	KOR_roh_tae_woo = {
 		name = KOR_roh_tae_woo
 		portraits = {
 			civilian = {
 				large = GFX_Portrait_KOR_Roh_Tae_Woo
+			}
+		}
+		country_leader = {
+			ideology = liberalism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	MON_punsalmaagiin_ochirbat = {
+		name = MON_punsalmaagiin_ochirbat
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_MON_Punsalmaagiin_Ochirbat
 			}
 		}
 		country_leader = {
@@ -27,6 +43,7 @@ characters = {
 			id = -1
 		}
 	}
+	
 	PRK_kim_il_sung = {
 		name = PRK_kim_il_sung
 		portraits = {

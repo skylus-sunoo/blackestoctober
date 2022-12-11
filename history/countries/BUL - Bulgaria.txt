@@ -1,17 +1,48 @@
 ﻿capital = 48
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = BUL_zhelyu_zhelev
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 #TROOPS
 oob = "BUL_1936" #VANILLA & DLC
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BUL_1936_air_bba"
+	else = {
+		set_air_oob = "BUL_1936_air_legacy"
+	}
+}
 set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
 set_party_name = { # DLC
-	ideology = communism
+	ideology = rev_socialism
 	name = BUL_communism_party_bulgarian
 	long_name = BUL_communism_party_bulgarian_long
 }
 set_party_name = { # DLC
-	ideology = fascism
+	ideology = ultranationalism
 	name = BUL_fascism_party_bulgarian
 	long_name = BUL_fascism_party_bulgarian_long
 }
@@ -23,7 +54,7 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = democratic
+		ideology = conservatism
 		name = BUL_democratic_party_bftb
 		long_name = BUL_democratic_party_bftb_bulgarian_long
 	}	
@@ -41,9 +72,9 @@ if = { #DLC
 
 	#IDEAS SETUP
 	add_ideas = { #DLC
-		BUL_second_national_catastrophe
-		BUL_army_restrictions
-		BUL_imro_01
+		#BUL_second_national_catastrophe
+		#BUL_army_restrictions
+		#BUL_imro_01
 		volunteer_only
 	}
 
@@ -170,10 +201,10 @@ if = { #DLC
 
 	#DLC POLIICS
 	set_popularities = { #DLC
-		democratic = 10
-		fascism = 30
-		neutrality = 55
-		communism = 5
+		conservatism = 10
+		ultranationalism = 30
+		despotism = 55
+		rev_socialism = 5
 	}
 
 	recruit_character = BUL_boris_iii
@@ -254,7 +285,7 @@ if = { #DLC
 
 	#RULING PARTY
 	set_politics = { #DLC
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1935.1.22"
 		election_frequency = 48
 		elections_allowed = no
@@ -268,12 +299,12 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			democratic = 5
-			fascism = 35
-			neutrality = 60
+			conservatism = 5
+			ultranationalism = 35
+			despotism = 60
 		}
 		set_politics = { #VANILLA
-			ruling_party = neutrality
+			ruling_party = despotism
 			last_election = "1931.6.21"
 			election_frequency = 48
 			elections_allowed = no
@@ -310,11 +341,19 @@ set_technology = { #VANILLA & DLC
 	tech_support = 1		
 	tech_engineers = 1
 	motorised_infantry = 1
-	early_fighter = 1
 	fuel_silos = 1
 	basic_train = 1
 }
-
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
 
 
 ##############
@@ -323,13 +362,13 @@ set_technology = { #VANILLA & DLC
 1939.1.1 = {
 	
 	#POLIICS
-	set_popularities = { #VANILLA & DLC
-		democratic = 5
-		fascism = 35
-		neutrality = 60
+	set_popularities = { #VANILLA & DLC //  # Will get +7 from Italian focus: Potential Allies in the Balkans
+		conservatism = 5
+		ultranationalism = 35
+		despotism = 60
 	}
 	set_politics = { #VANILLA & DLC
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.3.27"
 		election_frequency = 48
 		elections_allowed = no
@@ -343,22 +382,22 @@ set_technology = { #VANILLA & DLC
 		limit = {
 			has_dlc = "Battle for the Bosporus"
 		}
-		##complete_national_focus = BUL_power_to_the_tsar
-		##complete_national_focus = BUL_dissolve_the_military_union
-		##complete_national_focus = BUL_acquire_modern_tools
+		#complete_national_focus = BUL_power_to_the_tsar
+		#complete_national_focus = BUL_dissolve_the_military_union
+		#complete_national_focus = BUL_acquire_modern_tools
 		unlock_national_focus = BUL_negotiate_bulgarian_rearmament
-		##complete_national_focus = BUL_the_tsars_regime
-		##complete_national_focus = BUL_improve_the_road_system
-		##complete_national_focus = BUL_restore_the_tarnovo_constitution
-		##complete_national_focus = BUL_freedom_of_press
-		##complete_national_focus = BUL_invigorate_national_industry
-		##complete_national_focus = BUL_promote_bulgarian_nationalism
-		##complete_national_focus = BUL_limited_womens_suffrage
-		##complete_national_focus = BUL_expand_sofia_university
-		##complete_national_focus = BUL_bulgarian_irredentism
-		##complete_national_focus = BUL_approach_germany
-		##complete_national_focus = BUL_reorganize_the_military_industry
-		##complete_national_focus = BUL_illusions_of_a_non_partisan_system
+		#complete_national_focus = BUL_the_tsars_regime
+		#complete_national_focus = BUL_improve_the_road_system
+		#complete_national_focus = BUL_restore_the_tarnovo_constitution
+		#complete_national_focus = BUL_freedom_of_press
+		#complete_national_focus = BUL_invigorate_national_industry
+		#complete_national_focus = BUL_promote_bulgarian_nationalism
+		#complete_national_focus = BUL_limited_womens_suffrage
+		#complete_national_focus = BUL_expand_sofia_university
+		#complete_national_focus = BUL_bulgarian_irredentism
+		#complete_national_focus = BUL_approach_germany
+		#complete_national_focus = BUL_reorganize_the_military_industry
+		#complete_national_focus = BUL_illusions_of_a_non_partisan_system
 
 		#Remove Army Restrictions NS and all limitations 								Negotiate Bulgarian Rearmament
 		remove_ideas = BUL_army_restrictions
@@ -385,13 +424,13 @@ set_technology = { #VANILLA & DLC
 
 		else = { #VANILLA
 			#generic focuses
-			##complete_national_focus = army_effort
-			##complete_national_focus = equipment_effort
-			##complete_national_focus = motorization_effort
-			##complete_national_focus = aviation_effort
-			##complete_national_focus = industrial_effort
-			##complete_national_focus = construction_effort
-			##complete_national_focus = production_effort
+			#complete_national_focus = army_effort
+			#complete_national_focus = equipment_effort
+			#complete_national_focus = motorization_effort
+			#complete_national_focus = aviation_effort
+			#complete_national_focus = industrial_effort
+			#complete_national_focus = construction_effort
+			#complete_national_focus = production_effort
 		}
 	}
 	
@@ -400,9 +439,6 @@ set_technology = { #VANILLA & DLC
 
 	#TECHNOLOGY
 	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
 		gw_artillery = 1
 		interwar_artillery = 1
 		tech_recon = 1
@@ -461,6 +497,19 @@ set_technology = { #VANILLA & DLC
 			basic_light_tank_chassis = 1
 		}
 		set_oob = "BUL_1939_nsb"
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "BUL_1939_air_bba"
+		else = {
+			set_air_oob = "BUL_1939_air_legacy"
+			set_technology = {
+				fighter1 = 1
+				early_bomber = 1
+				tactical_bomber1 = 1
+
+			}
+		}
 	}
 
 	

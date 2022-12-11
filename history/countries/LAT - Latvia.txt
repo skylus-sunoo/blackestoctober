@@ -1,11 +1,49 @@
 ﻿capital = 808
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = LAT_anatolijs_gorbunovs
+recruit_character = LAT_guntis_ulmanis
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "LAT_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "LAT_1936_naval_mtg"
 	else = {
 		set_naval_oob = "LAT_1936_naval_legacy"
+	}
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "LAT_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+		}
+	else = {
+		set_air_oob = "LAT_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+		}
 	}
 }
 
@@ -59,7 +97,6 @@ IF = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_fighter = 1
 	gw_artillery = 1
 	tech_support = 1
 	basic_train = 1
@@ -95,24 +132,24 @@ set_convoys = 10
 	
 	set_country_flag = fought_perkonkrust_flag
 	
-	##complete_national_focus = LAT_suspend_the_constitution
-	##complete_national_focus = LAT_empower_paramilitarists
-	##complete_national_focus = LAT_the_sun_shines_equally
-	##complete_national_focus = BALTIC_rejoin_the_railways
-	##complete_national_focus = BALTIC_renew_allied_trade
-	##complete_national_focus = LAT_banish_clemens
-	##complete_national_focus = LAT_appease_democrats
-	##complete_national_focus = LAT_martial_prime_minister
-	##complete_national_focus = LAT_improve_military_life
-	##complete_national_focus = LAT_establish_chambers_of_professions
-	##complete_national_focus = BALTIC_attract_workers_to_capital
-	##complete_national_focus = BALTIC_modernize_industry
-	##complete_national_focus = LAT_nationalised_industry
-	##complete_national_focus = LAT_merge_presidential_titles
-	##complete_national_focus = BALTIC_school_of_aviation
-	##complete_national_focus = LAT_aizsargi
-	##complete_national_focus = BALTIC_british_aircraft
-	##complete_national_focus = BALTIC_allied_shipments
+	#complete_national_focus = LAT_suspend_the_constitution
+	#complete_national_focus = LAT_empower_paramilitarists
+	#complete_national_focus = LAT_the_sun_shines_equally
+	#complete_national_focus = BALTIC_rejoin_the_railways
+	#complete_national_focus = BALTIC_renew_allied_trade
+	#complete_national_focus = LAT_banish_clemens
+	#complete_national_focus = LAT_appease_democrats
+	#complete_national_focus = LAT_martial_prime_minister
+	#complete_national_focus = LAT_improve_military_life
+	#complete_national_focus = LAT_establish_chambers_of_professions
+	#complete_national_focus = BALTIC_attract_workers_to_capital
+	#complete_national_focus = BALTIC_modernize_industry
+	#complete_national_focus = LAT_nationalised_industry
+	#complete_national_focus = LAT_merge_presidential_titles
+	#complete_national_focus = BALTIC_school_of_aviation
+	#complete_national_focus = LAT_aizsargi
+	#complete_national_focus = BALTIC_british_aircraft
+	#complete_national_focus = BALTIC_allied_shipments
 	
 	oob = "LAT_1939"
 	if = {
@@ -120,6 +157,16 @@ set_convoys = 10
 			set_naval_oob = "LAT_1939_naval_mtg"
 		else = {
 			set_naval_oob = "LAT_1939_naval_legacy"
+		}
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "LAT_1939_air_bba"
+			set_technology = {
+				iw_small_airframe = 1
+			}
+		else = {
+			set_air_oob = "LAT_1939_air_legacy"
 		}
 	}
 
@@ -160,16 +207,16 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1931.10.3"
 	election_frequency = 10
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	conservatism = 30
+	ultranationalism = 15
+	rev_socialism = 15
+	despotism = 40
 }
 
 # probably needs some adjustment before nazi occupation in 1940

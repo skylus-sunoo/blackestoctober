@@ -1,0 +1,24 @@
+
+state={
+	id=912
+	name="STATE_912"
+	manpower = 530200
+	
+	state_category = town
+
+	history={
+		owner = TNT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = TNT
+		add_core_of = MOL
+		victory_points = { 13302 2 }
+	}
+
+	provinces={
+		13301 13302 13303 13304 13305
+	}
+	
+}

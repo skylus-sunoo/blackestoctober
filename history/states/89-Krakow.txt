@@ -16,6 +16,9 @@ state={
 
 		}
 		add_core_of = UKR
+		add_dynamic_modifier = {
+			modifier = UKR_insurgent_leanings
+		}
 
 	}
 

@@ -1,4 +1,5 @@
 characters = {
+
 	KAZ_nursultan_nazarbayev = {
 		name = KAZ_nursultan_nazarbayev
 		portraits = {
@@ -13,4 +14,65 @@ characters = {
 			id = -1
 		}
 	}
+	
+	KYR_askar_akayev = {
+		name = KYR_askar_akayev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_KYR_Askar_Akayev
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	TAJ_emomali_rahmon = {
+		name = TAJ_emomali_rahmon
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_TAJ_Emomali_Rahmon
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	TMS_saparmurat_niyazov = {
+		name = TMS_saparmurat_niyazov
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_TMS_Saparmurat_Niyazov
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	UZB_islam_karimov = {
+		name = UZB_islam_karimov
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_UZB_Islam_Karimov
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
 }

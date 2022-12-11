@@ -1,4 +1,3 @@
-
 state={
 	id=230
 	name="STATE_230"
@@ -6,10 +5,10 @@ state={
 	history={
 		owner = ARM
 		victory_points = {
-			12320 3 
+			12320 3
 		}
 		victory_points = {
-			12441 1 
+			12441 1
 		}
 		buildings = {
 			infrastructure = 2
@@ -35,5 +34,6 @@ state={
 	manpower=1250082
 	buildings_max_level_factor=1.000
 	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

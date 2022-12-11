@@ -1,16 +1,38 @@
 ﻿capital = 336 #Kuala Lumpur
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = MAL_mahathir_mohamad
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "MAL_1936"
 
 set_research_slots = 3
 
-recruit_character = MAL_mahathir_mohamad
-
-#recruit_character = MAL_shenton_thomas
-#recruit_character = MAL_onn_jaafar
-#recruit_character = MAL_lai_teck
-#recruit_character = MAL_ibrahim_hj_yaacob
-#recruit_character = MAL_winston_tyron
+recruit_character = MAL_shenton_thomas
+recruit_character = MAL_onn_jaafar
+recruit_character = MAL_lai_teck
+recruit_character = MAL_ibrahim_hj_yaacob
+recruit_character = MAL_winston_tyron
 
 
 # Starting tech
@@ -24,20 +46,26 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
-	naval_bomber1 = 1
-	early_bomber = 1
-	CAS1 = 1
 	
 	trench_warfare = 1
 
-	transport = 1
 	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		cv_early_fighter = 1
+		cv_naval_bomber1 = 1
+		naval_bomber1 = 1
+		early_bomber = 1
+		CAS1 = 1	
+	}
 }
 
 if = {
@@ -68,6 +96,7 @@ if = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+		transport = 1
 		early_submarine = 1
 		early_destroyer = 1
 		basic_destroyer = 1
@@ -84,6 +113,7 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
+		mtg_transport = 1
 		early_ship_hull_submarine = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
@@ -101,37 +131,29 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_politics = {
-	ruling_party = conservatism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_convoys = 25
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 30
-	conservatism = 50
+	conservatism = 33
+	rev_socialism = 33
+	despotism = 34
 }
 
 
-set_cosmetic_tag = MAL_UK # British Malaya
+#set_cosmetic_tag = MAL_UK # British Malaya
 
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 	

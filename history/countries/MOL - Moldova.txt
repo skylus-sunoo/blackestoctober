@@ -1,5 +1,29 @@
 ﻿capital = 78
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = MOL_mircea_snegur
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 #oob = ""
 
 # Starting tech
@@ -32,15 +56,15 @@ recruit_character = MOL_ar
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 
@@ -65,16 +89,16 @@ recruit_character = MOL_ar
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 55
-	fascism = 1
-	communism = 30
-	neutrality = 14
+	conservatism = 55
+	ultranationalism = 1
+	rev_socialism = 30
+	despotism = 14
 }
 
 #create_country_leader = {

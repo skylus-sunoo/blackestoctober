@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_idea_GER_legacy_of_the_blue_winter"
+		texturefile = "gfx/interface/ideas/GER_legacy_of_the_blue_winter.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_idea_UKR_former_nation_of_the_ussr"
+		texturefile = "gfx/interface/ideas/UKR_former_nation_of_the_ussr.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_UKR_language_divide"
+		texturefile = "gfx/interface/ideas/UKR_language_divide.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_UKR_young_nation"
+		texturefile = "gfx/interface/ideas/UKR_young_nation.dds"
+	}
+}

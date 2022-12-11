@@ -12,24 +12,32 @@ set_technology = {
 	tech_mountaineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
+	
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+		naval_bomber1 = 1
+	}
 }
 
 set_convoys = 20
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 
@@ -54,14 +62,14 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 5
-	neutrality = 85
+	conservatism = 5
+	ultranationalism = 5
+	rev_socialism = 5
+	despotism = 85
 }

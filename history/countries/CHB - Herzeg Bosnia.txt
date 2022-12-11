@@ -1,8 +1,30 @@
-﻿capital = 839
+﻿capital = 913
 
-set_research_slots = 2
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = CHB_mate_boban
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
+set_research_slots = 2
 
 set_technology = {
 	infantry_weapons = 1
@@ -46,15 +68,15 @@ set_convoys = 5
 	add_command_power = 100
 	
 	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
+	##complete_national_focus = army_effort
+	##complete_national_focus = equipment_effort
+	##complete_national_focus = motorization_effort
+	##complete_national_focus = aviation_effort
+	##complete_national_focus = naval_effort
+	##complete_national_focus = flexible_navy
+	##complete_national_focus = industrial_effort
+	##complete_national_focus = construction_effort
+	##complete_national_focus = production_effort
 	
 	set_technology = {
 	
@@ -84,13 +106,13 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	democratic = 15
-	fascism = 75
-	communism = 10
+	conservatism = 15
+	ultranationalism = 75
+	rev_socialism = 10
 }

@@ -1,0 +1,31 @@
+state={
+	id=931
+	name="STATE_931"
+	
+	state_category=large_city
+	
+	history={
+		add_core_of = MAL
+		owner = MAL
+		victory_points = {
+			7371 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			7371 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+	provinces={
+		7371 
+	}
+	manpower=258714
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

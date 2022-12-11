@@ -56,6 +56,7 @@ state=
 
 		}
 		add_core_of = CZE
+
 	}
 	provinces=
 	{

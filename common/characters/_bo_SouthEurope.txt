@@ -1,4 +1,61 @@
 characters = {
+
+	ALB_sali_berisha={
+		name=ALB_sali_berisha
+		portraits={
+			civilian={
+				large=GFX_Portrait_ALB_Sali_Berisha
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
+	BUL_zhelyu_zhelev={
+		name=BUL_zhelyu_zhelev
+		portraits={
+			civilian={
+				large=GFX_Portrait_BUL_Zhelyu_Zhelev
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+
+	GRE_andreas_papandreou={
+		name=GRE_andreas_papandreou
+		portraits={
+			civilian={
+				large=GFX_Portrait_GRE_Andreas_Papandreou
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			expire="2020.1.1.1"
+			id=-1
+		}
+	}
+	GRE_konstantinos_mitsotakis = {
+		name = GRE_konstantinos_mitsotakis
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_GRE_Konstantinos_Mitsotakis
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
 	HLS_john_paul_ii = {
 		name = HLS_john_paul_ii
 		portraits = {
@@ -8,6 +65,36 @@ characters = {
 		}
 		country_leader = {
 			ideology = theocracy_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	ITA_oscar_luigi_scalfaro = {
+		name = ITA_oscar_luigi_scalfaro
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_ITA_Oscar_Luigi_Scalfaro
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	ROM_ion_iliescu = {
+		name = ROM_ion_iliescu
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_ROM_Ion_Iliescu"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
 			traits = { }
 			expire = "2000.1.1.1"
 			id = -1

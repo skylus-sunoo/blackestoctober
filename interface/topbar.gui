@@ -82,7 +82,7 @@ guiTypes = {
 		iconType = {
 			name ="armyoverview_buttons_bg"
 			spriteType = "GFX_armyoverview_buttons_bg"
-			position = { x= -399 y = -2 }
+			position = { x= -449 y = -2 }
 			Orientation = "UPPER_RIGHT"
 			alwaystransparent = yes
 		}
@@ -489,7 +489,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="threat_value"
 			position = { x=-98 y=74 }
-			font = "hoi_18mbs"
+			font = "bo_vcr_21"
 			text = "50%"
 			format = center
 			maxWidth = 55
@@ -534,7 +534,7 @@ guiTypes = {
 			buttonType = {
 				name = "pause_button_date"
 				quadTextureSprite ="GFX_date_pause_button_bg"
-				position = { x = -197 y = 0 }
+				position = { x = -225 y = 0 }
 				Orientation = "UPPER_RIGHT"
 				shortcut = "SPACE" #Will be disabled in MP from code
 				clicksound = pause_button
@@ -543,7 +543,7 @@ guiTypes = {
 			buttonType = {
 				name = "pause_button_date_paused"
 				quadTextureSprite ="GFX_date_pause_button"
-				position = { x = -197 y = 0 }
+				position = { x = -225 y = 0 }
 				Orientation = "UPPER_RIGHT"
 				shortcut = "SPACE" #Will be disabled in MP from code
 				clicksound = pause_button
@@ -552,7 +552,7 @@ guiTypes = {
 			buttonType = {
 				name = "button_speeddown"
 				quadTextureSprite ="GFX_zoom_out"
-				position = { x = 58 y = 1 }
+				position = { x = 29 y = 0 }
 				shortcut = "KP_MINUS"
 				pdx_tooltip = "SPEED_DECREASE"
 				clicksound = time_down
@@ -597,7 +597,7 @@ guiTypes = {
 			buttonType = {
 				name = "button_speedup"
 				quadTextureSprite ="GFX_zoom_in"
-				position = { x = 233 y =1 }
+				position = { x = 235 y =0 }
 				shortcut = "KP_PLUS"
 				pdx_tooltip = "SPEED_INCREASE"
 				clicksound = time_up
@@ -606,11 +606,11 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "DateText"
-				position = { x = -175 y = 4 }
+				position = { x = -271 y = 5 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "bo_vcr_16"
 				text = "7:00 29, September 1939"
-				maxWidth = 150
+				maxWidth = 250
 				maxHeight = 32
 				format = right
 				Orientation = "UPPER_RIGHT"	
@@ -680,7 +680,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "country_menu_window"
-			position = { x=219 y=38 }
+			position = { x=221 y=36 }
 			size = { width=100%% height=30 }
 			
 			iconType = {
@@ -743,7 +743,7 @@ guiTypes = {
 			buttonType = {
 				name = "intel_agency_button"
 				quadTextureSprite ="GFX_topbar_intelligence" 
-				position = { x= -51 y = 0 }
+				position = { x= -52 y = 0 }
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
@@ -826,7 +826,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "construction_button"
-					position = { x = 116 y = 0 }
+					position = { x = 117 y = 0 }
 					quadTextureSprite ="GFX_construction_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "t"

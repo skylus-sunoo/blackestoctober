@@ -1,19 +1,4 @@
 characters={
-
-	FRA_francois_mitterrand={
-		name=FRA_francois_mitterrand
-		portraits={
-			civilian={
-				large="GFX_Portrait_FRA_Francois_Mitterrand"
-			}
-		}
-		country_leader={
-			ideology=liberalism
-			traits={ stout_defender }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	
 	FRA_pierre_laval={ #Democratic Leader
 		name=FRA_pierre_laval
@@ -23,7 +8,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology = liberalism_subtype
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
@@ -38,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology = mod_socialism_subtype
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
@@ -1200,16 +1185,16 @@ characters={
 					has_government  = fascism 
 				}
 			}
-			on_add  = {
-				if  = {
-					limit  = {
-						not  = {
-							tag  = VIC 
-						}
-					}
-					country_event  = lar_france_political_violence.2
-				}
-			}
+			#on_add  = {
+			#	if  = {
+			#		limit  = {
+			#			not  = {
+			#				tag  = GER 
+			#			}
+			#		}
+			#		country_event  = lar_france_political_violence.2
+			#	}
+			#}
 			ai_will_do  = {
 				factor  = 0.000
 			}

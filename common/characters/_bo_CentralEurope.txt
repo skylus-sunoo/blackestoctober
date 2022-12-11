@@ -1,0 +1,62 @@
+characters = {
+	
+	AUS_thomas_klestil = {
+		name = AUS_thomas_klestil
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_AUS_Thomas_Klestil"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	CZE_vaclav_havel = {
+		name = CZE_vaclav_havel
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_CZE_Václav_Havel"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	HUN_jozsef_antall = {
+		name = HUN_jozsef_antall
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_HUN_József_Antall"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SLO_michal_kovac = {
+		name = SLO_michal_kovac
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_SLO_Michal_Kováč"
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,6 +1,10 @@
 spriteTypes = {
 
 	SpriteType = { 
+		name = "GFX_bo_blank"
+		texturefile = "gfx/interface/bo_blank.dds"
+	}
+	SpriteType = { 
 		name = "GFX_bo_mod_logo"
 		texturefile = "gfx/interface/bo_mod_logo.dds"
 	}
@@ -36,7 +40,28 @@ spriteTypes = {
 		name = "GFX_bo_topbar_background_extended"
 		texturefile = "gfx/interface/bo_topbar_background_extended.dds"
 	}
+	SpriteType = { 
+		name = "GFX_bo_bop"
+		texturefile = "gfx/interface/bop/bo_bop.dds"
+	}
+	SpriteType = { 
+		name = "GFX_bo_debug"
+		texturefile = "gfx/interface/decisions/decision_category_bo_debug.dds"
+	}
 	
+	############ GAMERULES
+	SpriteType = { 
+		name = "GFX_gr_remove_africa"
+		texturefile = "gfx/gamerules/gr_remove_africa.dds"
+	}
+	SpriteType = { 
+		name = "GFX_gr_remove_south_america"
+		texturefile = "gfx/gamerules/gr_remove_south_america.dds"
+	}
+	SpriteType = { 
+		name = "GFX_gr_remove_carribean"
+		texturefile = "gfx/gamerules/gr_remove_carribean.dds"
+	}
 }
 	
 bitmapfonts = {

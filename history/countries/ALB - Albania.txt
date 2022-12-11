@@ -1,5 +1,29 @@
 ﻿capital = 44
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = ALB_sali_berisha
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 OOB = "ALB_1936"
 
 set_technology = {
@@ -12,7 +36,7 @@ recruit_character = ALB_king_zog
 recruit_character = ALB_enver_hoxha
 recruit_character = ALB_xhemal_aranitasi
 recruit_character = ALB_eqrem_belishi
-recruit_character = ALB_gjon_burbank
+recruit_character = ALB_tefik_mborja
 recruit_character = ALB_halil_nergutti
 recruit_character = ALB_ismael_ghaxa
 recruit_character = ALB_hajre_fetahu
@@ -34,14 +58,14 @@ recruit_character = ALB_jocelyn_percy
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 set_convoys = 5

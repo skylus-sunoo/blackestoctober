@@ -1,0 +1,76 @@
+scripted_gui = {
+
+	ukraine_fragile_state_ui = {
+		context_type = decision_category
+		window_name = "ukraine_fragile_state_ui_window"
+		
+		visible = {
+			always = yes
+		}
+		
+		effects = {
+			ukraine_state_baltatiraspol_click = { set_variable = { ukr_selected_state = 834 } UKR_clear_faction_variables = yes }
+			ukraine_state_bucovina_click = { set_variable = { ukr_selected_state = 80 } UKR_clear_faction_variables = yes }
+			ukraine_state_carpathianruthenia_click = { set_variable = { ukr_selected_state = 74 } UKR_clear_faction_variables = yes }
+			ukraine_state_cherkasy_click = { set_variable = { ukr_selected_state = 203 } UKR_clear_faction_variables = yes }
+			ukraine_state_chernigov_click = { set_variable = { ukr_selected_state = 193 } UKR_clear_faction_variables = yes }
+			ukraine_state_crimea_click = { set_variable = { ukr_selected_state = 137 }	}
+			ukraine_state_dnipropetrovsk_click = { set_variable = { ukr_selected_state = 226 } UKR_clear_faction_variables = yes }
+			ukraine_state_kharkov_click = { set_variable = { ukr_selected_state = 221 } UKR_clear_faction_variables = yes }
+			ukraine_state_kherson_click = { set_variable = { ukr_selected_state = 196 } UKR_clear_faction_variables = yes }
+			ukraine_state_khmelnytskyi_click = { set_variable = { ukr_selected_state = 199 } UKR_clear_faction_variables = yes }
+			ukraine_state_kiev_click = { set_variable = { ukr_selected_state = 202 } UKR_clear_faction_variables = yes }
+			ukraine_state_lwow_click = { set_variable = { ukr_selected_state = 91 } UKR_clear_faction_variables = yes }
+			ukraine_state_mykolaiv_click = { set_variable = { ukr_selected_state = 197 } UKR_clear_faction_variables = yes }
+			ukraine_state_odessa_click = { set_variable = { ukr_selected_state = 192 } UKR_clear_faction_variables = yes }
+			ukraine_state_poltava_click = { set_variable = { ukr_selected_state = 259 } UKR_clear_faction_variables = yes }
+			ukraine_state_southernbessarabia_click = { set_variable = { ukr_selected_state = 766 } UKR_clear_faction_variables = yes }
+			ukraine_state_stalino_click = { set_variable = { ukr_selected_state = 227 } UKR_clear_faction_variables = yes }
+			ukraine_state_stanislawow_click = { set_variable = { ukr_selected_state = 89 } UKR_clear_faction_variables = yes }
+			ukraine_state_sumy_click = { set_variable = { ukr_selected_state = 225 } UKR_clear_faction_variables = yes }
+			ukraine_state_vinnytsia_click = { set_variable = { ukr_selected_state = 198 } UKR_clear_faction_variables = yes }
+			ukraine_state_voroshilovgrad_click = { set_variable = { ukr_selected_state = 228 } UKR_clear_faction_variables = yes }
+			ukraine_state_wolyn_click = { set_variable = { ukr_selected_state = 93 } UKR_clear_faction_variables = yes }
+			ukraine_state_zaporozhe_click = { set_variable = { ukr_selected_state = 200 } UKR_clear_faction_variables = yes }
+			ukraine_state_zhytomyr_click = { set_variable = { ukr_selected_state = 20 } UKR_clear_faction_variables = yes }
+			
+			ukraine_state_dnipropetrovsk_imd_controlled_click = { set_variable = { ukr_selected_state = 2261 } set_variable = { ukr_imd_state = 226 } UKR_IMD_clear_faction_variables = yes }
+			ukraine_state_stalino_imd_controlled_click = { set_variable = { ukr_selected_state = 2271 } set_variable = { ukr_imd_state = 227 } UKR_IMD_clear_faction_variables = yes }
+			ukraine_state_voroshilovgrad_imd_controlled_click = { set_variable = { ukr_selected_state = 2281 } set_variable = { ukr_imd_state = 228 } UKR_IMD_clear_faction_variables = yes }
+			ukraine_state_zaporozhe_imd_controlled_click = { set_variable = { ukr_selected_state = 2001 } set_variable = { ukr_imd_state = 200 } UKR_IMD_clear_faction_variables = yes }
+			
+			ukraine_state_bucovina_uia_controlled_click = { set_variable = { ukr_selected_state = 8001 } set_variable = { ukr_uia_state = 80 } UKR_UIA_clear_faction_variables = yes }
+			ukraine_state_khmelnytskyi_uia_controlled_click = { set_variable = { ukr_selected_state = 1991 } set_variable = { ukr_uia_state = 199 } UKR_UIA_clear_faction_variables = yes }
+			ukraine_state_stanislawow_uia_controlled_click = { set_variable = { ukr_selected_state = 8901 } set_variable = { ukr_uia_state = 89 } UKR_UIA_clear_faction_variables = yes }
+			ukraine_state_lwow_uia_controlled_click = { set_variable = { ukr_selected_state = 9101 } set_variable = { ukr_uia_state = 91 } UKR_UIA_clear_faction_variables = yes }
+			ukraine_state_wolyn_uia_controlled_click = { set_variable = { ukr_selected_state = 9301 } set_variable = { ukr_uia_state = 93 } }
+		}
+		
+		properties = {
+			
+		}
+		
+		triggers = {
+			ukraine_state_dnipropetrovsk_visible = { 226 = { ukr_complete_control = yes } }
+			ukraine_state_dnipropetrovsk_imd_controlled_visible = { 226 = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+			ukraine_state_stalino_visible = { 227 = { ukr_complete_control = yes } }
+			ukraine_state_stalino_imd_controlled_visible = { 227 = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+			ukraine_state_voroshilovgrad_visible = { 228 = { ukr_complete_control = yes } }
+			ukraine_state_voroshilovgrad_imd_controlled_visible = { 228 = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+			ukraine_state_zaporozhe_visible = { 200 = { ukr_complete_control = yes } }
+			ukraine_state_zaporozhe_imd_controlled_visible = { 200 = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+			
+			ukraine_state_bucovina_visible = { 80 = { ukr_complete_control = yes } }
+			ukraine_state_bucovina_uia_controlled_visible = { 80 = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+			ukraine_state_khmelnytskyi_visible = { 199 = { ukr_complete_control = yes } }
+			ukraine_state_khmelnytskyi_uia_controlled_visible = { 199 = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+			ukraine_state_stanislawow_visible = { 89 = { ukr_complete_control = yes } }
+			ukraine_state_stanislawow_uia_controlled_visible = { 89 = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+			ukraine_state_lwow_visible = { 91 = { ukr_complete_control = yes } }
+			ukraine_state_lwow_uia_controlled_visible = { 91 = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+			ukraine_state_wolyn_visible = { 93 = { ukr_complete_control = yes } }
+			ukraine_state_wolyn_uia_controlled_visible = { 93 = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+		}
+	}
+	
+}

@@ -12,15 +12,15 @@ set_convoys = 5
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 
@@ -48,13 +48,13 @@ set_convoys = 5
 
 # A colony of Italy in 1939.  However, if independent it would have the same as its 1936 politics
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 create_country_leader = {
@@ -62,7 +62,7 @@ create_country_leader = {
 	name = "François Tolenga"
 	picture = GFX_portrait_Francois_Tolenga
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		compassionate_gentleman
 	}

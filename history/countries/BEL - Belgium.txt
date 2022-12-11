@@ -1,6 +1,40 @@
 ﻿capital = 6
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = BEL_jean_luc_dehaene
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "BEL_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BEL_1936_air_bba"
+	else = {
+		set_air_oob = "BEL_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+		}
+	}
+}
 
 set_research_slots = 3
 set_stability = 0.8
@@ -13,14 +47,13 @@ set_technology = {
 	tech_recon = 1
 	tech_engineers = 1
 	motorised_infantry = 1
-	early_fighter = 1
 	trench_warfare = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
 }
 
-recruit_character = BEL_hubert_pierlot
+#recruit_character = BEL_hubert_pierlot
 recruit_character = BEL_joseph_jacquemotte
 recruit_character = BEL_mcl_keyaerts
 recruit_character = BEL_georges_timmermans
@@ -53,19 +86,28 @@ recruit_character = BEL_paul_van_zeeland
 	add_command_power = 100
 
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 
 	oob = "BEL_1939"
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "BEL_1939_air_bba"
+		else = {
+			set_air_oob = "BEL_1939_air_legacy"
+			set_technology = {
+				fighter1 = 1
+			}
+		}
+	}
 	set_technology = {
-		fighter1 = 1
 		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -103,31 +145,33 @@ recruit_character = BEL_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	conservatism = 83
+	ultranationalism = 11
+	rev_socialism = 6
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
-		fascism = 8
-		communism = 5
+		conservatism = 87
+		ultranationalism = 8
+		rev_socialism = 5
 	}
 }
 
 set_convoys = 80
 set_stability = 0.75
+
+

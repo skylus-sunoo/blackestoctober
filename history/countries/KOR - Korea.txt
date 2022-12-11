@@ -1,8 +1,30 @@
 ﻿capital = 525 #South Korea - Seoul or Busan
 
-oob = "KOR_1936"
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = KOR_roh_tae_woo
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = liberalism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		liberalism = 100
+	}
+	
+}
+
+#############################
+
+oob = "KOR_1936"
 
 # Starting tech
 set_technology = {
@@ -11,13 +33,3 @@ set_technology = {
 }
 
 set_convoys = 5
-
-set_politics = {
-	ruling_party = conservatism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-set_popularities = {
-	conservatism = 100
-}

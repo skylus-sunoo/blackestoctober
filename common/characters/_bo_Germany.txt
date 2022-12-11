@@ -1,0 +1,17 @@
+characters = {
+
+	GER_helmut_kohl={
+		name=GER_helmut_kohl
+		portraits={
+			civilian={
+				large=GFX_Portrait_GER_Helmut_Kohl
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

@@ -36,15 +36,15 @@ recruit_character = NIR_democratic_guy
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "IRE_1939"
 	set_technology = {
@@ -80,20 +80,20 @@ recruit_character = NIR_democratic_guy
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	fascism = 1
-	communism = 1
+	conservatism = 98
+	ultranationalism = 1
+	rev_socialism = 1
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1938.6.17"
 		election_frequency = 48
 		elections_allowed = yes

@@ -1,0 +1,19 @@
+UKR_fragile_states_decision_category = {
+	priority = 1000
+
+	icon = GFX_bo_debug
+
+	scripted_gui = ukraine_fragile_state_ui
+	
+	picture = GFX_decision_cat_picture_faction_management_bulgaria
+
+	allowed = {
+		original_tag = UKR
+		NOT = { has_global_flag = ukrainian_civil_war } 
+	}
+ 
+	visible = {
+		has_idea = UKR_young_nation
+		NOT = { has_global_flag = ukrainian_civil_war } 
+	}
+}

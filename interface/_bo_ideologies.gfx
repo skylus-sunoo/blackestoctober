@@ -11,8 +11,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/progressivism_group.dds"
 	}	
 	spriteType = {
-		name = "GFX_ideology_anocracy_group"
-		texturefile = "gfx/interface/ideologies/anocracy_group.dds"
+		name = "GFX_ideology_paternalism_group"
+		texturefile = "gfx/interface/ideologies/paternalism_group.dds"
 	}	
 	spriteType = {
 		name = "GFX_ideology_conservatism_group"
@@ -33,10 +33,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
-	}	
+	}
+	spriteType = {
+		name = "GFX_ideology_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/ultranationalism_group.dds"
+	}
 	spriteType = {
 		name = "GFX_ideology_radical_esotericism_group"
-		texturefile = "gfx/interface/ideologies/esotericism_group.dds"
+		texturefile = "gfx/interface/ideologies/radical_esotericism_group.dds"
 	}	
 	spriteType = {
 		name = "GFX_ideology_despotism_group"

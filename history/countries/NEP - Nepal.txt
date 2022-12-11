@@ -1,5 +1,29 @@
 ﻿capital = 323
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = NEP_birendra_bir_bikram_shah_dev
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = paternalism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		paternalism = 100
+	}
+	
+}
+
+#############################
+
 oob = "NEP_1936"
 
 recruit_character = NEP_juddha_rana
@@ -25,7 +49,7 @@ recruit_character = NEP_w_r_parker_gill
 recruit_character = NEP_sidney_r_planter
 
 add_ideas = {
-	NEP_royal_army
+	#NEP_royal_army
 }
 
 # Starting tech
@@ -35,22 +59,27 @@ set_technology = {
 }
 set_war_support = 0.1
 set_stability = 0.8
+
+323 = { #Nepal
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = construction_effort_2
-	##complete_national_focus = production_effort_2
-	##complete_national_focus = infrastructure_effort
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = construction_effort_2
+	#complete_national_focus = production_effort_2
+	#complete_national_focus = infrastructure_effort
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "NEP_1939"
 	set_technology = {
@@ -83,11 +112,11 @@ set_stability = 0.8
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }

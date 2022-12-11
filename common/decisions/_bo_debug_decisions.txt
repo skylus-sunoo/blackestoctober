@@ -1,0 +1,220 @@
+bo_debug_decisions = {
+
+	bo_pp = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			add_political_power = 10
+		}
+	}
+	
+	change_tag = {
+		icon = generic_research
+
+		available = {
+			is_ai = no
+			is_debug = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			if = {
+				limit = {
+					NOT = { tag = SOV }
+				}
+				SOV = {
+					change_tag_from = ROOT
+				}
+			}
+			else = {
+				USA = {
+					change_tag_from = SOV
+				}
+			}
+		}
+	}
+	
+	ukraine_annex_factions_cw = {
+		icon = generic_research
+
+		available = {
+			is_debug = yes
+		}
+
+		visible = {
+			tag = UKR
+			OR = {
+				country_exists = IMD
+				country_exists = UIA
+				country_exists = UMR
+				country_exists = UMU
+				country_exists = CRU
+				country_exists = CRI
+			}
+		}
+
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 10
+		#		date > 1993.01.10
+		#	}
+		#}
+		
+		fire_only_once = no
+		cost = 0
+
+		complete_effect = {
+			if = {
+				limit = { country_exists = IMD	}
+				annex_country = { target = IMD transfer_troops = no }
+			}
+			if = {
+				limit = { country_exists = UIA	}
+				annex_country = { target = UIA transfer_troops = no }
+			}
+			if = {
+				limit = { country_exists = UMR	}
+				annex_country = { target = UMR transfer_troops = no }
+			}
+			if = {
+				limit = { country_exists = UMU	}
+				annex_country = { target = UMU transfer_troops = no }
+			}
+			if = {
+				limit = { country_exists = CRU	}
+				annex_country = { target = CRU transfer_troops = no }
+			}
+			if = {
+				limit = { country_exists = CRI	}
+				annex_country = { target = CRI transfer_troops = no }
+			}
+		}
+	}
+	
+	ukraine_total_cw = {
+		icon = generic_ignite_civil_war
+
+		available = {
+			is_debug = yes
+		}
+
+		visible = {
+			tag = UKR
+			always = yes
+		}
+		
+		days_re_enable = 7
+		
+		#ai_will_do = {
+		#	base = 0
+		#	modifier = {
+		#		add = 100
+		#		date > 1993.01.05
+		#	}
+		#	modifier = {
+		#		add = -100
+		#		date < 1993.01.07
+		#	}
+		#}
+		
+		fire_only_once = no
+		cost = 0
+		
+		complete_effect = {
+			IMD = {
+				200 = { set_state_owner_to = IMD set_state_controller_to = PREV }
+				#every_state = {
+				#	limit = { has_dynamic_modifier = { modifier = interfront_leanings } } 
+				#	set_state_owner_to = PREV
+				#	set_state_controller_to = PREV
+				#}
+			}
+			UIA = {
+				91 = { set_state_owner_to = UIA set_state_controller_to = PREV }
+				#every_state = {
+				#	limit = { has_dynamic_modifier = { modifier = insrugent_leanings } }
+				#	set_state_owner_to = PREV
+				#	set_state_controller_to = PREV
+				#}
+			}
+			UMR = {
+				192 = { set_state_owner_to = UMR set_state_controller_to = PREV }
+				#every_state = {
+				#	limit = { has_dynamic_modifier = { modifier = russian_military_leanings } }
+				#	set_state_owner_to = PREV
+				#	set_state_controller_to = PREV
+				#}
+			}
+			UMU = {
+				221 = { set_state_owner_to = UMU set_state_controller_to = PREV }
+				#every_state = {
+				#	limit = { has_dynamic_modifier = { modifier = ukrainian_military_leanings } }
+				#	set_state_owner_to = PREV
+				#	set_state_controller_to = PREV
+				#}
+			}
+			CRU = { 73 = { set_state_owner_to = PREV set_state_controller_to = PREV } }
+			CRI = { 137 = { set_state_owner_to = PREV set_state_controller_to = PREV } }
+			
+			hidden_effect = {
+				IMD = {
+					declare_war_on = { target = UIA type = annex_everything }
+					declare_war_on = { target = UMR type = annex_everything }
+					declare_war_on = { target = UMU type = annex_everything }
+					declare_war_on = { target = CRU type = annex_everything }
+					declare_war_on = { target = CRI type = annex_everything }
+				}
+				UIA = {
+					declare_war_on = { target = IMD type = annex_everything }
+					declare_war_on = { target = UMR type = annex_everything }
+					declare_war_on = { target = UMU type = annex_everything }
+					declare_war_on = { target = CRU type = annex_everything }
+					declare_war_on = { target = CRI type = annex_everything }
+				}
+				UMR = {
+					declare_war_on = { target = IMD type = annex_everything }
+					declare_war_on = { target = UIA type = annex_everything }
+					declare_war_on = { target = UMU type = annex_everything }
+					declare_war_on = { target = CRU type = annex_everything }
+					declare_war_on = { target = CRI type = annex_everything }
+				}
+				UMU = {
+					declare_war_on = { target = IMD type = annex_everything }
+					declare_war_on = { target = UIA type = annex_everything }
+					declare_war_on = { target = UMR type = annex_everything }
+					declare_war_on = { target = CRU type = annex_everything }
+					declare_war_on = { target = CRI type = annex_everything }
+				}
+				UKR = {
+					declare_war_on = { target = IMD type = annex_everything }
+					declare_war_on = { target = UIA type = annex_everything }
+					declare_war_on = { target = UMR type = annex_everything }
+					declare_war_on = { target = UMU type = annex_everything }
+					declare_war_on = { target = CRU type = annex_everything }
+					declare_war_on = { target = CRI type = annex_everything }
+				}
+			}
+		}
+		
+	}
+	
+}

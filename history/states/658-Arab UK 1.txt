@@ -2,9 +2,13 @@
 state={
 	id=658
 	name="STATE_658"
+	manpower = 170200
 	resources={
-		oil=5.000
+		oil=5 # was: 6
 	}
+	
+	state_category = pastoral
+
 
 	history={
 		add_core_of = UAE
@@ -16,9 +20,7 @@ state={
 			infrastructure = 1
 			7960 = {
 				naval_base = 3
-
 			}
-
 		}
 
 	}
@@ -26,8 +28,6 @@ state={
 	provinces={
 		2048 7960 8108 10904 13270 13271 13272 
 	}
-	manpower=170200
-	buildings_max_level_factor=1.000
-	state_category=pastoral
-	local_supplies=4.000
+
+	local_supplies=4.0 
 }

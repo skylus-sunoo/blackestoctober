@@ -1,0 +1,146 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = remove_african_states
+						option = yes
+					}
+				}
+				CO2 = {
+					271 = { set_state_owner_to = PREV }
+					
+					annex_country = { target = MOR transfer_troops = no }
+					annex_country = { target = WES transfer_troops = no }
+					annex_country = { target = AGR transfer_troops = no }
+					annex_country = { target = TUN transfer_troops = no }
+					annex_country = { target = LBA transfer_troops = no }
+					annex_country = { target = EGY transfer_troops = no }
+					annex_country = { target = MRT transfer_troops = no }
+					annex_country = { target = MLI transfer_troops = no }
+					annex_country = { target = NGR transfer_troops = no }
+					annex_country = { target = CHA transfer_troops = no }
+					annex_country = { target = SUD transfer_troops = no }
+					annex_country = { target = ERI transfer_troops = no }
+					annex_country = { target = ETH transfer_troops = no }
+					annex_country = { target = DJI transfer_troops = no }
+					annex_country = { target = SEN transfer_troops = no }
+					annex_country = { target = GAM transfer_troops = no }
+					annex_country = { target = GNB transfer_troops = no }
+					annex_country = { target = GNA transfer_troops = no }
+					annex_country = { target = SIE transfer_troops = no }
+					annex_country = { target = LIB transfer_troops = no }
+					annex_country = { target = IVO transfer_troops = no }
+					annex_country = { target = VOL transfer_troops = no }
+					annex_country = { target = GHA transfer_troops = no }
+					annex_country = { target = TOG transfer_troops = no }
+					annex_country = { target = DAH transfer_troops = no }
+					annex_country = { target = NGA transfer_troops = no }
+					annex_country = { target = CMR transfer_troops = no }
+					annex_country = { target = CAR transfer_troops = no }
+					annex_country = { target = SOM transfer_troops = no }
+					annex_country = { target = EQG transfer_troops = no }
+					annex_country = { target = GAB transfer_troops = no }
+					annex_country = { target = RCG transfer_troops = no }
+					annex_country = { target = COG transfer_troops = no }
+					annex_country = { target = UGA transfer_troops = no }
+					annex_country = { target = KEN transfer_troops = no }
+					annex_country = { target = RWA transfer_troops = no }
+					annex_country = { target = BRD transfer_troops = no }
+					annex_country = { target = TZN transfer_troops = no }
+					annex_country = { target = ANG transfer_troops = no }
+					annex_country = { target = ZAM transfer_troops = no }
+					annex_country = { target = MLW transfer_troops = no }
+					annex_country = { target = MZB transfer_troops = no }
+					annex_country = { target = NMB transfer_troops = no }
+					annex_country = { target = BOT transfer_troops = no }
+					annex_country = { target = ZIM transfer_troops = no }
+					annex_country = { target = SAF transfer_troops = no }
+					annex_country = { target = MAD transfer_troops = no }
+				
+					every_state = {
+						limit = {
+							is_controlled_by = PREV
+						}
+						add_core_of = PREV
+					}
+				}
+				
+				set_global_flag = gr_african_states_removed
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = remove_south_american_states
+						option = yes
+					}
+				}
+				CO3 = {
+					315 = { set_state_owner_to = PREV }
+					
+					annex_country = { target = CUB transfer_troops = no }
+					annex_country = { target = HAI transfer_troops = no }
+					annex_country = { target = DOM transfer_troops = no }
+					annex_country = { target = BAH transfer_troops = no }
+					annex_country = { target = JAM transfer_troops = no }
+					annex_country = { target = GDL transfer_troops = no }
+					annex_country = { target = BAS transfer_troops = no }
+					annex_country = { target = TRI transfer_troops = no }
+					annex_country = { target = CRC transfer_troops = no }
+					annex_country = { target = BLZ transfer_troops = no }
+					annex_country = { target = GUA transfer_troops = no }
+					annex_country = { target = HON transfer_troops = no }
+					annex_country = { target = ELS transfer_troops = no }
+					annex_country = { target = NIC transfer_troops = no }
+					annex_country = { target = COS transfer_troops = no }
+					annex_country = { target = PAN transfer_troops = no }
+				
+					every_state = {
+						limit = {
+							is_controlled_by = PREV
+						}
+						add_core_of = PREV
+					}
+				}
+				
+				set_global_flag = gr_south_american_states_removed
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = remove_south_american_states
+						option = yes
+					}
+				}
+				CO4 = {
+					500 = { set_state_owner_to = PREV }
+					
+					annex_country = { target = COL transfer_troops = no }
+					annex_country = { target = VEN transfer_troops = no }
+					annex_country = { target = GYA transfer_troops = no }
+					annex_country = { target = SUR transfer_troops = no }
+					annex_country = { target = ECU transfer_troops = no }
+					annex_country = { target = PRU transfer_troops = no }
+					annex_country = { target = BRA transfer_troops = no }
+					annex_country = { target = BOL transfer_troops = no }
+					annex_country = { target = PAR transfer_troops = no }
+					annex_country = { target = CHL transfer_troops = no }
+					annex_country = { target = ARG transfer_troops = no }
+					annex_country = { target = URG transfer_troops = no }
+				
+					every_state = {
+						limit = {
+							is_controlled_by = PREV
+						}
+						add_core_of = PREV
+					}
+				}
+				
+				set_global_flag = gr_south_american_states_removed
+			}
+		}
+	}
+}

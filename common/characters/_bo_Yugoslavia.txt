@@ -1,0 +1,128 @@
+characters = {
+
+	BOS_alija_izetbegovic={
+		name=BOS_alija_izetbegovic
+		portraits={
+			civilian={
+				large=GFX_Portrait_BOS_Alija_Izetbegovic
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	CHB_mate_boban={
+		name=CHB_mate_boban
+		portraits={
+			civilian={
+				large=GFX_Portrait_CHB_Mate_Boban
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	CRO_franjo_tudman={
+		name=CRO_franjo_tudman
+		portraits={
+			civilian={
+				large=GFX_Portrait_CRO_Franjo_Tudman
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	MAC_kiro_gligorov={
+		name=MAC_kiro_gligorov
+		portraits={
+			civilian={
+				large="GFX_Portrait_MAC_kiro_gligorov"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	SLV_milan_kucan={
+		name=SLV_milan_kucan
+		portraits={
+			civilian={
+				large="GFX_Portrait_SLV_Milan_Kučan"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	SRK_goran_hadzic={
+		name=SRK_goran_hadzic
+		portraits={
+			civilian={
+				large=GFX_Portrait_SRK_Goran_Hadzic
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	SRP_radovan_karadzic={
+		name=SRP_radovan_karadzic
+		portraits={
+			civilian={
+				large=GFX_Portrait_SRP_Radovan_Karadzic
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	WBS_fikret_abdic={
+		name=WBS_fikret_abdic
+		portraits={
+			civilian={
+				large=GFX_Portrait_WBS_Fikret_Abdic
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	YUG_slobodan_milosevic={
+		name=YUG_slobodan_milosevic
+		portraits={
+			civilian={
+				large=GFX_Portrait_YUG_Slobodan_Milosevic
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+}	

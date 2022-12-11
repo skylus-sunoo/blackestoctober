@@ -1,5 +1,29 @@
 ﻿capital = 324
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = BHU_jigme_singye_wangchuck
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = paternalism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		paternalism = 100
+	}
+	
+}
+
+#############################
+
 oob = "BHU_1936"
 
 # Starting tech
@@ -38,16 +62,16 @@ recruit_character = BHU_mang_pos_bhur_bai
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = construction_effort_2
-	##complete_national_focus = production_effort_2
-	##complete_national_focus = infrastructure_effort
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = construction_effort_2
+	#complete_national_focus = production_effort_2
+	#complete_national_focus = infrastructure_effort
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "BHU_1939"
 	set_technology = {
@@ -75,24 +99,24 @@ recruit_character = BHU_mang_pos_bhur_bai
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		neutrality = 100
+		despotism = 100
 	}
 }

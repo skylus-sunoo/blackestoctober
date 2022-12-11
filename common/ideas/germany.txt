@@ -1,0 +1,26 @@
+ideas = {
+
+	country = { 
+	    GER_legacy_of_the_blue_winter = {
+		    
+			allowed = {
+				tag = GER
+                always = no   				
+			}
+		    			
+		    available = {}
+			
+			cancel = {}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			stability_factor = -0.05
+			rev_socialism_drift = -0.10
+			}
+	    }		
+  
+	 }
+ } 

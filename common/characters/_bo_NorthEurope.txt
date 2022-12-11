@@ -1,0 +1,135 @@
+characters = {
+	
+	DEN_poul_schluter = {
+		name = DEN_poul_schluter
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DEN_Poul_Schlüter
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	DEN_poul_nyrup_rasmussen = {
+		name = DEN_poul_nyrup_rasmussen
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_DEN_Poul_Nyrup_Rasmussen
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	EST_lennart_meri = {
+		name = EST_lennart_meri
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_EST_Lennart_Meri
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	FIN_mauno_koivisto = {
+		name = FIN_mauno_koivisto
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_FIN_Mauno_Koivisto
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	LAT_anatolijs_gorbunovs = {
+		name = LAT_anatolijs_gorbunovs
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_LAT_Anatolijs_Gorbunovs
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	LAT_guntis_ulmanis = {
+		name = LAT_guntis_ulmanis
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_LAT_Guntis_Ulmanis
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	LIT_algirdas_brazauskas = {
+		name = LIT_algirdas_brazauskas
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_LIT_Algirdas_Brazauskas
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	NOR_gro_brundtland = {
+		name = NOR_gro_brundtland
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_NOR_Gro_Brundtland
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	SWE_carl_bildt = {
+		name = SWE_carl_bildt
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_SWE_Carl_Bildt
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+}

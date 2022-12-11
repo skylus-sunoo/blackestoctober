@@ -8,10 +8,16 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 if = {
 	limit = {
@@ -56,7 +62,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -74,7 +80,28 @@ create_country_leader = {
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 33
+	despotism = 33
+	rev_socialism = 34
 }
+
+recruit_character = TRA_pot
+recruit_character = TRA_awt
+recruit_character = TRA_communist_guy
+recruit_character = TRA_ncm
+recruit_character = TRA_acgs
+recruit_character = TRA_nccr
+recruit_character = TRA_fascist_guy
+recruit_character = TRA_ar
+recruit_character = TRA_stc
+recruit_character = TRA_aco2
+recruit_character = TRA_aa2
+recruit_character = TRA_ncs
+recruit_character = TRA_nt
+recruit_character = TRA_acas
+recruit_character = TRA_acd2
+recruit_character = TRA_democratic_guy
+recruit_character = TRA_mt
+recruit_character = TRA_ai2
+recruit_character = TRA_coi
+recruit_character = TRA_acr

@@ -3,6 +3,12 @@ ideologies = {
 		
 		types = {
 			mod_socialism_subtype = {}
+			baathism = {}
+			dem_socialism = {}
+			left_nationalism = {}
+			islam_socialism = {}
+			agrarian_socialism = {}
+			#marksoc = {} #what?
 		}
 		
 		dynamic_faction_names = {
@@ -47,6 +53,13 @@ ideologies = {
 		
 		types = {
 			rev_socialism_subtype = {}
+			marxism = {}
+			#ml = {}
+			#mlm = {}
+			maoism = {}
+			guevarism = {}
+			hoxhaism = {}
+			juche = {}
 		}
 		
 		dynamic_faction_names = {
@@ -68,6 +81,7 @@ ideologies = {
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
+			can_create_factions = yes
 		}
 		
 		can_collaborate = yes
@@ -90,9 +104,14 @@ ideologies = {
 	conservatism = {
 	
 		types = {
-			
-			conservatism_subtype = {
-			}
+			conservatism_subtype = {}
+			lib_conservatism = {}
+			nat_conservatism = {}
+			christ_democracy = {}
+			neo_conservatism = {}
+			right_populism = {}
+			agrarian = {}
+			islam_democracy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -144,6 +163,14 @@ ideologies = {
 	
 		types = {
 			liberalism_subtype = {}
+			soc_liberalism = {}
+			neo_liberalism = {}
+			prog_liberalism = {}
+			mark_liberalism = {}
+			populism = {}
+			nat_liberalism = {}
+			chris_progressivism = {}
+			rad_liberalism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -195,7 +222,10 @@ ideologies = {
 	
 		types = {
 			progressivism_subtype = {}
-			social_democracy = {}
+			soc_democracy = {}
+			left_populism = {}
+			pop_front = {}
+			soc_radicalism = {}
 		}
 		
 		dynamic_faction_names = {
@@ -246,8 +276,7 @@ ideologies = {
 	despotism = {
 	
 		types = {
-			despotism_subtype  = {
-			}
+			despotism_subtype  = {}
 		}
 
 		dynamic_faction_names = {
@@ -335,13 +364,15 @@ ideologies = {
 
 		ai_neutral = yes # 
 	}
-	anocracy = {
+	paternalism = {
 	
 		types = {
-			anocracy_subtype = {
-			}
-			bonapartism = {
-			}
+			paternalism_subtype = {}
+			auth_democracy  = {}
+			dom_part_democracy  = {}
+			mil_council  = {}
+			emergency_gov  = {}
+			anocracy  = {}
 		}
 
 		dynamic_faction_names = {
@@ -386,8 +417,8 @@ ideologies = {
 	ultranationalism = {
 	
 		types = {
-			ultranationalism_subtype = {}
-			nazism = {}
+			ultranationalism_subtype = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -480,17 +511,17 @@ ideologies = {
 	
 		types = {
 			
-			conservatism = {
-			}
-		
-			liberalism = {
-			}
-		
+			#conservatism = {
+			#}
+			#
+			#liberalism = {
+			#}
+			#
 			socialism = {
 			}
-			
-			progressivism = {
-			}
+			#
+			#progressivism = {
+			#}
 		}
 		
 		dynamic_faction_names = {
@@ -543,8 +574,8 @@ ideologies = {
 		
 		types = {
 		
-			marxism = {
-			}
+			#marxism = {
+			#}
 			
 			leninism = {
 			}
@@ -601,8 +632,8 @@ ideologies = {
 	
 		types = {
 		
-			#nazism = {
-			#}
+			nazism = {
+			}
 
 			gen_nazism = {
 			}
@@ -653,8 +684,8 @@ ideologies = {
 	neutrality = {
 	
 		types = {
-			despotism  = {
-			}
+			#despotism  = {
+			#}
 			
 			oligarchism  = {
 			}

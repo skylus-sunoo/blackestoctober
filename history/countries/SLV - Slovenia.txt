@@ -1,4 +1,28 @@
-﻿capital = 102
+﻿capital = 853
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = SLV_milan_kucan
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
 
 set_research_slots = 3
 
@@ -8,12 +32,26 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_submarine = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
 }
 if = {
 	limit = {
@@ -37,14 +75,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 33
+	despotism = 33
+	rev_socialism = 34
 }

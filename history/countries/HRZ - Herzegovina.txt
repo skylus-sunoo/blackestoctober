@@ -8,12 +8,17 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 if = {
 	limit = {
@@ -61,16 +66,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 33
+	despotism = 33
+	rev_socialism = 34
 }
 
 recruit_character = HRZ_acd2

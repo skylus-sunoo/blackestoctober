@@ -1,3 +1,4 @@
 ﻿l_english:
  SOV_yeltsin_faction:0 "Yeltsin Loyalists"
- SOV_yeltsin_faction_DEF:0 "the Yeltsin Loyalists"
+ SOV_yeltsin_faction_DEF:0 "the Yeltsinites"
+ FSM_UN_TRUST_TERRITORY:0 "Trust Territory of Palau"

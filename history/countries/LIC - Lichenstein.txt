@@ -1,4 +1,4 @@
-﻿capital = 852
+﻿capital = 926
 
 
 set_research_slots = 1

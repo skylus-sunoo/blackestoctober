@@ -1,12 +1,35 @@
-﻿capital = 850
+﻿capital = 924
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = HLS_john_paul_ii
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = theocracy
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		theocracy = 95
+		despotism = 5
+	}
+	
+}
+
+#############################
 
 #oob = "HLS_2000"
 
 set_research_slots = 1
 set_convoys = 1
 set_stability = 0.9
-
-recruit_character = HLS_john_paul_ii
 
 set_technology = {
 	infantry_weapons = 1
@@ -26,16 +49,4 @@ set_technology = {
 	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
-}
-
-set_politics = {
-	ruling_party = theocracy
-	last_election = "1990.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-set_popularities = {
-	theocracy = 95
-	despotism = 5
 }

@@ -1,0 +1,226 @@
+characters = {
+
+	IRQ_saddam_hussein={
+		name=IRQ_saddam_hussein
+		portraits={
+			civilian={
+				large="GFX_Portrait_IRQ_Saddam_Hussein"
+			}
+		}
+		country_leader={
+			ideology = paternalism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	ISR_yitzhak_rabin={
+		name=ISR_yitzhak_rabin
+		portraits={
+			civilian={
+				large="GFX_Portrait_ISR_Yitzhak_Rabin"
+			}
+		}
+		country_leader={
+			ideology = paternalism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	JOR_hussein_bin_talal={
+		name=JOR_hussein_bin_talal
+		portraits={
+			civilian={
+				large="GFX_Portrait_JOR_Hussein_bin_Talal"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	KUW_jaber_al-ahmad_al-sabah={
+		name=KUW_jaber_al-ahmad_al-sabah
+		portraits={
+			civilian={
+				large="GFX_Portrait_KUW_Jaber_Al-Ahmad_Al-Sabah"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	LEB_elias_hrawi={
+		name=LEB_elias_hrawi
+		portraits={
+			civilian={
+				large="GFX_Portrait_LEB_Elias_Hrawi"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	OMA_qaboos_bin_said={
+		name=OMA_qaboos_bin_said
+		portraits={
+			civilian={
+				large="GFX_Portrait_OMA_Qaboos_bin_Said"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	PAL_yasser_arafat={
+		name=PAL_yasser_arafat
+		portraits={
+			civilian={
+				large="GFX_Portrait_PAL_Yasser_Arafat"
+			}
+		}
+		country_leader={
+			ideology = paternalism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	PER_ali_khamenei={
+		name=PER_ali_khamenei
+		portraits={
+			civilian={
+				large="GFX_Portrait_PER_Ali_Khamenei"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	QAT_khalifa_bin_hamad_al_thani={
+		name=QAT_khalifa_bin_hamad_al_thani
+		portraits={
+			civilian={
+				large="GFX_Portrait_QAT_Khalifa_bin_Hamad_Al_Thani"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	SAU_fahd_bin_abdulaziz_al_saud={
+		name=SAU_fahd_bin_abdulaziz_al_saud
+		portraits={
+			civilian={
+				large="GFX_Portrait_SAU_Fahd_bin_Abdulaziz_Al_Saud"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	SYR_hafez_al-assad={
+		name=SYR_hafez_al-assad
+		portraits={
+			civilian={
+				large="GFX_Portrait_SYR_Hafez_al-Assad"
+			}
+		}
+		country_leader={
+			ideology = paternalism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	TUR_turgut_ozal={
+		name=TUR_turgut_ozal
+		portraits={
+			civilian={
+				large="GFX_Portrait_TUR_Turgut_Özal"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	TUR_suleyman_demirel={
+		name=TUR_suleyman_demirel
+		portraits={
+			civilian={
+				large="GFX_Portrait_TUR_Süleyman_Demirel"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	UAE_zayed_bin_sultan_al_nahyan={
+		name=UAE_zayed_bin_sultan_al_nahyan
+		portraits={
+			civilian={
+				large="GFX_Portrait_UAE_Zayed_bin_Sultan_Al_Nahyan"
+			}
+		}
+		country_leader={
+			ideology = theocracy_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	YEM_ali_abdullah_saleh={
+		name=YEM_ali_abdullah_saleh
+		portraits={
+			civilian={
+				large="GFX_Portrait_YEM_Ali_Abdullah_Saleh"
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+}

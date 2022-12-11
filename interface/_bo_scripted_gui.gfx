@@ -1,0 +1,146 @@
+spriteTypes = {
+
+	SpriteType = { 
+		name = "GFX_ukraine_state_map_bg"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_map_bg.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_ukraine_state_baltatiraspol"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_baltatiraspol.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_bucovina"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_bucovina.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_carpathianruthenia"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_carpathianruthenia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_cherkasy"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_cherkasy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_chernigov"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_chernigov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_crimea"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_crimea.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_dnipropetrovsk"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_dnipropetrovsk.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_kharkov"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_kharkov.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_kherson"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_kherson.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_khmelnytskyi"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_khmelnytskyi.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_kiev"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_kiev.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_lwow"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_lwow.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_mykolaiv"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_mykolaiv.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_odessa"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_odessa.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_poltava"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_poltava.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_southernbessarabia"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_southernbessarabia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_stalino"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_stalino.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_stanislawow"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_stanislawow.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_sumy"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_sumy.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_vinnytsia"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_vinnytsia.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_voroshilovgrad"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_voroshilovgrad.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_wolyn"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_wolyn.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_zaporozhe"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_zaporozhe.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_zhytomyr"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_zhytomyr.dds"
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "GFX_ukraine_state_dnipropetrovsk_imd_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_dnipropetrovsk_imd_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_stalino_imd_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_stalino_imd_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_voroshilovgrad_imd_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_voroshilovgrad_imd_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_zaporozhe_imd_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_zaporozhe_imd_controlled.dds"
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "GFX_ukraine_state_bucovina_uia_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_bucovina_uia_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_khmelnytskyi_uia_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_khmelnytskyi_uia_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_lwow_uia_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_lwow_uia_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_stanislawow_uia_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_stanislawow_uia_controlled.dds"
+	}
+	SpriteType = { 
+		name = "GFX_ukraine_state_wolyn_uia_controlled"
+		texturefile = "gfx/interface/scripted_gui/ukraine_fragile_state/ukraine_state_wolyn_uia_controlled.dds"
+	}
+}

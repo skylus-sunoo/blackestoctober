@@ -1,0 +1,198 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "ukraine_fragile_state_ui_window"
+		position = { x = 0 y = 500 }
+		size = { width = 100% height= 230 }
+		
+		#iconType = {
+		#	name ="ukraine_state_map_bg"
+		#	spriteType = "GFX_ukraine_state_map_bg"
+		#	position = { x=20	 y=-10 }
+		#}
+		buttonType = {
+			name ="ukraine_state_baltatiraspol"
+			spriteType = "GFX_ukraine_state_baltatiraspol"
+			position = { x=211	 y=96 }
+		}
+		buttonType = {
+			name ="ukraine_state_bucovina"
+			spriteType = "GFX_ukraine_state_bucovina"
+			position = { x=141	 y=86 }
+		}
+		buttonType = {
+			name ="ukraine_state_carpathianruthenia"
+			spriteType = "GFX_ukraine_state_carpathianruthenia"
+			position = { x=90	 y=75 }
+		}
+		buttonType = {
+			name ="ukraine_state_cherkasy"
+			spriteType = "GFX_ukraine_state_cherkasy"
+			position = { x=231	 y=48 }
+		}
+		buttonType = {
+			name ="ukraine_state_chernigov"
+			spriteType = "GFX_ukraine_state_chernigov"
+			position = { x=249	 y=-4 }
+		}
+		buttonType = {
+			name ="ukraine_state_crimea"
+			spriteType = "GFX_ukraine_state_crimea"
+			position = { x=287	 y=148 }
+		}
+		buttonType = {
+			name ="ukraine_state_dnipropetrovsk"
+			spriteType = "GFX_ukraine_state_dnipropetrovsk"
+			position = { x=295	 y=74 }
+		}
+		buttonType = {
+			name ="ukraine_state_kharkov"
+			spriteType = "GFX_ukraine_state_kharkov"
+			position = { x=333	 y=46 }
+		}
+		buttonType = {
+			name ="ukraine_state_kherson"
+			spriteType = "GFX_ukraine_state_kherson"
+			position = { x=272	 y=116 }
+		}
+		buttonType = {
+			name ="ukraine_state_khmelnytskyi"
+			spriteType = "GFX_ukraine_state_khmelnytskyi"
+			position = { x=166	 y=41 }
+		}
+		buttonType = {
+			name ="ukraine_state_kiev"
+			spriteType = "GFX_ukraine_state_kiev"
+			position = { x=227	 y=19 }
+		}
+		buttonType = {
+			name ="ukraine_state_mykolaiv"
+			spriteType = "GFX_ukraine_state_mykolaiv"
+			position = { x=249	 y=87 }
+		}
+		buttonType = {
+			name ="ukraine_state_odessa"
+			spriteType = "GFX_ukraine_state_odessa"
+			position = { x=234	 y=100 }
+		}
+		buttonType = {
+			name ="ukraine_state_poltava"
+			spriteType = "GFX_ukraine_state_poltava"
+			position = { x=284	 y=41 }
+		}
+		buttonType = {
+			name ="ukraine_state_southernbessarabia"
+			spriteType = "GFX_ukraine_state_southernbessarabia"
+			position = { x=202	 y=138 }
+		}
+		buttonType = {
+			name ="ukraine_state_stalino"
+			spriteType = "GFX_ukraine_state_stalino"
+			position = { x=364	 y=74 }
+		}
+		buttonType = {
+			name ="ukraine_state_stanislawow"
+			spriteType = "GFX_ukraine_state_stanislawow"
+			position = { x=100	 y=60 }
+		}
+		buttonType = {
+			name ="ukraine_state_lwow"
+			spriteType = "GFX_ukraine_state_lwow"
+			position = { x=103	 y=37 }
+		}
+		buttonType = {
+			name ="ukraine_state_sumy"
+			spriteType = "GFX_ukraine_state_sumy"
+			position = { x=295	 y=-3 }
+		}
+		buttonType = {
+			name ="ukraine_state_vinnytsia"
+			spriteType = "GFX_ukraine_state_vinnytsia"
+			position = { x=188	 y=60 }
+		}
+		buttonType = {
+			name ="ukraine_state_voroshilovgrad"
+			spriteType = "GFX_ukraine_state_voroshilovgrad"
+			position = { x=388	 y=53 }
+		}
+		buttonType = {
+			name ="ukraine_state_wolyn"
+			spriteType = "GFX_ukraine_state_wolyn"
+			position = { x=116	 y=15 }
+		}
+		buttonType = {
+			name ="ukraine_state_zaporozhe"
+			spriteType = "GFX_ukraine_state_zaporozhe"
+			position = { x=317	 y=100 }
+		}
+		buttonType = {
+			name ="ukraine_state_zhytomyr"
+			spriteType = "GFX_ukraine_state_zhytomyr"
+			position = { x=183	 y=16 }
+		}
+		
+		
+		
+		buttonType = {
+			name ="ukraine_state_dnipropetrovsk_imd_controlled"
+			spriteType = "GFX_ukraine_state_dnipropetrovsk_imd_controlled"
+			position = { x=295	 y=74 }
+		}
+		buttonType = {
+			name ="ukraine_state_stalino_imd_controlled"
+			spriteType = "GFX_ukraine_state_stalino_imd_controlled"
+			position = { x=364	 y=74 }
+		}
+		buttonType = {
+			name ="ukraine_state_voroshilovgrad_imd_controlled"
+			spriteType = "GFX_ukraine_state_voroshilovgrad_imd_controlled"
+			position = { x=388	 y=53 }
+		}
+		buttonType = {
+			name ="ukraine_state_zaporozhe_imd_controlled"
+			spriteType = "GFX_ukraine_state_zaporozhe_imd_controlled"
+			position = { x=317	 y=100 }
+		}
+		
+		
+		
+		buttonType = {
+			name ="ukraine_state_bucovina_uia_controlled"
+			spriteType = "GFX_ukraine_state_bucovina_uia_controlled"
+			position = { x=141	 y=86 }
+		}
+		buttonType = {
+			name ="ukraine_state_khmelnytskyi_uia_controlled"
+			spriteType = "GFX_ukraine_state_khmelnytskyi_uia_controlled"
+			position = { x=166	 y=41 }
+		}
+		buttonType = {
+			name ="ukraine_state_stanislawow_uia_controlled"
+			spriteType = "GFX_ukraine_state_stanislawow_uia_controlled"
+			position = { x=100	 y=60 }
+		}
+		buttonType = {
+			name ="ukraine_state_lwow_uia_controlled"
+			spriteType = "GFX_ukraine_state_lwow_uia_controlled"
+			position = { x=103	 y=37 }
+		}
+		buttonType = {
+			name ="ukraine_state_wolyn_uia_controlled"
+			spriteType = "GFX_ukraine_state_wolyn_uia_controlled"
+			position = { x=116	 y=15 }
+		}
+		
+		
+		
+		instantTextboxType = {
+			name = "ukr_selected_state_info"
+			position = { x = 20 y = 200 }
+			font = "bo_vcr_21"
+			text = "ukr_selected_state_info"
+			maxWidth = 400
+			maxHeight = 23
+			format = left
+		}
+	}
+
+}

@@ -1,4 +1,80 @@
 characters = {
+	
+	AFG_sibghatullah_mojaddedi = {
+		name = AFG_sibghatullah_mojaddedi
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_AFG_Sibghatullah_Mojaddedi
+			}
+		}
+		country_leader = {
+			ideology = theocracy_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	BAN_khaleda_zia = {
+		name = BAN_khaleda_zia
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_BAN_Khaleda_Zia
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	BHU_jigme_singye_wangchuck = {
+		name = BHU_jigme_singye_wangchuck
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_BHU_Jigme_Singye_Wangchuck
+			}
+		}
+		country_leader = {
+			ideology = paternalism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	NEP_birendra_bir_bikram_shah_dev = {
+		name = NEP_birendra_bir_bikram_shah_dev
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_NEP_Birendra_Bir_Bikram_Shah_Dev
+			}
+		}
+		country_leader = {
+			ideology = paternalism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+
+	PAK_ghulam_ishaq_khan = {
+		name = PAK_ghulam_ishaq_khan
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_PAK_Ghulam_Ishaq_Khan
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+
 	RAJ_shankar_dayal_sharma = {
 		name = RAJ_shankar_dayal_sharma
 		portraits = {

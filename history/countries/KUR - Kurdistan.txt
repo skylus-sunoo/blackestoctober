@@ -12,8 +12,15 @@ set_technology = {
 	tech_mountaineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	CAS1 = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+	}
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -37,8 +44,7 @@ if = {
 		basic_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		early_ship_hull_heavy = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
+		basic_battery = 11
 		basic_torpedo = 1
 		coastal_defense_ships = 1
 		mtg_transport = 1
@@ -48,20 +54,17 @@ if = {
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 
 	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
 		interwar_artillery = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
@@ -96,6 +99,16 @@ if = {
 		dispersed_industry2 = 1
 	}
 	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+		}
+	}
+	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 			basic_submarine = 1
@@ -110,17 +123,17 @@ if = {
 
 # There were many Kurdish uprisings in Iraq, Iran, and Turkey in the 20th century, it's difficult to define a "ruling party". Democratic has been chosen since the Dersim Rebellion is the closest uprising to HoI's start date.
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1935.2.8"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 40
-	communism = 25
-	fascism = 30
-	neutrality = 5
+	conservatism = 40
+	rev_socialism = 25
+	ultranationalism = 30
+	despotism = 5
 }
 
 # Qazi Muhammad was leader of the short-lived Marxist uprising in Iranian Kurdistan
@@ -141,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_SHEIKH_BARZANJI_DESC"
 	picture = GFX_portrait_Sheikh_Mahmud_Barzanji
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}
@@ -165,7 +178,7 @@ create_country_leader = {
 	desc = "POLITICS_SEYID_RIZA_DESC"
 	picture = "GFX_portrait_kur_seyid_riza"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = {
 		freedom_fighter
 	}

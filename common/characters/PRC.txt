@@ -1,19 +1,4 @@
 characters={
-
-	PRC_jiang_zemin={
-		name=PRC_jiang_zemin
-		portraits={
-			civilian={
-				large="GFX_Portrait_PRC_Jiang_Zemin"
-			}
-		}
-		country_leader={
-			ideology=rev_socialism_subtype
-			traits={ cornered_fox }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
 	
 	PRC_mao_zedong={
 		name=PRC_mao_zedong
@@ -159,7 +144,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology = liberalism_subtype
 			traits={ hawk }
 			expire="1948.1.1.12"
 			id=-1

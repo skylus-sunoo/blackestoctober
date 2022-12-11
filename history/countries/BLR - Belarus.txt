@@ -1,10 +1,33 @@
 ﻿capital = 206 #Minsk
 
-oob = "BLR_1936"
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = BLR_stanislav_shushkevich
 recruit_character = BLR_aleksandr_lukashenko
 recruit_character = BLR_vyacheslav_kebich
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
+#oob = "BLR_1936"
+
 set_research_slots = 3
 
 # Starting tech
@@ -19,13 +42,20 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
 }
 
 
@@ -83,17 +113,56 @@ if = {
 	}
 }
 
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1991.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	conservatism = 15
+	despotism = 20
+	rev_socialism = 60
+	ultranationalism = 5
 }
+
+create_country_leader = {
+    name = "Vasil Zacharka"
+    desc = ""
+	picture = GFX_portrait_Vasil_Zacharka
+    expire = "1965.1.1"
+    ideology = centrism
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Radasłaŭ Astroŭski"
+    desc = ""
+	picture = GFX_portrait_Radasłau_Astrouski
+    expire = "1965.1.1"
+    ideology = fascism_ideology
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Panteleimon Ponomarenko"
+    desc = ""
+	picture = GFX_portrait_Panteleimon_Ponomarenko
+    expire = "1965.1.1"
+    ideology = stalinism
+    traits = {
+        #
+    }
+}
+
+create_country_leader = {
+    name = "Adam Stankievič"
+    desc = ""
+	picture = GFX_portrait_Adam_Stankievic
+    expire = "1965.1.1"
+    ideology = socialism
+    traits = {
+        #
+    }
+}
+
+
 

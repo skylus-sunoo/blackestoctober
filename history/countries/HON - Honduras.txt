@@ -1,5 +1,29 @@
 ﻿capital = 312
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = HON_rafael_leonardo_callejas_romero
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "HON_1936"
 
 # Starting tech
@@ -42,15 +66,15 @@ set_convoys = 10
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "HON_1939"
 	set_technology = {
@@ -86,18 +110,18 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	conservatism = 100
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1936.3.28"
 		election_frequency = 48
 		elections_allowed = yes

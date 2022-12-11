@@ -12,24 +12,32 @@ set_technology = {
 	tech_mountaineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		early_bomber = 1
+		naval_bomber1 = 1
+	}
 }
 
 set_convoys = 20
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 
@@ -54,15 +62,15 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 93
-	fascism = 3
-	communism = 4
+	conservatism = 93
+	ultranationalism = 3
+	rev_socialism = 4
 }
 
 create_country_leader = {
@@ -76,7 +84,7 @@ create_country_leader = {
 	name = "Alfonso Daniel Castelao"
 	picture = GFX_portrait_Alfonso_Daniel_Castelao
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = liberalism_subtype
 }
 
 create_country_leader = {

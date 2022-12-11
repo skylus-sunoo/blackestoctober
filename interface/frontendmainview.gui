@@ -164,15 +164,15 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		#ButtonType = {
-		#	name = "sp_tutorial_button"
-		#	position = { x = 16 y = 138}
-		#	quadTextureSprite ="GFX_main_lobby_button"	
-		#	buttonText = "FE_TUTORIAL"
-		#	buttonFont = "hoi_24header"
-		#	clicksound = click_default
-		#	oversound = ui_menu_over
-		#}
+		ButtonType = {
+			name = "sp_tutorial_button"
+			position = { x = 16 y = 500}
+			quadTextureSprite ="GFX_bo_blank"	
+			buttonText = "FE_TUTORIAL"
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
 		
 		ButtonType = {
 			name = "sp_back_button"
@@ -200,15 +200,15 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=0 y =0}
+		position = { x=0 y =64}
 		size = { width = 320 height = 395}
 		Orientation = CENTER
 		Origo = center		
 
-		#positionType = {
-		#	name = "subscription_size"
-		#	position = { x = 320 y = 523 }
-		#}
+		positionType = {
+			name = "subscription_size"
+			position = { x = 320 y = 523 }
+		}
 		
 		background = {
 			name = "Background"		
@@ -244,12 +244,12 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-
+		
 			name ="version_label"
 			position = { x = 35 y = 356 }
-			textureFile = ""
+			textureFile = "GFX_bo_blank"
 			font = "hoi_18b"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = -180}
 			text = "ALPHA"	
 			format = centre
 			maxWidth = 250
@@ -272,26 +272,26 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		#buttonType = {
-		#	name = "career_profile_button"
-		#	position = { x = 16 y = 138 }
-		#	quadTextureSprite ="GFX_main_lobby_button"
-		#	buttonText = "MENU_BAR_CAREER_PROFILE"
-		#	buttonFont = "hoi_24header"
-		#	clicksound = click_default
-		#	oversound = ui_menu_over
-		#}
-		#
-		#ButtonType = {
-		#	name = "credits_button"
-		#	position = {  x = 16 y = 178 }
-		#	quadTextureSprite ="GFX_main_lobby_button"	
-		#	buttonText = "FE_CREDITS"
-		#	buttonFont = "hoi_24header"
-		#	clicksound = click_default
-		#	oversound = ui_menu_over
-		#}
-		#
+		buttonType = {
+			name = "career_profile_button"
+			position = { x = 16 y = 500 }
+			quadTextureSprite ="GFX_bo_blank"
+			buttonText = ""
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
+		ButtonType = {
+			name = "credits_button"
+			position = {  x = 16 y = 500 }
+			quadTextureSprite ="GFX_bo_blank"	
+			buttonText = ""
+			buttonFont = "hoi_24header"
+			clicksound = click_default
+			oversound = ui_menu_over
+		}
+		
 
 		ButtonType = {
 			name = "exit_button"
@@ -418,14 +418,14 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "homepage_button"
-			position = { x=0 y=-115 }
+			position = { x=0 y=-110 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
 			pdx_tooltip = "MENU_HOMEPAGE"
 		}
 		ButtonType = {
 			name = "forum_button"
-			position = { x=50 y=-115 }
+			position = { x=50 y=-110 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FORUM"
@@ -433,7 +433,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "facebook_button"
-			position = { x=100 y=-115 }
+			position = { x=100 y=-110 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
 			pdx_tooltip = "MENU_FACEBOOK"
@@ -441,7 +441,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x=150 y=-115 }
+			position = { x=150 y=-110 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -449,7 +449,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "privacy_policy_button"
-			position = { x=200 y=-115 }
+			position = { x=200 y=-110 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_PRIVACY_POLICY"

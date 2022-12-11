@@ -11,15 +11,15 @@ set_convoys = 20
 
 1939.1.1 = {
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 
@@ -44,22 +44,22 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 38
-	fascism = 6
-	communism = 6
-	neutrality = 50
+	conservatism = 38
+	ultranationalism = 6
+	rev_socialism = 6
+	despotism = 50
 }
 
 create_country_leader = {
 	name = "David Kalakaua Kawananakoa"
 	desc = ""
 	picture = GFX_portrait_David_Kalakaua_Kawananakoa
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	name = "Joseph Poindexter"
 	desc = ""
 	picture = GFX_portrait_Joseph_Poindexter
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}

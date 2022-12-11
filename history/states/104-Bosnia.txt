@@ -2,7 +2,7 @@
 state={
 	id=104
 	name="STATE_104"
-	manpower =1000000
+	manpower =810200
 	
 	
 	state_category = town
@@ -16,6 +16,9 @@ state={
 		victory_points = {
 			11899 5 
 		}
+		victory_points = {
+			6983 3
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -23,19 +26,13 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = BOS
-		
 		SRP = {
-			set_province_controller = 9591
-			set_province_controller = 11574
 			set_province_controller = 11572
-			set_province_controller = 11741
-			set_province_controller = 982
-			set_province_controller = 13247
 		}
 	}
 
 	provinces={
-		606 982 6799 9591 11572 11574 11741 11899 13246 13247 13248
+		6799 11572 11899 13313
 	}
 
 	local_supplies=7.0 

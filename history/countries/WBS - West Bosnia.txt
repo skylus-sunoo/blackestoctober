@@ -1,8 +1,30 @@
-﻿capital = 837
-	
-set_research_slots = 3
+﻿capital = 911
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = WBS_fikret_abdic
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+	
+set_research_slots = 3
 
 # Starting tech
 # clone of Yugoslavia
@@ -63,14 +85,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 33
+	despotism = 33
+	rev_socialism = 34
 }

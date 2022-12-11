@@ -1,7 +1,6 @@
 ﻿l_english:
 
  ### MAJORS
- 
  #FRANCE
  FRA_francois_mitterrand:0 "Francois Mitterrand"
  
@@ -19,61 +18,116 @@
  
  #UNITED STATES
  USA_bill_clinton:0 "Bill Clinton"
+
+ #BRITAIN
+ ENG_john_major:0 "John Major"
  
  
- 
- 
- ### YUGOSLAVIA
- 
- #YUGOSLAVIA
+ ### EUROPE
+ # YUGOSLAVIA
+ BOS_alija_izetbegovic:0 "Alija Izetbegovic"
+ CHB_mate_boban:0 "Mate Boban"
+ CRO_franjo_tudman:0 "Franjo Tudman"
+ MAC_kiro_gligorov:0 "Kiro Gligorov"
+ SLV_milan_kucan:0 "Milan Kučan"
+ SRK_goran_hadzic:0 "Goran Hadzic"
+ SRP_radovan_karadzic:0 "Radovan Karadzic"
+ WBS_fikret_abdic:0 "Fikret Abdic"
  YUG_slobodan_milosevic:0 "Slobodan Milosevic"
  
- #SRPSKA
- SRP_radovan_karadzic:0 "Radovan Karadzic"
+ # NORTHERN EUROPE
+ DEN_poul_schluter:0 "Poul Schlüter"
+ DEN_poul_nyrup_rasmussen:0 "Poul Nyrup Rasmussen"
+ EST_lennart_meri:0 "Lennart Meri"
+ FIN_mauno_koivisto:0 "Mauno Koivisto"
+ LAT_anatolijs_gorbunovs:0 "Anatolijs Gorbunovs"
+ LAT_guntis_ulmanis:0 "Guntis Ulmanis"
+ LIT_algirdas_brazauskas:0 "Algirdas Brazauskas"
+ NOR_gro_brundtland:0 "Gro Brundtland"
+ SWE_carl_bildt:0 "Carl Bildt"
  
- #SERBIAN KRAJINA
- SRK_goran_hadzic:0 "Goran Hadzic"
- 
- #CROATIA
- CRO_franjo_tudman:0 "Franjo Tudman"
- 
- #BOSNIA
- BOS_alija_izetbegovic:0 "Alija Izetbegovic"
- 
- #WEST BOSNIA
- WBS_fikret_abdic:0 "Fikret Abdic"
- 
- #Herzeg Bosnia
- CHB_mate_boban:0 "Mate Boban"
- 
- 
- 
- ### EASTERN EUROPE
- 
- #UKRAINE
- UKR_leonid_kravchuk:0 "Leonid Kravchuk"
- UKR_leonid_kuchma:0 "Leonid Kuchma"
- 
- #BELARUS
+ # EASTERN EUROPE
  BLR_stanislav_shushkevich:0 "Stanislav Shushkevich"
  BLR_aleksandr_lukashenko:0 "Aleksandr Lukashenko"
  BLR_vyacheslav_kebich:0 "Vyacheslav Kebich"
+ MOL_mircea_snegur:0 "Mircea Snegur"
+ POL_lech_walesa:0 "Lech Walesa"
+ UKR_leonid_kravchuk:0 "Leonid Kravchuk"
+ UKR_leonid_kuchma:0 "Leonid Kuchma"
+ UKR_dimitry_kornilov:0 "Dimitry Kornilov"
+ UKR_Kostyantyn_Morozov:0 "Kostyantyn Morozov"
+ UKR_Oleksandr_Kuzmuk:0 "Oleksandr Kuzmuk"
+ UKR_Mykola_Plaviuk:0 "Mykola Plaviuk"
+ UKR_Valeriy_Horbatov:0 "Valeriy Horbatov"
+ UKR_Mykhailo_Krailo:0 "Mykhailo Krailo"
  
- 
- ### WESTERN EUROPE
- 
- #IRELAND
- IRE_albert_reynolds:0 "Albert Reynolds" 
- 
- 
- ### SOUTHERN EUROPE
- 
- HLS_john_paul_ii:0 "John Paul II" 
+ # WESTERN EUROPE
+ BEL_jean_luc_dehaene:0 "Jean Luc Dehaene"
+ HOL_ruud_lubbers:0 "Ruud Lubbers"
+ IRE_albert_reynolds:0 "Albert Reynolds"
+ LUX_jacques_santer:0 "Jacques Santer"
+ POR_mario_soares:0 "Mário Soares"  
+ SPR_felipe_gonzalez:0 "Felipe González"
 
+ # SOUTHERN EUROPE
+ ALB_sali_berisha:0 "Sali Berisha"
+ BUL_zhelyu_zhelev:0 "Zhelyu Zhelev"
+ GRE_andreas_papandreou:0 "Andreas Papandreou"
+ GRE_konstantinos_mitsotakis:0 "Konstantinos Mitsotakis"
+ HLS_john_paul_ii:0 "John Paul II" 
+ ITA_oscar_luigi_scalfaro:0 "Oscar Luigi Scalfaro" 
+ ROM_ion_iliescu:0 "Ion Iliescu" 
+ 
+ # CENTRAL EUROPE
+ AUS_thomas_klestil:0 "Thomas Klestil"
+ CZE_vaclav_havel:0 "Václav Havel"
+ HUN_jozsef_antall:0 "József Antall" 
+ SLO_michal_kovac:0 "Michal Kováč"
  
  
- ### CAUCASUS
+ ### ASIA
+ # EAST ASIA
+ CHI_lee_teng-hui:0 "Lee Teng-Hui"
+ MON_punsalmaagiin_ochirbat:0 "Punsalmaagiin Ochirbat"
+ KOR_roh_tae_woo:0 "Roh Tae Woo"
+ PRK_kim_il_sung:0 "Kim Il Sung"
  
+ # SOUTH EAST ASIA
+ #INS_suharto:0 "Suharto"
+ MAL_mahathir_mohamad:0 "Mahathir Mohamad"
+ PHI_corazon_aquino:0 "Corazon Aquino"
+ VIN_le_duc_anh:0 "Le Duc Anh"
+ SIA_chuan_leekpai:0 "Chuan Leekpai"
+ CAM_hun_sen:0 "Hun Sen"
+ LAO_nouhak_phoumsavanh:0 "Nouhak Phoumsavanh"
+ BRM_than_shwe:0 "Than Shwe"
+ 
+ # SOUTH ASIA
+ AFG_sibghatullah_mojaddedi:0 "Sibghatullah Mojaddedi"
+ BAN_khaleda_zia:0 "Khaleda Zia"
+ BHU_jigme_singye_wangchuck:0 "Jigme Singye Wangchuck"
+ NEP_birendra_bir_bikram_shah_dev:0 "Birendra Bir Bikram Shah Dev"
+ PAK_ghulam_ishaq_khan:0 "Ghulam Ishaq Khan"
+ RAJ_shankar_dayal_sharma:0 "Shankar Dayal Sharma"
+ 
+ # WEST ASIA
+ IRQ_saddam_hussein:0 "Saddam Hussein"
+ ISR_yitzhak_rabin:0 "Yitzhak Rabin"
+ JOR_hussein_bin_talal:0 "Hussein bin Talal"
+ KUW_jaber_al-ahmad_al-sabah:0 "Jaber Al-Ahmad Al-Sabah"
+ LEB_elias_hrawi:0 "Elias Hrawi"
+ OMA_qaboos_bin_said:0 "Qaboos bin Said"
+ PAL_yasser_arafat:0 "Yasser Arafat"
+ PER_ali_khamenei:0 "Ali Khamenei"
+ QAT_khalifa_bin_hamad_al_thani:0 "Khalifa bin Hamad Al Thani"
+ SAU_fahd_bin_abdulaziz_al_saud:0 "Fahd bin Abdulaziz Al Saud"
+ SYR_hafez_al-assad:0 "Hafez al-Assad"
+ TUR_turgut_ozal:0 "Turgut Özal"
+ TUR_suleyman_demirel:0 "Süleyman Demirel"
+ UAE_zayed_bin_sultan_al_nahyan:0 "Zayed bin Sultan Al Nahyan"
+ YEM_ali_abdullah_saleh:0 "Ali Abdullah Saleh"
+ 
+ # CAUCASUS
  ARM_levon_ter-petrosyan:0 "Levon Ter-Petrosyan"
  ABK_vladislav_ardzinba:0 "Vladislav Ardzinba"
  ART_karen_baburyan:0 "Karen Baburyan"
@@ -86,27 +140,49 @@
  GEO_zviad_gamsakhurdia:0 "Zviad Gamsakhurdia"
  NOA_torez_kulumbegov:0 "Torez Kulumbegov"
  
- 
- ### CENTRAL ASIA
+ # CENTRAL ASIA
  KAZ_nursultan_nazarbayev:0 "Nursultan Nazarbayev"
+ KYR_askar_akayev:0 "Askar Akayev"
+ TAJ_emomali_rahmon:0 "Emomali Rahmon"
+ TMS_saparmurat_niyazov:0 "Saparmurat Niyazov"
+ UZB_islam_karimov:0 "Islam Karimov"
  
- ### EAST ASIA
- CHI_lee_teng-hui:0 "Lee Teng-Hui"
- KOR_roh_tae_woo:0 "Roh Tae Woo"
- PRK_kim_il_sung:0 "Kim Il Sung"
- 
- ### SOUTH ASIA
- RAJ_shankar_dayal_sharma:0 "Shankar Dayal Sharma"
- 
- 
- ### SOUTH EAST ASIA
- INS_suharto:0 "Suharto"
- MAL_mahathir_mohamad:0 "Mahathir Mohamad"
- PHI_corazon_aquino:0 "Corazon Aquino"
- SIA_chuan_leekpai:0 "Chuan Leekpai"
  
  ### OCEANIA
+ # AUSTRALIA
  AST_paul_keating:0 "Paul Keating"
  NZL_jim_bolger:0 "Jim Bolger"
+ 
+ 
+ ### AMERICA
+ # NORTH AMERICA
+ BLZ_george_cadle_price:0 "George Cadle Price"
+ CAN_brian_mulroney:0 "Brian Mulroney"
+ CAN_kim_campbell:0 "Kim Campbell"
+ CAN_jean_chretien:0 "Jean Chrétien"
+ COS_rafael_angel_calderon_fournier:0 "Rafael Ángel Calderón Fournier"
+ #CUB_fidel_castro:0 "Fidél Castro"
+ DOM_joaquin_balaguer:0 "Joaquín Balaguer"
+ ELS_alfredo_cristiani:0 "Alfredo Cristiani"
+ GUA_jorge_serrano_elias:0 "Jorge Serrano Elías"
+ HAI_marc_bazin:0 "Marc Bazin"
+ HON_rafael_leonardo_callejas_romero:0 "Rafael Callejas"
+ MEX_carlos_salinas_de_gortari:0 "Carlos Salinas de Gortari"
+ NIC_violeta_chamorro:0 "Violeta Chamorro"
+ PAN_guillermo_endara:0 "Guillermo Endara"
+ 
+ # SOUTH AMERICA
+ ARG_carlos_menem:0 "Carlos Menem"
+ BRA_fernando_henrique_cardoso:0 "Fernando Henrique Cardoso"
+ BOL_jaime_paz_zamora:0 "Jaime Paz Zamora"
+ CHL_patricio_aylwin:0 "Patricio Aylwin"
+ COL_cesar_gaviria:0 "César Gaviria"
+ ECU_sixto_duran_ballen:0 "Sixto Durán Ballén"
+ GYA_cheddi_jagan:0 "Cheddi Jagan"
+ PAR_andres_rodriguez:0 "Andrés Rodríguez"
+ PRU_alberto_fujimori:0 "Alberto Fujimori"
+ SUR_jules_wijdenbosch:0 "Jules Wijdenbosch"
+ URG_luis_alberto_lacalle:0 "Luis Alberto Lacalle"
+ VEN_carlos_andres_perez:0 "Carlos Andrés Pérez"
  
  

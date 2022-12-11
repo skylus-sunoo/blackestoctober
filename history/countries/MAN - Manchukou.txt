@@ -45,6 +45,22 @@ if = {
 
 set_convoys = 5
 
+328 = { #Kirin
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+715 = { #Liaoning
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+714 = { #Heilungkiang
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+717 = { #Hungkiang
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+761 = { #Hulunbuir
+	#add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+
 1939.1.1 = {
 
 	add_to_war = {
@@ -57,15 +73,15 @@ set_convoys = 5
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 
 
 	if = {
@@ -76,22 +92,22 @@ set_convoys = 5
 		unlock_national_focus = MAN_pacify_the_countryside
 		remove_ideas = MAN_banditry
 
-		##complete_national_focus = MAN_army_modernization
-		##complete_national_focus = MAN_mukden_military_academy
-		##complete_national_focus = MAN_law_university
-		##complete_national_focus = MAN_obedience
+		#complete_national_focus = MAN_army_modernization
+		#complete_national_focus = MAN_mukden_military_academy
+		#complete_national_focus = MAN_law_university
+		#complete_national_focus = MAN_obedience
 
 		#Five year plan
 		unlock_national_focus = MAN_first_five_year_plan
 		add_timed_idea = { days = 1275 idea = MAN_five_year_plan_industry }
 
-		##complete_national_focus = MAN_trade_delegation
-		##complete_national_focus = MAN_expand_the_textile_industry
-		##complete_national_focus = MAN_hoankyoku
-		##complete_national_focus = MAN_invite_japanese_investors
-		##complete_national_focus = MAN_expand_the_railways
-		##complete_national_focus = MAN_develop_aluminum_sources
-		##complete_national_focus = MAN_social_research_unit
+		#complete_national_focus = MAN_trade_delegation
+		#complete_national_focus = MAN_expand_the_textile_industry
+		#complete_national_focus = MAN_hoankyoku
+		#complete_national_focus = MAN_invite_japanese_investors
+		#complete_national_focus = MAN_expand_the_railways
+		#complete_national_focus = MAN_develop_aluminum_sources
+		#complete_national_focus = MAN_social_research_unit
 	}
 	
 	oob = "MAN_1939"
@@ -121,14 +137,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = ultranationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 80
-	neutrality = 20
+	ultranationalism = 80
+	despotism = 20
 }
 
 1939.1.1 = {

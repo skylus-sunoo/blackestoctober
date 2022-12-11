@@ -1,0 +1,18 @@
+characters = {
+
+	JAP_kiichi_miyazawa={
+		name=JAP_kiichi_miyazawa
+		portraits={
+			civilian={
+				large=GFX_Portrait_JAP_Kiichi_Miyazawa
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={  }
+			expire="1989.1.1.1"
+			id=-1
+		}
+	}
+	
+}

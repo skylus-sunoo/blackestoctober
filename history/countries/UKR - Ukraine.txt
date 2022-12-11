@@ -1,14 +1,51 @@
-﻿capital = 202 #Kiev
+capital = 202 #Kiev
 
-oob = "UKR_1936"
+####
+#### BLACKEST OCTOBER
+####
+
+#oob = "UKR_1936"
+
+### POLITICS
 
 recruit_character = UKR_leonid_kravchuk
 recruit_character = UKR_leonid_kuchma
 
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 20
+		mod_socialism = 30
+		rev_socialism = 13
+		liberalism = 9
+		progressivism = 4 
+		despotism = 4
+		paternalism = 10 
+		ultranationalism = 10 
+	}
+	
+	add_ideas = {
+	UKR_language_divide
+	UKR_young_nation
+	UKR_former_nation_of_the_ussr
+	}
+	
+}
+
+### DIPLOMACY
+
+
+
+### TECHNOLOGY
 
 set_research_slots = 3
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -20,13 +57,21 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	strategic_bomber1 = 1
-	naval_bomber1 = 1
 	mass_assault = 1
 	fleet_in_being = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
 }
 
 if = {
@@ -78,19 +123,6 @@ if = {
 	}
 }
 
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1991.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
-}
-
+#############################
 
 

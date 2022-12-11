@@ -1,0 +1,735 @@
+UKR_fragile_states_decision_category = {
+	UKR_debug_faction = {
+		priority = 59
+
+		icon = eng_ally_imperialist_coup
+
+		allowed = {
+			original_tag = UKR
+		}
+
+		available = {
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		cost = 0
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			activate_mission = IMD_increase_control_in_dnipropetrovsk
+			activate_mission = UIA_increase_control_in_wolyn
+			#199 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+			#226 = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+	}
+	#UKR_debug_interfront = {
+	#	priority = 59
+	#
+	#	icon = eng_ally_imperialist_coup
+	#
+	#	allowed = {
+	#		original_tag = UKR
+	#	}
+	#
+	#	available = {
+	#	}
+	#
+	#	visible = {
+	#		is_debug = yes
+	#	}
+	#
+	#	cost = 0
+	#
+	#	complete_effect = {
+	#		if = {
+	#			limit = { var:ukr_selected_state = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+	#			var:ukr_selected_state = { remove_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+	#			clear_variable = ukr_imd_state
+	#		}
+	#		if = {
+	#			limit = { var:ukr_imd_state = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }
+	#			var:ukr_imd_state = { remove_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+	#		}
+	#		else = {
+	#			var:ukr_selected_state = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+	#			clear_variable = ukr_selected_state
+	#		}
+	#	}
+	#}
+	#UKR_debug_insurgentt = {
+	#	priority = 59
+	#
+	#	icon = eng_ally_imperialist_coup
+	#
+	#	allowed = {
+	#		original_tag = UKR
+	#	}
+	#
+	#	available = {
+	#	}
+	#
+	#	visible = {
+	#		is_debug = yes
+	#	}
+	#
+	#	cost = 0
+	#
+	#	complete_effect = {
+	#		if = {
+	#			limit = { var:ukr_selected_state = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+	#			var:ukr_selected_state = { remove_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+	#			clear_variable = ukr_uia_state
+	#		}
+	#		if = {
+	#			limit = { var:ukr_uia_state = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }
+	#			var:ukr_uia_state = { remove_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+	#		}
+	#		else = {
+	#			var:ukr_selected_state = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+	#			clear_variable = ukr_selected_state
+	#		}
+	#	}
+	#}
+	
+	#ukraine_total_cw = {
+	#	icon = generic_ignite_civil_war
+	#
+	#	available = {
+	#		is_debug = yes
+	#	}
+	#
+	#	visible = {
+	#		tag = UKR
+	#		always = yes
+	#	}
+	#	
+	#	days_re_enable = 7
+	#	
+	#	ai_will_do = {
+	#		base = 0
+	#		modifier = {
+	#			add = 100
+	#			date > 1993.01.05
+	#		}
+	#		modifier = {
+	#			add = -100
+	#			date < 1993.01.07
+	#		}
+	#	}
+	#	
+	#	fire_only_once = no
+	#	cost = 0
+	#	
+	#	complete_effect = {
+	#		IMD = {
+	#			200 = { set_state_owner_to = IMD set_state_controller_to = PREV }
+	#			every_state = {
+	#				limit = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } 
+	#				set_state_owner_to = PREV
+	#				set_state_controller_to = PREV
+	#			}
+	#		}
+	#		UIA = {
+	#			91 = { set_state_owner_to = UIA set_state_controller_to = PREV }
+	#			every_state = {
+	#				limit = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+	#				set_state_owner_to = PREV
+	#				set_state_controller_to = PREV
+	#			}
+	#		}
+	#		UMR = {
+	#			192 = { set_state_owner_to = UMR set_state_controller_to = PREV }
+	#			#every_state = {
+	#			#	limit = { has_dynamic_modifier = { modifier = russian_military_leanings } }
+	#			#	set_state_owner_to = PREV
+	#			#	set_state_controller_to = PREV
+	#			#}
+	#		}
+	#		UMU = {
+	#			221 = { set_state_owner_to = UMU set_state_controller_to = PREV }
+	#			#every_state = {
+	#			#	limit = { has_dynamic_modifier = { modifier = ukrainian_military_leanings } }
+	#			#	set_state_owner_to = PREV
+	#			#	set_state_controller_to = PREV
+	#			#}
+	#		}
+	#		CRU = { 73 = { set_state_owner_to = PREV set_state_controller_to = PREV } }
+	#		CRI = { 137 = { set_state_owner_to = PREV set_state_controller_to = PREV } }
+	#		
+	#		hidden_effect = {
+	#			IMD = {
+	#				declare_war_on = { target = UIA type = annex_everything }
+	#				declare_war_on = { target = UMR type = annex_everything }
+	#				declare_war_on = { target = UMU type = annex_everything }
+	#				declare_war_on = { target = CRU type = annex_everything }
+	#				declare_war_on = { target = CRI type = annex_everything }
+	#			}
+	#			UIA = {
+	#				declare_war_on = { target = IMD type = annex_everything }
+	#				declare_war_on = { target = UMR type = annex_everything }
+	#				declare_war_on = { target = UMU type = annex_everything }
+	#				declare_war_on = { target = CRU type = annex_everything }
+	#				declare_war_on = { target = CRI type = annex_everything }
+	#			}
+	#			UMR = {
+	#				declare_war_on = { target = IMD type = annex_everything }
+	#				declare_war_on = { target = UIA type = annex_everything }
+	#				declare_war_on = { target = UMU type = annex_everything }
+	#				declare_war_on = { target = CRU type = annex_everything }
+	#				declare_war_on = { target = CRI type = annex_everything }
+	#			}
+	#			UMU = {
+	#				declare_war_on = { target = IMD type = annex_everything }
+	#				declare_war_on = { target = UIA type = annex_everything }
+	#				declare_war_on = { target = UMR type = annex_everything }
+	#				declare_war_on = { target = CRU type = annex_everything }
+	#				declare_war_on = { target = CRI type = annex_everything }
+	#			}
+	#			UKR = {
+	#				declare_war_on = { target = IMD type = annex_everything }
+	#				declare_war_on = { target = UIA type = annex_everything }
+	#				declare_war_on = { target = UMR type = annex_everything }
+	#				declare_war_on = { target = UMU type = annex_everything }
+	#				declare_war_on = { target = CRU type = annex_everything }
+	#				declare_war_on = { target = CRI type = annex_everything }
+	#			}
+	#		}
+	#		set_global_flag = ukrainian_civil_war
+	#		#remove_idea = UKR_young_nation
+	#	}
+	#	
+	#}
+	
+	UKR_increase_control_in_state = {
+		priority = 59
+
+		icon = eng_ally_imperialist_coup
+		
+		allowed = {
+		}
+
+		available = {
+			NOT = { check_variable = { ukr_selected_state < 1000 } }
+		}
+
+		visible = {
+			has_variable = ukr_selected_state
+			OR = {
+				NOT = { check_variable = { ukr_imd_state = 0 } } 
+				NOT = { check_variable = { ukr_uia_state = 0 } }
+			}
+		}
+		days_remove = 7
+		cost = 0
+
+		remove_effect = {
+			#custom_effect_tooltip = [UKR_INCREASE_CONTROL_TT]
+			IF = {
+				limit = { has_variable = ukr_imd_state }
+				var:ukr_imd_state = { remove_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+				clear_variable = ukr_imd_state
+			}
+			IF = {
+				limit = { has_variable = ukr_uia_state }
+				var:ukr_uia_state = { remove_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+				clear_variable = ukr_uia_state
+			}
+		}
+	}
+	
+	IMD_start_increase_control_in_state = {
+		priority = 10
+		name = IMD_increase_control_in_state_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			random_list = {
+				25 = {
+					modifier = { factor = 4 228 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+					activate_mission = IMD_increase_control_in_voroshilovgrad
+				}
+				25 = {
+					modifier = { factor = 4 227 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }	}
+					activate_mission = IMD_increase_control_in_stalino
+				}
+				25 = {
+					modifier = { factor = 4 200 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+					activate_mission = IMD_increase_control_in_zaporozhe
+				}
+				25 = {
+					modifier = { factor = 4 226 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+					activate_mission = IMD_increase_control_in_dnipropetrovsk
+				}
+			}
+			#set_country_flag = SPA_hand_over_the_ceda_campaign_chest_flag
+			#hidden_effect = { activate_mission = SPA_negotiate_carlist_support_mission }
+		}
+	}
+	IMD_increase_control_in_voroshilovgrad = {
+		priority = 10
+		name = IMD_increase_control_in_voroshilovgrad_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = { 
+				random_list = {
+					25 = {
+						modifier = { factor = 0 228 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_voroshilovgrad
+					}
+					25 = {
+						modifier = { factor = 4 227 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }	}
+						activate_mission = IMD_increase_control_in_stalino
+					}
+					25 = {
+						modifier = { factor = 4 200 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_zaporozhe
+					}
+					25 = {
+						modifier = { factor = 4 226 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_dnipropetrovsk
+					}
+				}
+			}
+			228 = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+	}
+	IMD_increase_control_in_stalino = {
+		priority = 10
+		name = IMD_increase_control_in_stalino_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = { 
+				random_list = {
+					25 = {
+						modifier = { factor = 4 228 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_voroshilovgrad
+					}
+					25 = {
+						modifier = { factor = 0 227 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }	}
+						activate_mission = IMD_increase_control_in_stalino
+					}
+					25 = {
+						modifier = { factor = 4 200 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_zaporozhe
+					}
+					25 = {
+						modifier = { factor = 4 226 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_dnipropetrovsk
+					}
+				}
+			}
+			227 = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+	}
+	IMD_increase_control_in_zaporozhe = {
+		priority = 10
+		name = IMD_increase_control_in_zaporozhe_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = { 
+				random_list = {
+					25 = {
+						modifier = { factor = 4 228 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_voroshilovgrad
+					}
+					25 = {
+						modifier = { factor = 4 227 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }	}
+						activate_mission = IMD_increase_control_in_stalino
+					}
+					25 = {
+						modifier = { factor = 0 200 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_zaporozhe
+					}
+					25 = {
+						modifier = { factor = 4 226 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_dnipropetrovsk
+					}
+				}
+			}
+			200 = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+	}
+	IMD_increase_control_in_dnipropetrovsk = {
+		priority = 10
+		name = IMD_increase_control_in_dnipropetrovsk_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = { 
+				random_list = {
+					25 = {
+						modifier = { factor = 4 228 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_voroshilovgrad
+					}
+					25 = {
+						modifier = { factor = 4 227 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } }	}
+						activate_mission = IMD_increase_control_in_stalino
+					}
+					25 = {
+						modifier = { factor = 4 200 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_zaporozhe
+					}
+					25 = {
+						modifier = { factor = 0 226 = { NOT = { has_dynamic_modifier = { modifier = UKR_interfront_leanings } } } }
+						activate_mission = IMD_increase_control_in_dnipropetrovsk
+					}
+				}
+			}
+			#set_country_flag = SPA_hand_over_the_ceda_campaign_chest_flag
+			226 = { add_dynamic_modifier = { modifier = UKR_interfront_leanings } }
+		}
+	}
+	
+	UIA_start_increase_control_in_state = {
+		priority = 10
+		name = UIA_start_increase_control_in_state_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			random_list = {
+				20 = {
+					modifier = { factor = 5 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+					activate_mission = UIA_increase_control_in_wolyn
+				}
+				20 = {
+					modifier = { factor = 5 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } }	}
+					activate_mission = UIA_increase_control_in_khmelnytski
+				}
+				20 = {
+					modifier = { factor = 5 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+					activate_mission = UIA_increase_control_in_lwow
+				}
+				20 = {
+					modifier = { factor = 5 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+					activate_mission = UIA_increase_control_in_stanislwow
+				}
+				20 = {
+					modifier = { factor = 5 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+					activate_mission = UIA_increase_control_in_bucovina
+				}
+			}
+			#set_country_flag = SPA_hand_over_the_ceda_campaign_chest_flag
+			#hidden_effect = { activate_mission = SPA_negotiate_carlist_support_mission }
+		}
+	}
+	
+	UIA_increase_control_in_wolyn = {
+		priority = 10
+		name = UIA_increase_control_in_wolyn_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				random_list = {
+					20 = {
+						modifier = { factor = 0 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_wolyn
+					}
+					20 = {
+						modifier = { factor = 5 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_khmelnytski
+					}
+					20 = {
+						modifier = { factor = 5 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_lwow
+					}
+					20 = {
+						modifier = { factor = 5 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_stanislwow
+					}
+					20 = {
+						modifier = { factor = 5 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_bucovina
+					}
+				}
+			}
+			93 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+	}
+	
+	UIA_increase_control_in_khmelnytski = {
+		priority = 10
+		name = UIA_increase_control_in_khmelnytskiname
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				random_list = {
+					20 = {
+						modifier = { factor = 5 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_wolyn
+					}
+					20 = {
+						modifier = { factor = 0 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_khmelnytski
+					}
+					20 = {
+						modifier = { factor = 5 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_lwow
+					}
+					20 = {
+						modifier = { factor = 5 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_stanislwow
+					}
+					20 = {
+						modifier = { factor = 5 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_bucovina
+					}
+				}
+			}
+			199 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+	}
+	
+	UIA_increase_control_in_lwow = {
+		priority = 10
+		name = UIA_increase_control_in_lwow_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				random_list = {
+					20 = {
+						modifier = { factor = 5 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_wolyn
+					}
+					20 = {
+						modifier = { factor = 5 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_khmelnytski
+					}
+					20 = {
+						modifier = { factor = 0 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_lwow
+					}
+					20 = {
+						modifier = { factor = 5 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_stanislwow
+					}
+					20 = {
+						modifier = { factor = 5 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_bucovina
+					}
+				}
+			}
+			91 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+	}
+	
+	UIA_increase_control_in_stanislwow = {
+		priority = 10
+		name = UIA_increase_control_in_stanislwow_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				random_list = {
+					20 = {
+						modifier = { factor = 5 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_wolyn
+					}
+					20 = {
+						modifier = { factor = 5 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_khmelnytski
+					}
+					20 = {
+						modifier = { factor = 5 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_lwow
+					}
+					20 = {
+						modifier = { factor = 0 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_stanislwow
+					}
+					20 = {
+						modifier = { factor = 5 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_bucovina
+					}
+				}
+			}
+			89 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+	}
+	
+	UIA_increase_control_in_bucovina = {
+		priority = 10
+		name = UIA_increase_control_in_bucovina_name
+		icon = eng_trade_unions_support
+		available = {
+			hidden_trigger = { always = no }
+		}
+		days_mission_timeout = 7
+		fire_only_once = yes
+		activation = {
+			always = no
+		}
+		visible = {
+			tag = UKR
+			NOT = { has_global_flag = ukrainian_civil_war }
+		}
+		cancel_if_not_visible = yes
+		is_good = yes
+		timeout_effect = {
+			hidden_effect = {
+				random_list = {
+					20 = {
+						modifier = { factor = 5 93 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_wolyn
+					}
+					20 = {
+						modifier = { factor = 5 199 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_khmelnytski
+					}
+					20 = {
+						modifier = { factor = 5 91 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_lwow
+					}
+					20 = {
+						modifier = { factor = 5 89 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_stanislwow
+					}
+					20 = {
+						modifier = { factor = 0 80 = { NOT = { has_dynamic_modifier = { modifier = UKR_insurgent_leanings } } } }
+						activate_mission = UIA_increase_control_in_bucovina
+					}
+				}
+			}
+			80 = { add_dynamic_modifier = { modifier = UKR_insurgent_leanings } }
+		}
+	}
+}

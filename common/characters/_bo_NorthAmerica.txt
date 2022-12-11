@@ -1,0 +1,211 @@
+characters = {
+
+	BLZ_george_cadle_price={
+		name=BLZ_george_cadle_price
+		portraits={
+			civilian={
+				large=GFX_Portrait_BLZ_George_Cadle_Price
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+
+	CAN_brian_mulroney={
+		name=CAN_brian_mulroney
+		portraits={
+			civilian={
+				large=GFX_Portrait_CAN_Brian_Mulroney
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	CAN_kim_campbell={
+		name=CAN_kim_campbell
+		portraits={
+			civilian={
+				large=GFX_Portrait_CAN_Kim_Campbell
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	CAN_jean_chretien={
+		name=CAN_jean_chretien
+		portraits={
+			civilian={
+				large=GFX_Portrait_CAN_Jean_Chrétien
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	COS_rafael_angel_calderon_fournier={
+		name=COS_rafael_angel_calderon_fournier
+		portraits={
+			civilian={
+				large=GFX_Portrait_COS_Rafael_Ángel_Calderón_Fournier
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	CUB_fidel_castro={
+		name=CUB_fidel_castro
+		portraits={
+			civilian={
+				large=GFX_Portrait_CUB_Fidel_Castro
+			}
+		}
+		country_leader={
+			ideology = rev_socialism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	DOM_joaquin_balaguer={
+		name=DOM_joaquin_balaguer
+		portraits={
+			civilian={
+				large=GFX_Portrait_DOM_Joaquín_Balaguer
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	ELS_alfredo_cristiani={
+		name=ELS_alfredo_cristiani
+		portraits={
+			civilian={
+				large=GFX_Portrait_ELS_Alfredo_Cristiani
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	GUA_jorge_serrano_elias={
+		name=GUA_jorge_serrano_elias
+		portraits={
+			civilian={
+				large=GFX_Portrait_GUA_Jorge_Serrano_Elías
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	HAI_marc_bazin={
+		name=HAI_marc_bazin
+		portraits={
+			civilian={
+				large=GFX_Portrait_HAI_Marc_Bazin
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	HON_rafael_leonardo_callejas_romero={
+		name=HON_rafael_leonardo_callejas_romero
+		portraits={
+			civilian={
+				large=GFX_Portrait_HON_Rafael_Leonardo_Callejas_Romero
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	MEX_carlos_salinas_de_gortari={
+		name=MEX_carlos_salinas_de_gortari
+		portraits={
+			civilian={
+				large=GFX_Portrait_MEX_Carlos_Salinas_de_Gortari
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	NIC_violeta_chamorro={
+		name=NIC_violeta_chamorro
+		portraits={
+			civilian={
+				large=GFX_Portrait_NIC_Violeta_Chamorro
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+	PAN_guillermo_endara={
+		name=PAN_guillermo_endara
+		portraits={
+			civilian={
+				large=GFX_Portrait_PAN_Guillermo_Endara
+			}
+		}
+		country_leader={
+			ideology = conservatism_subtype
+			traits={ }
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+	
+}

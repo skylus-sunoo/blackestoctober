@@ -1,2 +1,5 @@
 ﻿l_english:
- cois_faction:0 "Commonwealth of Independent States"
+ nato_faction:0 "North Atlantic Treaty Organization"
+ csto_faction:0 "Collective Security Treaty Organization"
+ 
+ gulf_faction:0 "Peninsula Shield"

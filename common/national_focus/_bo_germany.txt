@@ -1,0 +1,91 @@
+﻿focus_tree = {
+	id = bo_german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GER_economic_repair
+		icon = GFX_goal_generic_construction
+		x = 6
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	
+	focus = {
+		id = GER_military_reform
+		icon = GFX_focus_generic_military_dictatorship
+		x = 12
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = GER_integrating_east_germany
+		icon = GFX_focus_GER_integrating_east_germany
+		x = 15
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = GER_fighting_the_stasi
+		icon = GFX_focus_GER_fighting_the_stasi
+		x = 18
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		allow_branch = {
+			has_country_flag = GER_stasi_attack
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = GER_four_year_plan
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
+		}
+	}
+}

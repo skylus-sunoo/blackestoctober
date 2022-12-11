@@ -13,7 +13,6 @@ state={
 		#	11386 1
 		#}
 		owner = POL
-		controller = POL
 		
 		buildings = {
 			infrastructure = 3

@@ -1,5 +1,37 @@
 ﻿capital = 622
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = PRC_jiang_zemin
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = rev_socialism
+		last_election = "1933.7.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		rev_socialism = 85
+		mod_socialism = 15
+	}
+	
+}
+
+### DIPLOMACY
+
+	create_wargoal = {
+		type = annex_everything
+		target = CHI
+	}
+
+#############################
+
 oob = "PRC_1936"
 
 # Starting tech
@@ -9,8 +41,6 @@ set_technology = {
 }
 set_stability = 0.6
 set_war_support = 0.7
-
-recruit_character = PRC_jiang_zemin
 
 recruit_character = PRC_mao_zedong
 recruit_character = PRC_zhu_de
@@ -56,31 +86,31 @@ save_global_event_target_as = WTT_communist_china
 		limit = {
 			has_dlc = "Waking the Tiger"
 		}
-		##complete_national_focus = PRC_strengthen_the_central_secretariat
-		##complete_national_focus = PRC_land_redistribution
-		##complete_national_focus = PRC_enforce_the_three_rules
-		##complete_national_focus = PRC_agrarian_socialism
-		##complete_national_focus = PRC_the_yanan_base_area
-		##complete_national_focus = PRC_focus_on_china
-		##complete_national_focus = PRC_infiltration
-		##complete_national_focus = PRC_revolutionary_military_commission
-		##complete_national_focus = PRC_literacy_programs
-		##complete_national_focus = CHI_mission_to_the_soviet_union
-		##complete_national_focus = PRC_ban_the_opium_trade
-		##complete_national_focus = PRC_military_intelligence_department
-		##complete_national_focus = PRC_prepare_for_war_with_japan
-		##complete_national_focus = PRC_anti_japanese_expedition
-		##complete_national_focus = PRC_provoke_japan
-		##complete_national_focus = PRC_mobile_warfare
+		#complete_national_focus = PRC_strengthen_the_central_secretariat
+		#complete_national_focus = PRC_land_redistribution
+		#complete_national_focus = PRC_enforce_the_three_rules
+		#complete_national_focus = PRC_agrarian_socialism
+		#complete_national_focus = PRC_the_yanan_base_area
+		#complete_national_focus = PRC_focus_on_china
+		#complete_national_focus = PRC_infiltration
+		#complete_national_focus = PRC_revolutionary_military_commission
+		#complete_national_focus = PRC_literacy_programs
+		#complete_national_focus = CHI_mission_to_the_soviet_union
+		#complete_national_focus = PRC_ban_the_opium_trade
+		#complete_national_focus = PRC_military_intelligence_department
+		#complete_national_focus = PRC_prepare_for_war_with_japan
+		#complete_national_focus = PRC_anti_japanese_expedition
+		#complete_national_focus = PRC_provoke_japan
+		#complete_national_focus = PRC_mobile_warfare
 
 		set_research_slots = 3
 
 		add_ideas = {
-			PRC_revolutionary_military_commission
-			PRC_low_popular_support_3
-			PRC_the_long_march_2
-			PRC_mobile_warfare
-			PRC_focus_on_china
+			#PRC_revolutionary_military_commission
+			#PRC_low_popular_support_3
+			#PRC_the_long_march_2
+			#PRC_mobile_warfare
+			#PRC_focus_on_china
 		}
 		remove_ideas = {
 			PRC_low_popular_support_1
@@ -88,41 +118,41 @@ save_global_event_target_as = WTT_communist_china
 		}
 		else = {
 			#generic focuses
-			##complete_national_focus = army_effort
-			##complete_national_focus = equipment_effort
-			##complete_national_focus = motorization_effort
-			##complete_national_focus = aviation_effort
-			##complete_national_focus = naval_effort
-			##complete_national_focus = flexible_navy
-			##complete_national_focus = industrial_effort
-			##complete_national_focus = construction_effort
-			##complete_national_focus = production_effort
+			#complete_national_focus = army_effort
+			#complete_national_focus = equipment_effort
+			#complete_national_focus = motorization_effort
+			#complete_national_focus = aviation_effort
+			#complete_national_focus = naval_effort
+			#complete_national_focus = flexible_navy
+			#complete_national_focus = industrial_effort
+			#complete_national_focus = construction_effort
+			#complete_national_focus = production_effort
 		}
 	}
 	
 	# Chinese Popular Front effects
-	add_to_war = {
-		targeted_alliance = CHI
-		enemy = JAP
-		hostility_reason = asked_to_join
-	}
-	set_country_flag = PRC_joined_CHI_against_JAP
-	remove_opinion_modifier = { target = CHI modifier = hostile_status }
-	add_state_claim = 612
-	add_state_claim = 611
-	add_state_claim = 714
-	add_state_claim = 717
-	add_state_claim = 328
-	add_state_claim = 716
-	add_state_claim = 715
-	add_state_claim = 610
-	add_state_claim = 609
-	add_state_claim = 597
-	add_state_claim = 614
-	add_state_claim = 525
-	add_state_claim = 608
-	add_state_claim = 615
-	add_state_claim = 527
+	#add_to_war = {
+	#	targeted_alliance = CHI
+	#	enemy = JAP
+	#	hostility_reason = asked_to_join
+	#}
+	#set_country_flag = PRC_joined_CHI_against_JAP
+	#remove_opinion_modifier = { target = CHI modifier = hostile_status }
+	#add_state_claim = 612
+	#add_state_claim = 611
+	#add_state_claim = 714
+	#add_state_claim = 717
+	#add_state_claim = 328
+	#add_state_claim = 716
+	#add_state_claim = 715
+	#add_state_claim = 610
+	#add_state_claim = 609
+	#add_state_claim = 597
+	#add_state_claim = 614
+	#add_state_claim = 525
+	#add_state_claim = 608
+	#add_state_claim = 615
+	#add_state_claim = 527
 
 	add_ideas = {
 		#laws
@@ -183,10 +213,10 @@ if = {
 		has_dlc = "Waking the Tiger"
 	}
 	add_ideas = {
-		PRC_the_long_march_1
-		PRC_low_popular_support_3
-		PRC_power_struggles
-		PRC_red_army_weakened
+		#PRC_the_long_march_1
+		#PRC_low_popular_support_3
+		#PRC_power_struggles
+		#PRC_red_army_weakened
 	}
 }
 

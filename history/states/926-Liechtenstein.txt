@@ -1,0 +1,16 @@
+state={
+	id=926
+	name="STATE_926"
+	history = {
+		owner = LIC
+		add_core_of = LIC
+		victory_points = { 13280 15 }
+	}
+	provinces={
+		13280 
+	}
+	manpower=35000
+	state_category = large_town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

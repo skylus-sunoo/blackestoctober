@@ -1,5 +1,29 @@
 ﻿capital = 267
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = AFG_sibghatullah_mojaddedi
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = theocracy
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		theocracy = 100
+	}
+	
+}
+
+#############################
+
 if = {
 	limit = {
 		NOT = {
@@ -67,21 +91,31 @@ recruit_character = AFG_muhammed_nowroz
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = construction_effort_2
-	##complete_national_focus = production_effort_2
-	##complete_national_focus = infrastructure_effort
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = construction_effort_2
+	#complete_national_focus = production_effort_2
+	#complete_national_focus = infrastructure_effort
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "AFG_1939"
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "AFG_1939_air_bba"
+		else = {
+			set_air_oob = "AFG_1939_air_legacy"
+			set_technology = {
+				early_fighter = 1
+				CAS1 = 1
+			}
+		}
+	}
 	set_technology = {
-		early_fighter = 1
-		CAS1 = 1
+		
 		gw_artillery = 1
 
 		#doctrines
@@ -112,28 +146,28 @@ recruit_character = AFG_muhammed_nowroz
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 15
-	communism = 10
-	neutrality = 75
+	ultranationalism = 15
+	rev_socialism = 10
+	despotism = 75
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		fascism = 20
-		communism = 10
-		neutrality = 70
+		ultranationalism = 20
+		rev_socialism = 10
+		despotism = 70
 	}
 }

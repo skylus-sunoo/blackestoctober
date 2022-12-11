@@ -1,17 +1,4 @@
 characters={
-	YUG_slobodan_milosevic={
-		name=YUG_slobodan_milosevic
-		portraits={
-			civilian={
-				large=GFX_Portrait_YUG_Slobodan_Milosevic
-			}
-		}
-		country_leader={
-			ideology=conservatism
-			expire="2000.1.1.1"
-			id=-1
-		}
-	}
 	YUG_prince_paul={
 		name=YUG_prince_paul
 		portraits={
@@ -20,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -46,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology = liberalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -59,13 +46,13 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=despotism_subtype
 			traits={ underage_monarch }
 			expire="1965.1.1.1"
 			id=-1
 		}
 		country_leader={
-			ideology=conservatism
+			ideology = conservatism_subtype
 			traits={ underage_monarch }
 			expire="1965.1.1.1"
 			id=-1

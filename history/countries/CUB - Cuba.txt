@@ -1,18 +1,52 @@
 ﻿capital = 315
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = CUB_fidel_castro
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = rev_socialism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		rev_socialism = 100
+	}
+	
+}
+
+#############################
+
 oob = "CUB_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	early_fighter = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+
+	}
 }
 
 recruit_character = CUB_josé_agripino_barnet
 recruit_character = CUB_guillermo_cabral
 recruit_character = CUB_wenceslao_carmona
 recruit_character = CUB_gregorio_morales
-recruit_character = CUB_fidel_castro
+#recruit_character = CUB_fidel_castro
 recruit_character = CUB_enrique_c_rolas
 recruit_character = CUB_palaez_menendez
 recruit_character = CUB_domingo_r_del_toro
@@ -40,15 +74,15 @@ set_convoys = 20
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "CUB_1939"
 	set_technology = {
@@ -82,14 +116,14 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 98
-	communism = 2
+	conservatism = 98
+	rev_socialism = 2
 }
 
 1939.1.1 = {

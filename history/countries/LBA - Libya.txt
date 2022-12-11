@@ -3,7 +3,15 @@
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
 }
 
 set_convoys = 20
@@ -14,15 +22,15 @@ set_convoys = 20
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 		tech_support = 1
@@ -58,23 +66,23 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 5
-	neutrality = 50
+	conservatism = 25
+	ultranationalism = 20
+	rev_socialism = 5
+	despotism = 50
 }
 
 create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = ""
 	picture = GFX_portrait_Bashir_es_Sadawi
-	ideology = liberalism
+	ideology = liberalism_subtype
 	traits = {
 		#
 	}
@@ -94,7 +102,7 @@ create_country_leader = {
 	name = "Idris Senussi"
 	desc = ""
 	picture = GFX_portrait_Idris_Senussi
-	ideology = despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

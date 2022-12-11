@@ -1,12 +1,45 @@
 ﻿capital = 305
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = ECU_sixto_duran_ballen
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "ECU_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	early_fighter = 1
 	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		
+	}
 }
 
 recruit_character = ECU_federico_páez
@@ -45,15 +78,15 @@ set_convoys = 5
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "ECU_1939"
 	set_technology = {
@@ -87,13 +120,13 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	conservatism = 100
 }
 
 1939.1.1 = {

@@ -1,0 +1,13 @@
+guiTypes = {
+	containerWindowType = {
+		name = "bo_test_window"
+		position = { x = 0 y = 0 }
+		orientation = center
+		origo = center
+
+		iconType = {
+			name = "background"
+			spriteType = "GFX_bo_mod_logo"
+		}
+	}
+}

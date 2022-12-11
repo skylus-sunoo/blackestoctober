@@ -1,4 +1,4 @@
-﻿capital = 594
+﻿#capital = 594
 
 oob = "GXC_1936"
 
@@ -60,29 +60,29 @@ if = {
 			hostility_reason = asked_to_join
 		}
 
-		##complete_national_focus = CHI_secure_internal_politics
-		##complete_national_focus = CHI_cooperation_with_the_nationalists
-		##complete_national_focus = CHI_industrial_investment
-		##complete_national_focus = CHI_public_education_reform
-		##complete_national_focus = CHI_long_term_economic_planning
-		##complete_national_focus = CHI_technological_cooperation
-		##complete_national_focus = CHI_local_arms_production
-		##complete_national_focus = CHI_new_model_province
-		##complete_national_focus = CHI_root_out_corruption
-		##complete_national_focus = CHI_land_reform
-		##complete_national_focus = CHI_reform_the_administration
-		##complete_national_focus = CHI_heavy_weapons_development
+		#complete_national_focus = CHI_secure_internal_politics
+		#complete_national_focus = CHI_cooperation_with_the_nationalists
+		#complete_national_focus = CHI_industrial_investment
+		#complete_national_focus = CHI_public_education_reform
+		#complete_national_focus = CHI_long_term_economic_planning
+		#complete_national_focus = CHI_technological_cooperation
+		#complete_national_focus = CHI_local_arms_production
+		#complete_national_focus = CHI_new_model_province
+		#complete_national_focus = CHI_root_out_corruption
+		#complete_national_focus = CHI_land_reform
+		#complete_national_focus = CHI_reform_the_administration
+		#complete_national_focus = CHI_heavy_weapons_development
 		else = {
 			#generic focuses
-			##complete_national_focus = army_effort
-			##complete_national_focus = equipment_effort
-			##complete_national_focus = motorization_effort
-			##complete_national_focus = aviation_effort
-			##complete_national_focus = naval_effort
-			##complete_national_focus = flexible_navy
-			##complete_national_focus = industrial_effort
-			##complete_national_focus = construction_effort
-			##complete_national_focus = production_effort
+			#complete_national_focus = army_effort
+			#complete_national_focus = equipment_effort
+			#complete_national_focus = motorization_effort
+			#complete_national_focus = aviation_effort
+			#complete_national_focus = naval_effort
+			#complete_national_focus = flexible_navy
+			#complete_national_focus = industrial_effort
+			#complete_national_focus = construction_effort
+			#complete_national_focus = production_effort
 		}
 	}
 
@@ -93,11 +93,11 @@ if = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	despotism = 100
 }

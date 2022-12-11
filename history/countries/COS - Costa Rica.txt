@@ -1,5 +1,29 @@
 ﻿capital = 316
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = COS_rafael_angel_calderon_fournier
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "COS_1936"
 
 # Starting tech
@@ -41,15 +65,15 @@ set_convoys = 10
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "COS_1939"
 	set_technology = {
@@ -81,28 +105,28 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.2.14"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
-	fascism = 2
+	conservatism = 98
+	ultranationalism = 2
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1936.2.9"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 95
-		communism = 5
+		conservatism = 95
+		rev_socialism = 5
 	}
 
 	recruit_character = COS_leon_cortes_castro

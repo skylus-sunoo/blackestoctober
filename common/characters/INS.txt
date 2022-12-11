@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology = mod_socialism_subtype
 			traits = {
 			}
 			expire="1965.1.1.1"
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism 
+			ideology = conservatism_subtype 
 			traits = {
 			}
 			expire="1965.1.1.1"

@@ -1,0 +1,20 @@
+﻿###########################
+# RCW Report Events
+###########################
+
+add_namespace = rcw_report
+
+# The Battle of Moscow
+country_event = {
+	id = rcw_report.1
+	title = rcw_report.1.t
+	desc = rcw_report.1.d
+	picture = GFX_report_event_red_flag
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = rcw_report.1.a
+		custom_effect_tooltip = rcw_report.1.a.tt
+	}
+}

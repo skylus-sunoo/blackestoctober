@@ -1,5 +1,29 @@
 ﻿capital = 111
 
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = FIN_mauno_koivisto
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
 oob = "FIN_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -65,7 +89,6 @@ if = {
 		early_ship_hull_submarine = 1
 		early_ship_hull_cruiser = 1
 		basic_battery = 1
-		basic_secondary_battery = 1
 		coastal_defense_ships = 1
 	}
 }
@@ -81,21 +104,30 @@ add_ideas = {
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "FIN_1939"
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "FIN_1939_air_bba"
+		else = {
+			set_air_oob = "FIN_1939_air_legacy"
+			set_technology = {
+				early_fighter = 1
+				early_bomber = 1
+				CAS1 = 1		
+			}
+		}
+	}
 	set_technology = {
-		early_fighter = 1
-		early_bomber = 1
-		CAS1 = 1		
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -138,21 +170,21 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 10
-	fascism = 10
-	communism = 1
-	neutrality = 79
+	conservatism = 10
+	ultranationalism = 10
+	rev_socialism = 1
+	despotism = 79
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1939.7.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -161,7 +193,7 @@ set_popularities = {
 
 
 add_ideas = {
-	sisu
+	#sisu
 }
 
 ### VARIANTS ###

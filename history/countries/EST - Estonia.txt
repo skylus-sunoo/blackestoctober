@@ -1,7 +1,41 @@
 ﻿capital = 812
 
-oob = "EST_1936"
+####
+#### BLACKEST OCTOBER
+####
 
+### POLITICS
+
+recruit_character = EST_lennart_meri
+
+1993.1.1 = {
+	
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1991.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
+
+oob = "EST_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "EST_1936_air_bba"
+	else = {
+		set_air_oob = "EST_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+
+		}
+	}
+}
 set_research_slots = 3
 
 add_ideas = {
@@ -64,7 +98,6 @@ set_technology = {
 	infantry_weapons1 = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	early_fighter = 1
 	tech_support = 1
 	basic_train = 1
 }
@@ -100,23 +133,23 @@ set_convoys = 5
 	add_political_power = 1198
 	add_command_power = 100
 	
-	##complete_national_focus = EST_era_of_silence
-	##complete_national_focus = EST_fight_the_vaps
-	##complete_national_focus = EST_ismaaliit
-	##complete_national_focus = BALTIC_rejoin_the_railways
-	##complete_national_focus = BALTIC_renew_allied_trade
-	##complete_national_focus = EST_establish_the_rahvuskogu
-	##complete_national_focus = EST_national_council
-	##complete_national_focus = EST_chamber_of_deputies
-	##complete_national_focus = EST_modernize_capital
-	##complete_national_focus = BALTIC_attract_workers_to_capital
-	##complete_national_focus = BALTIC_modernize_industry
-	##complete_national_focus = EST_exploit_the_banks
-	##complete_national_focus = EST_support_independent_militaries
-	##complete_national_focus = EST_republican_defence_league
-	##complete_national_focus = BALTIC_ford_motors
-	##complete_national_focus = BALTIC_crossley_motors
-	##complete_national_focus = BALTIC_natural_resources
+	#complete_national_focus = EST_era_of_silence
+	#complete_national_focus = EST_fight_the_vaps
+	#complete_national_focus = EST_ismaaliit
+	#complete_national_focus = BALTIC_rejoin_the_railways
+	#complete_national_focus = BALTIC_renew_allied_trade
+	#complete_national_focus = EST_establish_the_rahvuskogu
+	#complete_national_focus = EST_national_council
+	#complete_national_focus = EST_chamber_of_deputies
+	#complete_national_focus = EST_modernize_capital
+	#complete_national_focus = BALTIC_attract_workers_to_capital
+	#complete_national_focus = BALTIC_modernize_industry
+	#complete_national_focus = EST_exploit_the_banks
+	#complete_national_focus = EST_support_independent_militaries
+	#complete_national_focus = EST_republican_defence_league
+	#complete_national_focus = BALTIC_ford_motors
+	#complete_national_focus = BALTIC_crossley_motors
+	#complete_national_focus = BALTIC_natural_resources
 	
 	oob = "EST_1939"
 	if = {
@@ -126,13 +159,23 @@ set_convoys = 5
 			set_naval_oob = "EST_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "EST_1936_air_bba" #deliberately using 1936 OOB since no change in aircraft strength or models
+		else = {
+			set_air_oob = "EST_1936_air_legacy"
+			set_technology = {
+				fighter1 = 1
+				early_bomber = 1
+				CAS1 = 1
+				naval_bomber1 = 1
+
+			}
+		}
+	}
 	set_technology = {
 		tech_recon = 1	
 		tech_engineers = 1
-		fighter1 = 1
-		early_bomber = 1
-		CAS1 = 1
-		naval_bomber1 = 1
 		interwar_artillery = 1
 		support_weapons = 1
 
@@ -179,21 +222,21 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	fascism = 15
-	communism = 5
-	neutrality = 60
+	conservatism = 20
+	ultranationalism = 15
+	rev_socialism = 5
+	despotism = 60
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no

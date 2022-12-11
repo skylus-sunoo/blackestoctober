@@ -1,0 +1,66 @@
+ideas = {
+
+	country = { 
+	    UKR_language_divide = {
+		    
+			allowed = {
+				tag = UKR
+                always = no   				
+			}
+		    			
+		    available = {}
+			
+			cancel = {}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			stability_factor = -0.1
+			}
+	    }		
+    
+	     UKR_young_nation = {
+		 
+		 allowed = {
+		     tag = UKR 
+			 always = no 
+			 }
+			 
+			available = {}
+			
+			cancel = {}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			stability_factor = -0.2
+			war_support_factor = -0.3
+			}
+	     }
+	 
+	     UKR_former_nation_of_the_ussr = {
+		 
+		 allowed = {
+		     tag = UKR 
+			 always = no 
+			 }
+			 
+			available = {}
+			
+			cancel = {}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			rev_socialism_drift = 0.03
+			}
+		 }
+	 
+	 }
+ } 

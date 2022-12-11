@@ -12,10 +12,17 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	fuel_silos = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+	}
 }
 
 if = {
@@ -94,23 +101,18 @@ recruit_character = SER_mt
 	add_command_power = 100
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = flexible_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = flexible_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	oob = "YUG_1939"
 	set_technology = {
-		fighter1 = 1
-		early_bomber = 1
-		tactical_bomber1 = 1
-		CAS1 = 1
-		naval_bomber1 = 1
 		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
@@ -140,26 +142,38 @@ recruit_character = SER_mt
 		construction1 = 1
 		concentrated_industry = 1
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+		}
+	}
 }
 
 set_convoys = 0
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	conservatism = 20
+	ultranationalism = 30
+	rev_socialism = 20
+	despotism = 30
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = despotism
 		last_election = "1939.1.1"
 		election_frequency = 36
 		elections_allowed = yes
@@ -172,7 +186,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Draza_Mihailovic
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_subtype
 	traits = {
 		#
 	}
@@ -194,7 +208,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Peter_Karadordevic
 	expire = "1965.1.1"
-	ideology = Despotism
+	ideology = despotism_subtype
 	traits = {
 		#
 	}

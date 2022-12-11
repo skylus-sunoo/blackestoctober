@@ -1,0 +1,10 @@
+UKR_clear_faction_variables = {
+	clear_variable = ukr_imd_state
+	clear_variable = ukr_uia_state
+}
+UKR_UIA_clear_faction_variables = {
+	clear_variable = ukr_imd_state
+}
+UKR_IMD_clear_faction_variables = {
+	clear_variable = ukr_uia_state
+}

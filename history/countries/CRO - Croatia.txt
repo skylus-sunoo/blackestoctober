@@ -1,24 +1,46 @@
 ﻿capital = 109
 
-set_research_slots = 2
+####
+#### BLACKEST OCTOBER
+####
 
-#oob = "CRO_1993"
-	
+### POLITICS
+
 recruit_character = CRO_franjo_tudman
 
-	declare_war_on = {
-		target = SRK
-		type = annex_everything
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
 	}
-	declare_war_on = {
-		target = SRP
-		type = annex_everything
-	}
-	declare_war_on = {
-		target = BOS
-		type = liberate_wargoal
+	set_popularities = {
+		conservatism = 100
 	}
 	
+}
+
+add_named_threat = { threat = 15 name = WAR_NAME_CRO_SRK }
+
+### DIPLOMACY
+
+declare_war_on = {
+	target = SRK
+	type = annex_everything
+}
+declare_war_on = {
+	target = SRP
+	type = annex_everything
+}
+
+#############################
+
+set_research_slots = 2
+
+oob = "CRO_1936"
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -99,13 +121,56 @@ set_convoys = 5
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = ultranationalism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = no # none after offset 1
 }
 set_popularities = {
-	democratic = 15
-	fascism = 75
-	communism = 10
+	conservatism = 15
+	ultranationalism = 75
+	rev_socialism = 10
 }
+
+create_country_leader = {
+	name = "Ante Pavelic"
+	desc = "ANTE_PAVELIC_DESC"
+	picture = GFX_portrait_Ante_Pavelic
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vladko Maček"
+	picture = GFX_portrait_Vladko_Macek
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+add_country_leader_role = { #This replaces the commented script below - fixing a character duplicate error on launch
+	character = "CRO_vladko_maček"
+	country_leader = {
+	  ideology=socialism
+	  traits = {
+	  	#
+	  }
+	  expire = "1965.1.1"
+	}
+	promote_leader = yes
+}
+
+#create_country_leader = { 
+#	name = "Vladko Maček"
+#	picture = "portrait_CRO_vladko_macek.dds"
+#	expire = "1965.1.1"
+#	ideology = socialism
+#	traits = {
+#		#
+#	}
+#}

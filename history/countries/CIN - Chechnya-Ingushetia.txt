@@ -1,25 +1,91 @@
 ﻿capital = 821 #Grozny
 
-set_research_slots = 2
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
 
 recruit_character = CIN_dzhokhar_dudayev
 
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = despotism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		despotism = 100
+	}
+	
+}
+
+#############################
+
+#oob = "CIN_1936"
+
+set_research_slots = 3
+
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
 	tech_mountaineers = 1
-	tech_support = 1
-	tech_recon = 1	
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
 }
 
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
 if = {
 	limit = {
 		not = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
 		early_destroyer = 1
 		early_light_cruiser = 1
-		early_submarine = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
 		transport = 1
 	}
 }
@@ -29,69 +95,30 @@ if = {
 	}
 	set_technology = {
 		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
 		early_ship_hull_light = 1
 		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
 		basic_battery = 1
 		basic_torpedo = 1
-		mtg_transport = 1
-	}
-}
-
-set_convoys = 5
-
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	#complete_national_focus = army_effort
-	#complete_national_focus = equipment_effort
-	#complete_national_focus = motorization_effort
-	#complete_national_focus = aviation_effort
-	#complete_national_focus = naval_effort
-	#complete_national_focus = flexible_navy
-	#complete_national_focus = industrial_effort
-	#complete_national_focus = construction_effort
-	#complete_national_focus = production_effort
-	
-	set_technology = {
-	
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
 	}
 }
 set_politics = {
 	ruling_party = conservatism
-	last_election = "1935.6.9"
-	election_frequency = 12
-	elections_allowed = no # none after offset 1
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
 }
+
 set_popularities = {
-	democratic = 15
-	conservatism = 75
-	communism = 10
+	conservatism = 80
+	ultranationalism = 10
+	rev_socialism = 10
 }
+
+
+recruit_character = CIN_hasan_israilov
+recruit_character = CIN_yusup_tambiev
+
 

@@ -31,15 +31,15 @@ recruit_character = GNB_communist_guy
 1939.1.1 = {
 	
 	#generic focuses
-	##complete_national_focus = army_effort
-	##complete_national_focus = equipment_effort
-	##complete_national_focus = motorization_effort
-	##complete_national_focus = aviation_effort
-	##complete_national_focus = naval_effort
-	##complete_national_focus = large_navy
-	##complete_national_focus = industrial_effort
-	##complete_national_focus = construction_effort
-	##complete_national_focus = production_effort
+	#complete_national_focus = army_effort
+	#complete_national_focus = equipment_effort
+	#complete_national_focus = motorization_effort
+	#complete_national_focus = aviation_effort
+	#complete_national_focus = naval_effort
+	#complete_national_focus = large_navy
+	#complete_national_focus = industrial_effort
+	#complete_national_focus = construction_effort
+	#complete_national_focus = production_effort
 	
 	set_technology = {
 		tech_support = 1
@@ -74,14 +74,14 @@ recruit_character = GNB_communist_guy
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = rev_socialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	fascism = 20
-	communism = 50
-	neutrality = 5
+	conservatism = 25
+	ultranationalism = 20
+	rev_socialism = 50
+	despotism = 5
 }

@@ -1,4 +1,5 @@
 characters = {
+
 	INS_suharto = {
 		name = INS_suharto
 		portraits = {
@@ -13,6 +14,7 @@ characters = {
 			id = -1
 		}
 	}
+	
 	MAL_mahathir_mohamad = {
 		name = MAL_mahathir_mohamad
 		portraits = {
@@ -27,6 +29,7 @@ characters = {
 			id = -1
 		}
 	}
+	
 	PHI_corazon_aquino = {
 		name = PHI_corazon_aquino
 		portraits = {
@@ -41,6 +44,22 @@ characters = {
 			id = -1
 		}
 	}
+	
+	VIN_le_duc_anh = {
+		name = VIN_le_duc_anh
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_VIN_Le_Duc_Anh
+			}
+		}
+		country_leader = {
+			ideology = rev_socialism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
 	SIA_chuan_leekpai = {
 		name = SIA_chuan_leekpai
 		portraits = {
@@ -55,4 +74,51 @@ characters = {
 			id = -1
 		}
 	}
+	
+	CAM_hun_sen = {
+		name = CAM_hun_sen
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_CAM_Hun_Sen
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	LAO_nouhak_phoumsavanh = {
+		name = LAO_nouhak_phoumsavanh
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_LAO_Nouhak_Phoumsavanh
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	BRM_than_shwe = {
+		name = BRM_than_shwe
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_BRM_Than_Shwe
+			}
+		}
+		country_leader = {
+			ideology = conservatism_subtype
+			traits = { }
+			expire = "2000.1.1.1"
+			id = -1
+		}
+	}
+	
+	
 }

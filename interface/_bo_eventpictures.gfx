@@ -1,0 +1,30 @@
+spriteTypes = {
+	
+	### REPORT EVENTS
+	
+	spriteType = {
+		name = "GFX_report_event_generic_military"
+		texturefile = "gfx/event_pictures/report_event_generic_military.dds"
+	}
+	spriteType = {
+		name = "GFX_report_event_red_flag"
+		texturefile = "gfx/event_pictures/report_event_red_flag.dds"
+	}
+	
+	
+	
+	### NEWS EVENTS
+
+	spriteType = {
+		name = "GFX_news_event_generic_military"
+		texturefile = "gfx/event_pictures/news_event_generic_military.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_imperial_russian_soldier"
+		texturefile = "gfx/event_pictures/news_event_imperial_russian_soldier.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_red_flag"
+		texturefile = "gfx/event_pictures/news_event_red_flag.dds"
+	}
+}

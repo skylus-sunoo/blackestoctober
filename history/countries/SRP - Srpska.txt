@@ -1,4 +1,28 @@
-﻿capital = 835
+﻿capital = 909
+
+####
+#### BLACKEST OCTOBER
+####
+
+### POLITICS
+
+recruit_character = SRP_radovan_karadzic
+
+1993.1.1 = {
+
+	set_politics = {
+		ruling_party = conservatism
+		last_election = "1992.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		conservatism = 100
+	}
+	
+}
+
+#############################
 
 set_research_slots = 3
 
@@ -59,16 +83,16 @@ if = {
 set_convoys = 0
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1936.1.1"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 20
-	neutrality = 30
+	conservatism = 20
+	ultranationalism = 30
+	rev_socialism = 20
+	despotism = 30
 }
 
 set_stability = 0.6
